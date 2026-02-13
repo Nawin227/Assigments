@@ -4,7 +4,7 @@ function checkLoanEligibility(custmerName:string,creditscore:number,income:numbe
         console.log(`${custmerName}-loan approved`);
         return;
     }
-    if (creditscore <650){
+    if (creditscore <=650){
         console.log(`${custmerName}-loan denied`);
         return;
     }
