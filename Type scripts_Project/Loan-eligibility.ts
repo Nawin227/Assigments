@@ -4,21 +4,21 @@ function checkLoanEligibility(custmerName:string,creditscore:number,income:numbe
         console.log(`${custmerName}-loan approved`);
         return;
     }
-    if (creditscore <=650){
+    else if (creditscore <=650){
         console.log(`${custmerName}-loan denied`);
         return;
     }
-    if (creditscore >=650 && creditscore <=750){
+    else if (creditscore >=650 && creditscore <=750){
 
-        if (income <50000){
+         if (income <50000){
             console.log(`${custmerName}-loan denied`);
             return;
         }
-            if(!isemployed){
+            else if(!isemployed){
                 console.log(`${custmerName}-loan denied`);
                 return;
             }
-           if (debtToIncomeRatio < 40){
+           else if (debtToIncomeRatio < 40){
                 console.log(`${custmerName}-loan approved`);
            }
             else{
