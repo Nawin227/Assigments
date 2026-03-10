@@ -1,0 +1,23 @@
+{
+  "name": "automation_marriott",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mcp:start": "npx @playwright/mcp@latest",
+    "mcp:help": "npx @playwright/mcp@latest --help"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.5"
+  },
+  "dependencies": {
+    "@playwright/mcp": "^0.0.68",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
