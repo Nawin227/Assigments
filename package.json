@@ -1,11 +1,17 @@
 {
   "name": "automation_marriott",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright automation suite for RedBus scenarios using Page Object Model",
   "main": "index.js",
   "scripts": {
-    "mcp:start": "npx @playwright/mcp@latest",
-    "mcp:help": "npx @playwright/mcp@latest --help"
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:spec": "playwright test tests/spec.ts --project=chromium",
+    "test:spec:all": "playwright test tests/spec.ts",
+    "test:spec:visual": "playwright test tests/spec.ts --project=chromium --headed --workers=1 --reporter=line",
+    "test:spec:debug": "playwright test tests/spec.ts --project=chromium --debug --workers=1",
+    "test:spec:trace": "playwright test tests/spec.ts --project=chromium --headed --workers=1 --trace on",
+    "report": "playwright show-report"
   },
   "keywords": [],
   "author": "",
@@ -14,10 +20,5 @@
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.3.5"
-  },
-  "dependencies": {
-    "@playwright/mcp": "^0.0.68",
-    "playwright-extra": "^4.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
