@@ -1,0 +1,98 @@
+import { test as base } from '@playwright/test';
+import { HomePage } from '../pages/01_HomePage';
+import { SearchResultsPage } from '../pages/02_SearchResultsPage';
+import { SeatSelectionPage } from '../pages/03_SeatSelectionPage';
+import { BoardingDroppingPage } from '../pages/04_BoardingDroppingPage';
+import { PassengerInfoPage } from '../pages/05_PassengerInfoPage';
+
+const FROM_CITY = 'Hyderabad';
+const TO_CITY = 'Bangalore';
+
+type RedbusFixtures = {
+  homePage: HomePage;
+  searchResultsPage: SearchResultsPage;
+  seatSelectionPage: SeatSelectionPage;
+  boardingDroppingPage: BoardingDroppingPage;
+  passengerInfoPage: PassengerInfoPage;
+};
+
+const test = base.extend<RedbusFixtures>({
+  homePage: async ({ page }, use) => {
+    await use(new HomePage(page));
+  },
+  searchResultsPage: async ({ page }, use) => {
+    await use(new SearchResultsPage(page));
+  },
+  seatSelectionPage: async ({ page }, use) => {
+    await use(new SeatSelectionPage(page));
+  },
+  boardingDroppingPage: async ({ page }, use) => {
+    await use(new BoardingDroppingPage(page));
+  },
+  passengerInfoPage: async ({ page }, use) => {
+    await use(new PassengerInfoPage(page));
+  },
+});
+
+test.describe('RedBus Single Flow Suite', () => {
+  test.setTimeout(360000);
+
+  test('RB_TC_SINGLE_001 Full E2E flow: search -> filter -> seat -> boarding/dropping -> passenger -> payment', async ({ homePage, searchResultsPage, seatSelectionPage, boardingDroppingPage, passengerInfoPage }, testInfo) => {
+
+    // 1. Search
+    await homePage.searchBuses(FROM_CITY, TO_CITY);
+    await searchResultsPage.waitForResultsLoaded();
+    await searchResultsPage.applyACFilter();
+    await searchResultsPage.applyFiveStarOrHighRatedFilter();
+    await searchResultsPage.assertFilteredResultsVisible();
+    await searchResultsPage.takeScreenshot('01-filters-applied');
+
+    // 2. Seat selection
+    const maxCandidates = await searchResultsPage.getViewSeatButtonsCount(10);
+    let seatSelected = false;
+    for (let i = 0; i < maxCandidates; i++) {
+      const opened = await searchResultsPage.openSeatLayoutByIndex(i);
+      if (!opened) continue;
+      seatSelected = await seatSelectionPage.trySelectAvailableSeat();
+      if (seatSelected) break;
+      await seatSelectionPage.closeSeatLayoutIfOpen();
+    }
+
+    await testInfo.attach('Seat Selection Status', {
+      body: seatSelected ? 'Seat is selected' : 'Seat is not selected',
+      contentType: 'text/plain',
+    });
+
+    test.expect(seatSelected, 'A seat must be selected').toBeTruthy();
+    await seatSelectionPage.takeScreenshot('02-seat-selected');
+
+    // 3. Boarding and dropping
+    const menuStatus = await boardingDroppingPage.openBoardingDroppingMenu();
+    test.expect(menuStatus.clicked, 'Boarding & Dropping button must open after seat selection').toBeTruthy();
+    const bdStatus = await boardingDroppingPage.selectRandomBoardingAndDropping();
+    test.expect(bdStatus.selected, 'Boarding and dropping points must be selected').toBeTruthy();
+    console.log('Boarding/Dropping:', bdStatus.details);
+    console.log('Boarding and dropping completed successfully');
+    await testInfo.attach('Boarding/Dropping', { body: bdStatus.details, contentType: 'text/plain' });
+    await boardingDroppingPage.takeScreenshot('03-boarding-dropping');
+
+    // 4. Proceed to passenger details
+    const proceeded = await boardingDroppingPage.clickProceedIfVisible();
+    test.expect(proceeded, 'Must click proceed/fill-passenger-details CTA').toBeTruthy();
+
+    // 5. Fill passenger details
+    await passengerInfoPage.openPassengerInfoAndWait();
+    const formVisible = await passengerInfoPage.isPassengerFormVisible();
+    test.expect(formVisible, 'Passenger details form must be visible').toBeTruthy();
+
+    const filled = await passengerInfoPage.fillRandomPassengerIfVisible();
+    test.expect(filled, 'Passenger details must be filled successfully').toBeTruthy();
+    await passengerInfoPage.takeScreenshot('04-passenger-details-filled');
+
+    // 6. Continue to payment
+    const continued = await passengerInfoPage.continueToPayment();
+    test.expect(continued, 'Continue button must be clicked').toBeTruthy();
+    await passengerInfoPage.takeScreenshot('05-payment-page');
+    await passengerInfoPage.assertOnPaymentPage();
+  });
+});

@@ -93,13 +93,13 @@ test.describe('RedBus Combined Suite', () => {
     await srp.assertFilteredResultsVisible();
   });
 
-  test('TC004 Seat selection with boarding and dropping', async ({ page }, testInfo) => {
+  test('RB_TC_004 Seat selection with boarding and dropping', async ({ page }, testInfo) => {
     test.setTimeout(300000);
     await doSeatSelection(page, testInfo);
     await doBoardingDropping(page, testInfo);
   });
 
-  test('TC005 Full E2E: seat -> boarding/dropping -> passenger details (stop before payment)', async ({ page }, testInfo) => {
+  test('RB_TC_005 Full E2E: seat -> boarding/dropping -> passenger details (stop before payment)', async ({ page }, testInfo) => {
     test.setTimeout(360000);
 
     // Steps 1-2: Search, seat selection (window preferred, any as fallback)
