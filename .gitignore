@@ -6,3 +6,14 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Allure
+/allure-report/
+/allure-results/
+
+# Local MCP/browser snapshots
+/.playwright-mcp/
+
+# Local run logs
+/test-output*.txt
+/ci-*.txt
