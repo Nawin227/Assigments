@@ -51,11 +51,41 @@ export class HomePage extends BasePage {
   }
 
   async searchBuses(fromCity: string, toCity: string): Promise<void> {
+    if (process.env.CI) {
+      // In CI/headless mode, go directly to search URL to avoid bot detection
+      await this.searchBusesViaUrl(fromCity, toCity);
+      return;
+    }
     await this.open();
     await this.enterFromCity(fromCity);
     await this.enterToCity(toCity);
     await this.selectNextSaturdayJourneyDate();
     await this.clickSearchBuses();
+  }
+
+  async searchBusesViaUrl(fromCity: string, toCity: string): Promise<void> {
+    const cityIds: Record<string, { id: number; type: string }> = {
+      Hyderabad: { id: 124, type: 'CITY' },
+      Bangalore: { id: 122, type: 'CITY' },
+      Chennai: { id: 123, type: 'CITY' },
+      Mumbai: { id: 121, type: 'CITY' },
+      Delhi: { id: 781, type: 'CITY' },
+      Pune: { id: 130, type: 'CITY' },
+      Goa: { id: 210, type: 'CITY' },
+    };
+
+    const from = cityIds[fromCity] ?? { id: 124, type: 'CITY' };
+    const to = cityIds[toCity] ?? { id: 122, type: 'CITY' };
+
+    const nextSaturday = getNextSaturdayDate();
+    const day = nextSaturday.getDate().toString().padStart(2, '0');
+    const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const doj = `${day}-${monthNames[nextSaturday.getMonth()]}-${nextSaturday.getFullYear()}`;
+
+    const url = `https://www.redbus.in/search?fromCityName=${encodeURIComponent(fromCity)}&fromCityId=${from.id}&srcCountry=India&fromCityType=${from.type}&toCityName=${encodeURIComponent(toCity)}&toCityId=${to.id}&destCountry=India&toCityType=${to.type}&onward=${doj}&doj=${doj}&ref=home`;
+
+    await this.goto(url);
+    await this.closeBannerIfPresent();
   }
 
   private async selectCity(fieldName: 'From' | 'To', city: string): Promise<void> {

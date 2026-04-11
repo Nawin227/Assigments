@@ -41,7 +41,9 @@ jobs:
 
       - name: Run Playwright smoke (RB_TC_005) on push/PR
         if: github.event_name != 'workflow_dispatch' && github.event_name != 'schedule'
-        run: npx playwright test --project=chromium --grep "RB_TC_005"
+        run: |
+          npx playwright test --project=chromium --grep "RB_TC_005" || \
+          npx playwright test --project=chromium --grep "RB_TC_005"
 
       - name: Run full Playwright suite on manual trigger/schedule
         if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'

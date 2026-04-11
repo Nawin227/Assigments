@@ -4,7 +4,23 @@ export class BasePage {
   constructor(protected readonly page: Page) {}
 
   async goto(url: string): Promise<void> {
-    await this.page.goto(url, { waitUntil: 'domcontentloaded' });
+    let lastError: unknown;
+    for (let attempt = 1; attempt <= 4; attempt++) {
+      try {
+        await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+        return;
+      } catch (error) {
+        lastError = error;
+        const msg = String((error as Error)?.message || error);
+        const isTransientNetError = /ERR_HTTP2_PROTOCOL_ERROR|ERR_NETWORK_CHANGED|ERR_TIMED_OUT/i.test(msg);
+        if (!isTransientNetError || attempt === 4) {
+          throw error;
+        }
+        // CI sometimes gets transient protocol/network errors on first navigation.
+        await this.page.waitForTimeout(1500 * attempt);
+      }
+    }
+    throw lastError;
   }
 
   async safeClick(locator: Locator): Promise<void> {
