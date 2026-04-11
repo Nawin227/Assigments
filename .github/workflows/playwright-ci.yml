@@ -34,7 +34,12 @@ jobs:
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
 
-      - name: Run Playwright (Chromium)
+      - name: Run Playwright smoke (RB_TC_005) on push/PR
+        if: github.event_name != 'workflow_dispatch'
+        run: npx playwright test --project=chromium --grep "RB_TC_005"
+
+      - name: Run full Playwright suite on manual trigger
+        if: github.event_name == 'workflow_dispatch'
         run: npx playwright test --project=chromium
 
       - name: Generate Allure report
