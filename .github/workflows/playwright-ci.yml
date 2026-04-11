@@ -6,12 +6,17 @@ on:
       - main
       - master
   pull_request:
+  schedule:
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   e2e-tests:
@@ -25,7 +30,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Install dependencies
@@ -35,11 +40,11 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Run Playwright smoke (RB_TC_005) on push/PR
-        if: github.event_name != 'workflow_dispatch'
+        if: github.event_name != 'workflow_dispatch' && github.event_name != 'schedule'
         run: npx playwright test --project=chromium --grep "RB_TC_005"
 
-      - name: Run full Playwright suite on manual trigger
-        if: github.event_name == 'workflow_dispatch'
+      - name: Run full Playwright suite on manual trigger/schedule
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
         run: npx playwright test --project=chromium
 
       - name: Generate Allure report
