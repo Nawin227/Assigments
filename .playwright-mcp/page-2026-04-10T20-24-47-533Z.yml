@@ -1,0 +1,143 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: Get 10% OFF on this route
+          - generic [ref=e9]: Use code APP10 on app
+        - button "Close App Install Banner" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: 
+        - button "Open redBus app" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: Open redBus app
+      - generic [ref=e18]:
+        - button "back" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: 
+        - generic [ref=e22]:
+          - generic "Benz Circle to Hyderabad" [ref=e24]:
+            - generic [ref=e25]:
+              - text: Benz Circle
+              - generic [ref=e26]: 
+              - text: Hyderabad
+          - generic [ref=e27]: ...
+        - generic [ref=e28]:
+          - button "11 Apr" [ref=e29] [cursor=pointer]
+          - generic [ref=e30]: Sat
+    - generic [ref=e33]:
+      - region [ref=e35]
+      - status "Carousel navigation status" [ref=e42]
+  - generic [ref=e96]:
+    - navigation "Footer links" [ref=e97]:
+      - generic [ref=e98]:
+        - navigation "secondary" [ref=e99]:
+          - generic [ref=e101]:
+            - heading "About redBus" [level=2] [ref=e102]
+            - list [ref=e103]:
+              - listitem [ref=e104]:
+                - link "Contact us" [ref=e105] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/contactus
+              - listitem [ref=e106]:
+                - link "Sitemap" [ref=e107] [cursor=pointer]:
+                  - /url: https://www.redbus.in/sitemap.html
+              - listitem [ref=e108]:
+                - link "Offers" [ref=e109] [cursor=pointer]:
+                  - /url: https://www.redbus.in/offers
+              - listitem [ref=e110]:
+                - link "Careers" [ref=e111] [cursor=pointer]:
+                  - /url: https://www.redbus.in/careers
+        - navigation "secondary" [ref=e112]:
+          - generic [ref=e114]:
+            - heading "Info" [level=2] [ref=e115]
+            - list [ref=e116]:
+              - listitem [ref=e117]:
+                - link "T&C" [ref=e118] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/termscondition
+              - listitem [ref=e119]:
+                - link "Privacy policy" [ref=e120] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/privacypolicy
+              - listitem [ref=e121]:
+                - link "Blog" [ref=e122] [cursor=pointer]:
+                  - /url: https://blog.redbus.in
+              - listitem [ref=e123]:
+                - link "Bus operator registration" [ref=e124] [cursor=pointer]:
+                  - /url: https://onboardvendor.redbus.in/
+              - listitem [ref=e125]:
+                - link "Agent registration" [ref=e126] [cursor=pointer]:
+                  - /url: https://in3.seatseller.travel/
+              - listitem [ref=e127]:
+                - link "Insurance partner" [ref=e128] [cursor=pointer]:
+                  - /url: https://www.acko.com/
+              - listitem [ref=e129]:
+                - link "User agreement" [ref=e130] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/useragreement
+              - listitem [ref=e131]:
+                - link "Primo Bus" [ref=e132] [cursor=pointer]:
+                  - /url: https://www.redbus.in/primo/primo-service
+              - listitem [ref=e133]:
+                - link "Bus Timetable" [ref=e134] [cursor=pointer]:
+                  - /url: https://www.redbus.in/bus-timetable
+              - listitem [ref=e135]:
+                - link "Report Security Issues" [ref=e136] [cursor=pointer]:
+                  - /url: " https://www.redbus.in/bugbounty"
+        - navigation "secondary" [ref=e137]:
+          - generic [ref=e139]:
+            - heading "Global Sites" [level=2] [ref=e140]
+            - list [ref=e141]:
+              - listitem [ref=e142]:
+                - link "India" [ref=e143] [cursor=pointer]:
+                  - /url: https://www.redbus.in/
+              - listitem [ref=e144]:
+                - link "Singapore" [ref=e145] [cursor=pointer]:
+                  - /url: https://www.redbus.sg/
+              - listitem [ref=e146]:
+                - link "Malaysia" [ref=e147] [cursor=pointer]:
+                  - /url: https://www.redbus.my/
+              - listitem [ref=e148]:
+                - link "Indonesia" [ref=e149] [cursor=pointer]:
+                  - /url: https://www.redbus.id/
+              - listitem [ref=e150]:
+                - link "Peru" [ref=e151] [cursor=pointer]:
+                  - /url: https://www.redbus.pe/
+              - listitem [ref=e152]:
+                - link "Colombia" [ref=e153] [cursor=pointer]:
+                  - /url: https://www.redbus.co/
+              - listitem [ref=e154]:
+                - link "Cambodia" [ref=e155] [cursor=pointer]:
+                  - /url: https://www.redbus.com.kh/
+              - listitem [ref=e156]:
+                - link "Vietnam" [ref=e157] [cursor=pointer]:
+                  - /url: https://www.redbus.vn/
+        - navigation "secondary" [ref=e158]:
+          - generic [ref=e160]:
+            - heading "Our Partners" [level=2] [ref=e161]
+            - list [ref=e162]:
+              - listitem [ref=e163]:
+                - link "Goibibo Bus" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/bus/
+              - listitem [ref=e165]:
+                - link "Goibibo Hotels" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/hotels/
+              - listitem [ref=e167]:
+                - link "Makemytrip Hotels" [ref=e168] [cursor=pointer]:
+                  - /url: https://www.makemytrip.com/hotels/
+    - generic [ref=e169]:
+      - img "redBus Logo" [ref=e170]
+      - generic [ref=e171]: redBus is the world's largest online bus ticket booking service trusted by over 56+ million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.
+    - generic [ref=e172]:
+      - generic [ref=e173]: Ⓒ 2026 MAKEMYTRIP (INDIA) PRIVATE LIMITED. All rights reserved
+      - list [ref=e174]:
+        - listitem [ref=e175]:
+          - link "redbus_facebook" [ref=e176] [cursor=pointer]:
+            - /url: https://www.facebook.com/redbus.in/
+            - img "redbus_facebook" [ref=e177]
+        - listitem [ref=e178]:
+          - link "redbus_linkedin" [ref=e179] [cursor=pointer]:
+            - /url: https://in.linkedin.com/company/redbus_2/
+            - img "redbus_linkedin" [ref=e180]
+        - listitem [ref=e181]:
+          - link "redbus_twitter" [ref=e182] [cursor=pointer]:
+            - /url: https://twitter.com/redBus_in/
+            - img "redbus_twitter" [ref=e183]
+        - listitem [ref=e184]:
+          - link "redbus_instagram" [ref=e185] [cursor=pointer]:
+            - /url: https://www.instagram.com/accounts/login/?next=/redbusindia/
+            - img "redbus_instagram" [ref=e186]

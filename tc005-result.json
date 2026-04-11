@@ -1,0 +1,190 @@
+﻿{
+  "config": {
+    "configFile": "C:\\Automation_Marriott\\playwright.config.ts",
+    "rootDir": "C:/Automation_Marriott/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Automation_Marriott/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Automation_Marriott/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Automation_Marriott/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Automation_Marriott/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Automation_Marriott/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Automation_Marriott/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Redbus.spec.ts",
+      "file": "Redbus.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "RedBus Combined Suite",
+          "file": "Redbus.spec.ts",
+          "line": 70,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC005 Full E2E: seat -> boarding/dropping -> passenger details (stop before payment)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 360000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 108578,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Seat is selected\n"
+                        },
+                        {
+                          "text": "Seat is selected\n"
+                        },
+                        {
+                          "text": "Boarding/Dropping: Boarding: 20:30 LB NAGAR METRO PICK UP, avail free metro pickup drop a | Dropping: clicked:06:3019 Aprchikkaballapur bypassNEAR CHIKABALLAPUR BYPASS\n"
+                        },
+                        {
+                          "text": "Filling passenger: Sneha Sharma, Age: 30, Gender: Male\n"
+                        },
+                        {
+                          "text": "Execution stopped before payment page. Current URL: https://www.redbus.in/bus-tickets/hyderabad-to-bangalore?fromCityName=Hyderabad&fromCityId=124&srcCountry=IND&fromCityType=CITY&toCityName=Bangalore&toCityId=122&destCountry=IND&toCityType=CITY&onward=18-Apr-2026&doj=18-Apr-2026&ref=home&step=CI\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-11T10:09:22.120Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "Seat Selection Status",
+                          "contentType": "text/plain",
+                          "body": "U2VhdCBpcyBzZWxlY3RlZA=="
+                        },
+                        {
+                          "name": "Board/Drop Menu",
+                          "contentType": "text/plain",
+                          "body": "Y2xpY2tlZD10cnVlIHNvdXJjZT1zdGVwLXRhYg=="
+                        },
+                        {
+                          "name": "Boarding/Dropping",
+                          "contentType": "text/plain",
+                          "body": "Qm9hcmRpbmc6IDIwOjMwIExCIE5BR0FSIE1FVFJPIFBJQ0sgVVAsIGF2YWlsIGZyZWUgbWV0cm8gcGlja3VwIGRyb3AgYSB8IERyb3BwaW5nOiBjbGlja2VkOjA2OjMwMTkgQXByY2hpa2thYmFsbGFwdXIgYnlwYXNzTkVBUiBDSElLQUJBTExBUFVSIEJZUEFTUw=="
+                        },
+                        {
+                          "name": "Proceed CTA",
+                          "contentType": "text/plain",
+                          "body": "Q1RBIGNsaWNrZWQ="
+                        },
+                        {
+                          "name": "Passenger Form Visible",
+                          "contentType": "text/plain",
+                          "body": "eWVz"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cc1f83391971f636d5a1-164891b5fd8bd6caf1b9",
+              "file": "Redbus.spec.ts",
+              "line": 104,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-04-11T10:09:19.982Z",
+    "duration": 111730.81300000001,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

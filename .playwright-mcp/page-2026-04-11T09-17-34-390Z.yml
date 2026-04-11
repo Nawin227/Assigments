@@ -1,0 +1,659 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: Get 10% OFF on this route
+          - generic [ref=e9]: Use code APP10 on app
+        - button "Close App Install Banner" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: 
+        - button "Open redBus app" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: Open redBus app
+      - generic [ref=e18]:
+        - button "back" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: 
+        - generic [ref=e22]:
+          - generic "Hyderabad to Bangalore" [ref=e24]:
+            - generic [ref=e25]:
+              - text: Hyderabad
+              - generic [ref=e26]: 
+              - text: Bangalore
+          - generic [ref=e27]: ...
+        - generic [ref=e28]:
+          - button "11 Apr" [ref=e29] [cursor=pointer]
+          - generic [ref=e30]: Sat
+      - heading "Hyderabad to Bangalore Bus" [level=1] [ref=e31]
+    - generic [ref=e34]:
+      - region [ref=e36]:
+        - img "oipCard_555" [ref=e41] [cursor=pointer]
+        - img "oipCard_86" [ref=e44] [cursor=pointer]
+        - img "oipCard_37" [ref=e47] [cursor=pointer]
+        - img "oipCard_7" [ref=e50] [cursor=pointer]
+        - img "oipCard_4" [ref=e53] [cursor=pointer]
+        - img "oipCard_15" [ref=e56] [cursor=pointer]
+      - status "Carousel navigation status" [ref=e57]
+    - button "Open chat support" [ref=e109] [cursor=pointer]:
+      - img
+      - generic [ref=e110]: Ask RAY
+    - navigation "breadcrumb" [ref=e112]:
+      - listitem [ref=e113]:
+        - link "Home" [ref=e114] [cursor=pointer]:
+          - /url: https://www.redbus.in/
+        - text: ＞
+      - listitem [ref=e115]:
+        - link "Bus Booking" [ref=e116] [cursor=pointer]:
+          - /url: /bus-tickets
+        - text: ＞
+      - listitem [ref=e117]:
+        - link "Hyderabad to Bangalore Bus" [ref=e118] [cursor=pointer]:
+          - /url: /bus-tickets/hyderabad-to-bangalore
+  - generic [ref=e119]:
+    - generic [ref=e120]:
+      - heading "Hyderabad to Bangalore Bus Service" [level=2] [ref=e121]
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - paragraph [ref=e124]: Avg. Bus Duration
+          - generic [ref=e125]: ":"
+          - paragraph [ref=e126]: 9 hrs 51 mins
+        - generic [ref=e127]:
+          - paragraph [ref=e128]: Buses depart from
+          - generic [ref=e129]: ":"
+          - paragraph [ref=e130]: Hyderabad
+        - generic [ref=e131]:
+          - paragraph [ref=e132]: Bus arrives in
+          - generic [ref=e133]: ":"
+          - paragraph [ref=e134]: Bangalore
+        - generic [ref=e135]:
+          - paragraph [ref=e136]: Cheapest Bus Ticket Price
+          - generic [ref=e137]: ":"
+          - paragraph [ref=e138]: INR 635.00
+        - generic [ref=e139]:
+          - paragraph [ref=e140]: Bus Companies
+          - generic [ref=e141]: ":"
+          - paragraph [ref=e142]: "105"
+        - generic [ref=e143]:
+          - paragraph [ref=e144]: First Bus
+          - generic [ref=e145]: ":"
+          - paragraph [ref=e146]: 01:45
+        - generic [ref=e147]:
+          - paragraph [ref=e148]: Last Bus
+          - generic [ref=e149]: ":"
+          - paragraph [ref=e150]: 23:59
+        - generic [ref=e151]:
+          - paragraph [ref=e152]: Daily Bus Services
+          - generic [ref=e153]: ":"
+          - paragraph [ref=e154]: "295"
+    - generic [ref=e155]:
+      - heading "Hyderabad to Bangalore Bus Timings & Fare" [level=2] [ref=e156]
+      - list [ref=e157]:
+        - listitem [ref=e158]: Bus Operator
+        - listitem [ref=e159]: First Bus
+        - listitem [ref=e160]: Last Bus
+        - listitem [ref=e161]: Duration
+      - link "IntrCity SmartBus" [ref=e162] [cursor=pointer]:
+        - /url: /travels/intrcity-smartbus
+      - text: First Bus - 17:30 Last Bus - 23:10 11 hrs 5 mins
+      - link "VIEW PRICE for IntrCity SmartBus" [ref=e163]:
+        - generic [ref=e165] [cursor=pointer]: VIEW PRICE
+      - link "FlixBus" [ref=e166] [cursor=pointer]:
+        - /url: /travels/flixbus
+      - text: First Bus - 18:45 Last Bus - 23:20 12 hrs 37 mins
+      - link "VIEW PRICE for FlixBus" [ref=e167]:
+        - generic [ref=e169] [cursor=pointer]: VIEW PRICE
+      - link "Go Tour Travels and Holidays" [ref=e170] [cursor=pointer]:
+        - /url: /travels/go-tour-travels-and-holidays
+      - text: First Bus - 13:30 Last Bus - 23:30 9 hrs 37 mins
+      - link "VIEW PRICE for Go Tour Travels and Holidays" [ref=e171]:
+        - generic [ref=e173] [cursor=pointer]: VIEW PRICE
+      - link "Jabbar Travels" [ref=e174] [cursor=pointer]:
+        - /url: /travels/jabbar-travels
+      - text: First Bus - 09:50 Last Bus - 23:15 10 hrs 7 mins
+      - link "VIEW PRICE for Jabbar Travels" [ref=e175]:
+        - generic [ref=e177] [cursor=pointer]: VIEW PRICE
+      - link "KSM Roadways" [ref=e178] [cursor=pointer]:
+        - /url: /travels/ksm-roadways
+      - text: First Bus - 20:45 Last Bus - 23:30 8 hrs 20 mins
+      - link "VIEW PRICE for KSM Roadways" [ref=e179]:
+        - generic [ref=e181] [cursor=pointer]: VIEW PRICE
+    - generic [ref=e182]:
+      - heading "Hyderabad to Bangalore Bus Overview" [level=2] [ref=e183]
+      - generic [ref=e184]:
+        - paragraph [ref=e185]: The Hyderabad to Bangalore bus route covers approximately 569 kms and takes about 9 hrs 51 mins. A total of 295 direct buses operated by 105 bus operators run on this route. The first bus departs at 01:45, and the last bus leaves at 23:59.
+        - paragraph [ref=e186]: Major boarding points in Hyderabad include A S Rao Nagar, Afzalgunj, Allwyn colony x road, Alwal, Amberpet, Ameerpet, Aramghar, Ashok Nagar, Attapur, Bachupally, while common drop locations in Bangalore are Agara, Anand Rao Circle, Attibele, BTM Layout, Bagepalli, Baiyappanahalli, Bannerghatta Road, Bellandur, Bommanahalli, Bommasandra.
+        - paragraph [ref=e187]: RTC and private operators such as Orange Tours And Travels, Northern Travels, IntrCity SmartBus, National travels, Jabbar Travels offer Volvo, AC, and non-AC seater and sleeper buses. Ticket prices on redBus range from INR 635 - INR 7350.00 depending on the bus type and features.
+    - generic [ref=e188]:
+      - heading "Hyderabad to Bangalore Bus Tickets on redBus" [level=2] [ref=e189]
+      - generic [ref=e190]:
+        - paragraph [ref=e191]: Choose from a wide range of private and government bus operators, compare schedules, bus types, and amenities to book your tickets online on the redBus website or app in just a few clicks.
+        - paragraph [ref=e192]: With exclusive deals, best-price offers, secure payments, and instant confirmation, redBus ensures a smooth and reliable booking experience.
+    - generic [ref=e193]:
+      - heading "Hyderabad to Bangalore Ticket Prices" [level=2] [ref=e194]
+      - generic [ref=e195]:
+        - paragraph [ref=e196]: Ticket prices for Hyderabad to Bangalore buses typically range from INR 635 - INR 7350.00 per person, depending on the bus type and operator. Ticket prices during festivals or weekends are usually higher than on weekdays.
+        - paragraph [ref=e197]: You can also book your return ticket from Bangalore to Hyderabad bus on redBus, hassle-free.
+    - generic [ref=e198]:
+      - heading "Distance from Hyderabad to Bangalore by Bus" [level=2] [ref=e199]
+      - paragraph [ref=e201]: The distance from Hyderabad to Bangalore by road is approximately 569 kms. Whether it is an early morning journey or late-night travel, choose the best bus from Hyderabad to Bangalore by comparing bus types, price, ratings, and reviews.
+    - generic [ref=e202]:
+      - heading "Hyderabad to Bangalore Bus Timings and Duration" [level=2] [ref=e203]
+      - generic [ref=e204]:
+        - paragraph [ref=e205]: The average time taken to reach Bangalore from Hyderabad is around 9 hrs 51 mins. Early morning buses on this route start at 01:45, and the last bus departs at 23:59.
+        - paragraph [ref=e206]: Hyderabad to Bangalore Volvo buses primarily operate overnight, while AC and non-AC sleeper buses run throughout the day.
+    - generic [ref=e207]:
+      - heading "Bus Types" [level=2] [ref=e208]
+      - generic [ref=e209]:
+        - paragraph [ref=e210]: Several RTC and private bus operators offer options ranging from standard non-AC seats to premium sleeper/seater services.
+        - paragraph [ref=e211]: Bus Types Available on the Hyderabad to Bangalore route
+        - table [ref=e213]:
+          - rowgroup [ref=e217]:
+            - row "Bus Type Features" [ref=e218]:
+              - cell "Bus Type" [ref=e219]:
+                - paragraph [ref=e220]:
+                  - strong [ref=e221]: Bus Type
+              - cell "Features" [ref=e222]:
+                - paragraph [ref=e223]:
+                  - strong [ref=e224]: Features
+            - row "Non-AC Seater Budget-friendly, basic seating, no air conditioning" [ref=e225]:
+              - cell "Non-AC Seater" [ref=e226]:
+                - paragraph [ref=e227]: Non-AC Seater
+              - cell "Budget-friendly, basic seating, no air conditioning" [ref=e228]:
+                - paragraph [ref=e229]: Budget-friendly, basic seating, no air conditioning
+            - row "Semi-Sleeper Reclining seats, moderate comfort for mid-length trips" [ref=e230]:
+              - cell "Semi-Sleeper" [ref=e231]:
+                - paragraph [ref=e232]: Semi-Sleeper
+              - cell "Reclining seats, moderate comfort for mid-length trips" [ref=e233]:
+                - paragraph [ref=e234]: Reclining seats, moderate comfort for mid-length trips
+            - row "AC Sleeper Reclined berths, privacy curtains, AC Cabins, ideal for night travel" [ref=e235]:
+              - cell "AC Sleeper" [ref=e236]:
+                - paragraph [ref=e237]: AC Sleeper
+              - cell "Reclined berths, privacy curtains, AC Cabins, ideal for night travel" [ref=e238]:
+                - paragraph [ref=e239]: Reclined berths, privacy curtains, AC Cabins, ideal for night travel
+            - row "Volvo AC Coach Premium seating, faster service, smoother suspension, pushback seats" [ref=e240]:
+              - cell "Volvo AC Coach" [ref=e241]:
+                - paragraph [ref=e242]: Volvo AC Coach
+              - cell "Premium seating, faster service, smoother suspension, pushback seats" [ref=e243]:
+                - paragraph [ref=e244]: Premium seating, faster service, smoother suspension, pushback seats
+    - generic [ref=e246]:
+      - heading "Top Images of Buses from Hyderabad to Bangalore Route" [level=2] [ref=e247]
+      - generic:
+        - img "IntrCity SmartBus Bus-Front Image"
+        - img "FlixBus Bus-Front Image"
+        - img "Go Tour Travels and Holidays Bus-Front Image"
+        - img "Jabbar Travels Bus-Front Image"
+        - img "KSM Roadways Bus-Front Image"
+    - generic [ref=e248]:
+      - heading "Buses from Hyderabad to Bangalore" [level=2] [ref=e249]
+      - generic [ref=e250]: "Over 295 daily bus services operate on this route, run by both government and private operators. Currently, 105 bus operators serve the Hyderabad to Bangalore route. Some of the top-rated popular operators include:"
+      - list [ref=e251]:
+        - listitem [ref=e252]:
+          - link "V Kaveri Travels" [ref=e253] [cursor=pointer]:
+            - /url: /travels/v-kaveri-travels
+        - listitem [ref=e254]:
+          - link "BigBus" [ref=e255] [cursor=pointer]:
+            - /url: /travels/bigbus
+        - listitem [ref=e256]:
+          - link "Kamakshi Tours And Travels" [ref=e257] [cursor=pointer]:
+            - /url: /travels/kamakshi-tours-and-travels
+        - listitem [ref=e258]:
+          - link "Sri Krishna Travels" [ref=e259] [cursor=pointer]:
+            - /url: /travels/sri-krishna-travels-ongole
+        - listitem [ref=e260]:
+          - link "Morning Star Travels" [ref=e261] [cursor=pointer]:
+            - /url: /travels/morning-star-travels
+    - generic [ref=e262]:
+      - heading "Popular Boarding Points in Hyderabad" [level=2] [ref=e263]
+      - paragraph [ref=e265]: When booking a Hyderabad to Bangalore bus on redBus, you can choose from several popular Hyderabad boarding locations. Some of the major boarding points are A S Rao Nagar, Afzalgunj, Allwyn colony x road, Alwal, Amberpet, Ameerpet, Aramghar, Ashok Nagar, Attapur, Bachupally
+    - generic [ref=e266]:
+      - heading "Popular Dropping Points in Bangalore" [level=2] [ref=e267]
+      - paragraph [ref=e269]: Some of the major Bangalore dropping points are Agara, Anand Rao Circle, Attibele, BTM Layout, Bagepalli, Baiyappanahalli, Bannerghatta Road, Bellandur, Bommanahalli, Bommasandra
+    - generic [ref=e270]:
+      - heading "Seat Availability on Hyderabad to Bangalore Bus" [level=2] [ref=e271]
+      - paragraph [ref=e273]: redBus provides real-time seat availability across different bus types, allowing you to choose your preferred seat. Explore seater, semi-sleeper, and sleeper options, and book your preferred seat instantly for a comfortable journey.
+    - generic [ref=e274]:
+      - heading "Live Tracking" [level=2] [ref=e275]
+      - generic [ref=e276]:
+        - paragraph [ref=e277]: Most of the buses are GPS-enabled, making live tracking easy. You will receive the tracking link 30 minutes before your bus journey.
+        - paragraph [ref=e278]: This feature allows you to monitor the bus’s real-time location from start to finish. It shows expected arrival times and any delays, helping you plan your pick-up or reach your destination without any stress.
+    - generic [ref=e279]:
+      - heading "Flexi Ticket" [level=2] [ref=e280]
+      - generic [ref=e281]:
+        - paragraph [ref=e282]: Change in plans? Reschedule easily with redBus.
+        - paragraph [ref=e283]: FlexiTicket lets you change your travel date for free up to 8 hours before departure, without the hassle of cancelling and rebooking.
+    - generic [ref=e284]:
+      - heading "How to Book Hyderabad to Bangalore Bus Tickets on redBus?" [level=2] [ref=e285]
+      - generic [ref=e286]:
+        - paragraph [ref=e287]: Book bus tickets on redBus in just a few simple steps.
+        - paragraph [ref=e288]:
+          - strong [ref=e289]: "Step 1:"
+          - text: Visit the redBus website or app.
+        - paragraph [ref=e290]:
+          - strong [ref=e291]: "Step 2:"
+          - text: Enter the date of the journey, the source and the destination.
+        - paragraph [ref=e292]:
+          - strong [ref=e293]: "Step 3:"
+          - text: Click Search to see the list of available buses on your chosen date.
+        - paragraph [ref=e294]:
+          - strong [ref=e295]: "Step 4:"
+          - text: Compare fares, bus types, amenities, etc and select your preferred bus
+        - paragraph [ref=e296]:
+          - strong [ref=e297]: "Step 5:"
+          - text: Choose convenient boarding and dropping points.
+        - paragraph [ref=e298]:
+          - strong [ref=e299]: "Step 5:"
+          - text: Enter passenger details, including name and contact information.
+        - paragraph [ref=e300]:
+          - strong [ref=e301]: "Step 6:"
+          - text: Select a payment method and complete your booking securely.
+        - paragraph [ref=e302]: Once payment is successful, your bus ticket will be sent to your email and registered mobile number.
+    - generic [ref=e303]:
+      - heading "Get Additional Discount with redDeals for Hyderabad to Bangalore Bus" [level=2] [ref=e304]
+      - generic [ref=e305]:
+        - paragraph [ref=e306]: "31 redDeals are currently live on this route:"
+        - list [ref=e307]:
+          - listitem [ref=e308]: "PERCENT Discount By FlixBus: Get 10% Extra OFF. offer valid till 20 Apr 2026"
+          - listitem [ref=e309]: "LASTMIN Discount By SL Travels: Get 10% Extra OFF. offer valid till 10 Apr 2026"
+          - listitem [ref=e310]: "LASTMIN Discount By Streamline tours and travels: Get 10% Extra OFF. offer valid till 08 Apr 2027"
+          - listitem [ref=e311]: "EARLYBIRD Discount By Go Tour Travels and Holidays: Get 10% Extra OFF. offer valid till 31 Dec 2026"
+          - listitem [ref=e312]: "PERCENT Discount By Mythri Tours And Travels: Get 12.5% Extra OFF. offer valid till 30 Apr 2026"
+        - paragraph
+    - generic [ref=e313]:
+      - heading "Travel Tips" [level=2] [ref=e314]
+      - list [ref=e316]:
+        - listitem [ref=e317]:
+          - paragraph [ref=e318]: Book early as prices rise on weekends and peak days
+        - listitem [ref=e319]:
+          - paragraph [ref=e320]: Evening and night buses help save hotel costs
+        - listitem [ref=e321]:
+          - paragraph [ref=e322]: Choose highly-rated operators for a smoother journey
+        - listitem [ref=e323]:
+          - paragraph [ref=e324]: Select boarding points closer to metro stations or public transportation
+        - listitem [ref=e325]:
+          - paragraph [ref=e326]: Recheck your boarding location before travel
+        - listitem [ref=e327]:
+          - paragraph [ref=e328]: Keep your ID ready at the boarding point
+        - listitem [ref=e329]:
+          - paragraph [ref=e330]: Reach the boarding point at least 15 minutes early
+        - listitem [ref=e331]:
+          - paragraph [ref=e332]: Use filters to shortlist suitable buses
+        - listitem [ref=e333]:
+          - paragraph [ref=e334]: Track your bus live using the app
+        - listitem [ref=e335]:
+          - paragraph [ref=e336]: Carry water, snacks, a power bank, and earphones
+        - listitem [ref=e337]:
+          - paragraph [ref=e338]: Avoid last-minute bookings during festivals
+        - listitem [ref=e339]:
+          - paragraph [ref=e340]: Pick lower berths in sleepers for easier access
+        - listitem [ref=e341]: Add Free Cancellation for full refunds
+        - listitem [ref=e342]: Contact customer support in case of delays
+    - generic [ref=e343]:
+      - heading "FAQS for Hyderabad to Bangalore bus ticket booking" [level=2] [ref=e344]
+      - group [ref=e345]:
+        - generic "How long does the bus journey take from Hyderabad to Bangalore? " [ref=e346] [cursor=pointer]:
+          - text: How long does the bus journey take from Hyderabad to Bangalore?
+          - generic [ref=e347]: 
+      - group [ref=e349]:
+        - generic "What is the distance between Hyderabad and Bangalore by bus? " [ref=e350] [cursor=pointer]:
+          - text: What is the distance between Hyderabad and Bangalore by bus?
+          - generic [ref=e351]: 
+      - group [ref=e353]:
+        - generic "What is the cheapest bus ticket from Hyderabad to Bangalore? " [ref=e354] [cursor=pointer]:
+          - text: What is the cheapest bus ticket from Hyderabad to Bangalore?
+          - generic [ref=e355]: 
+      - group [ref=e357]:
+        - generic "What is the first and last bus timing for Hyderabad to Bangalore? " [ref=e358] [cursor=pointer]:
+          - text: What is the first and last bus timing for Hyderabad to Bangalore?
+          - generic [ref=e359]: 
+      - group [ref=e361]:
+        - generic "Which bus type is best for travelling from Hyderabad to Bangalore? " [ref=e362] [cursor=pointer]:
+          - text: Which bus type is best for travelling from Hyderabad to Bangalore?
+          - generic [ref=e363]: 
+      - group [ref=e365]:
+        - generic "Can I choose my seat while booking the bus ticket? " [ref=e366] [cursor=pointer]:
+          - text: Can I choose my seat while booking the bus ticket?
+          - generic [ref=e367]: 
+      - group [ref=e369]:
+        - generic "Which day is cheapest to book a bus from Hyderabad to Bangalore? " [ref=e370] [cursor=pointer]:
+          - text: Which day is cheapest to book a bus from Hyderabad to Bangalore?
+          - generic [ref=e371]: 
+      - group [ref=e373]:
+        - generic "How early should I book buses to get the best price? " [ref=e374] [cursor=pointer]:
+          - text: How early should I book buses to get the best price?
+          - generic [ref=e375]: 
+      - group [ref=e377]:
+        - generic "What are the popular boarding points in Hyderabad? " [ref=e378] [cursor=pointer]:
+          - text: What are the popular boarding points in Hyderabad?
+          - generic [ref=e379]: 
+      - group [ref=e381]:
+        - generic "What are the common drop points in Bangalore? " [ref=e382] [cursor=pointer]:
+          - text: What are the common drop points in Bangalore?
+          - generic [ref=e383]: 
+      - group [ref=e385]:
+        - generic "Is it safe for women to travel by bus from Hyderabad to Bangalore? " [ref=e386] [cursor=pointer]:
+          - text: Is it safe for women to travel by bus from Hyderabad to Bangalore?
+          - generic [ref=e387]: 
+      - group [ref=e389]:
+        - generic "Are government buses available from Hyderabad to Bangalore? " [ref=e390] [cursor=pointer]:
+          - text: Are government buses available from Hyderabad to Bangalore?
+          - generic [ref=e391]: 
+      - group [ref=e393]:
+        - generic "Will I get an e-ticket after booking? " [ref=e394] [cursor=pointer]:
+          - text: Will I get an e-ticket after booking?
+          - generic [ref=e395]: 
+      - group [ref=e397]:
+        - generic "What are the cancellation charges on Hyderabad to Bangalore bus ticket? " [ref=e398] [cursor=pointer]:
+          - text: What are the cancellation charges on Hyderabad to Bangalore bus ticket?
+          - generic [ref=e399]: 
+      - group [ref=e401]:
+        - generic "Are night buses available from Hyderabad to Bangalore? " [ref=e402] [cursor=pointer]:
+          - text: Are night buses available from Hyderabad to Bangalore?
+          - generic [ref=e403]: 
+    - generic [ref=e405]:
+      - generic [ref=e406]:
+        - heading "Top Bus Operators for Hyderabad to Bangalore" [level=2] [ref=e407]
+        - list "Top Bus Operators for Hyderabad to Bangalore - 10 items" [ref=e408]:
+          - listitem "IntrCity SmartBus" [ref=e409] [cursor=pointer]
+          - listitem "FlixBus" [ref=e410] [cursor=pointer]
+          - listitem "Go Tour Travels and Holidays" [ref=e411] [cursor=pointer]
+          - listitem "Jabbar Travels" [ref=e412] [cursor=pointer]
+          - listitem "KSM Roadways" [ref=e413] [cursor=pointer]
+          - listitem "November Travels" [ref=e414] [cursor=pointer]
+          - listitem "Intercity Fleet Management Solutions" [ref=e415] [cursor=pointer]
+          - listitem "Shyamoli Paribahan Pvt Ltd" [ref=e416] [cursor=pointer]
+          - listitem "BSR Tours And Travels" [ref=e417] [cursor=pointer]
+          - listitem "CMR Express" [ref=e418] [cursor=pointer]
+      - generic [ref=e419]:
+        - heading "Popular Bus Routes From Hyderabad" [level=2] [ref=e420]
+        - list "Popular Bus Routes From Hyderabad - 19 items" [ref=e421]:
+          - listitem "Hyderabad to Vijayawada Bus" [ref=e422] [cursor=pointer]
+          - listitem "Hyderabad to Tirupati Bus" [ref=e423] [cursor=pointer]
+          - listitem "Hyderabad to Visakhapatnam Bus" [ref=e424] [cursor=pointer]
+          - listitem "Hyderabad to Chennai Bus" [ref=e425] [cursor=pointer]
+          - listitem "Hyderabad to Pune Bus" [ref=e426] [cursor=pointer]
+          - listitem "Hyderabad to Nellore Bus" [ref=e427] [cursor=pointer]
+          - listitem "Hyderabad to Ongole Bus" [ref=e428] [cursor=pointer]
+          - listitem "Hyderabad to Mumbai Bus" [ref=e429] [cursor=pointer]
+          - listitem "Hyderabad to Guntur (Andhra Pradesh) Bus" [ref=e430] [cursor=pointer]
+          - listitem "Hyderabad to Kadapa Bus" [ref=e431] [cursor=pointer]
+          - listitem "Hyderabad to Rajahmundry Bus" [ref=e432] [cursor=pointer]
+          - listitem "Hyderabad to Nagpur Bus" [ref=e433] [cursor=pointer]
+          - listitem "Hyderabad to Eluru Bus" [ref=e434] [cursor=pointer]
+          - listitem "Hyderabad to Anantapur (andhra pradesh) Bus" [ref=e435] [cursor=pointer]
+          - listitem "Hyderabad to Bhubaneswar Bus" [ref=e436] [cursor=pointer]
+          - listitem "Hyderabad to Amalapuram Bus" [ref=e437] [cursor=pointer]
+          - listitem "Hyderabad to Proddatur (andhra pradesh) Bus" [ref=e438] [cursor=pointer]
+          - listitem "Hyderabad to Kakinada Bus" [ref=e439] [cursor=pointer]
+          - listitem "Hyderabad to Nandyala Bus" [ref=e440] [cursor=pointer]
+      - generic [ref=e441]:
+        - heading "Popular Bus Routes to Bangalore" [level=2] [ref=e442]
+        - list "Popular Bus Routes to Bangalore - 19 items" [ref=e443]:
+          - listitem "Chennai to Bangalore Bus" [ref=e444] [cursor=pointer]
+          - listitem "Coimbatore to Bangalore Bus" [ref=e445] [cursor=pointer]
+          - listitem "Tirupati to Bangalore Bus" [ref=e446] [cursor=pointer]
+          - listitem "Mangaluru to Bangalore Bus" [ref=e447] [cursor=pointer]
+          - listitem "Madurai to Bangalore Bus" [ref=e448] [cursor=pointer]
+          - listitem "Nellore to Bangalore Bus" [ref=e449] [cursor=pointer]
+          - listitem "Ernakulam to Bangalore Bus" [ref=e450] [cursor=pointer]
+          - listitem "Vijayawada to Bangalore Bus" [ref=e451] [cursor=pointer]
+          - listitem "Pondicherry to Bangalore Bus" [ref=e452] [cursor=pointer]
+          - listitem "Tiruchirapalli to Bangalore Bus" [ref=e453] [cursor=pointer]
+          - listitem "Pune to Bangalore Bus" [ref=e454] [cursor=pointer]
+          - listitem "Salem to Bangalore Bus" [ref=e455] [cursor=pointer]
+          - listitem "Belagavi to Bangalore Bus" [ref=e456] [cursor=pointer]
+          - listitem "Kozhikode to Bangalore Bus" [ref=e457] [cursor=pointer]
+          - listitem "Thrissur to Bangalore Bus" [ref=e458] [cursor=pointer]
+          - listitem "Udupi to Bangalore Bus" [ref=e459] [cursor=pointer]
+          - listitem "Goa to Bangalore Bus" [ref=e460] [cursor=pointer]
+          - listitem "Thiruvananthapuram to Bangalore Bus" [ref=e461] [cursor=pointer]
+          - listitem "Guntur (Andhra Pradesh) to Bangalore Bus" [ref=e462] [cursor=pointer]
+      - generic [ref=e463]:
+        - heading "Railway Information" [level=2] [ref=e464]
+        - list "Railway Information - 7 items" [ref=e465]:
+          - listitem "Train Ticket Booking" [ref=e466] [cursor=pointer]
+          - listitem "Train Between Stations" [ref=e467] [cursor=pointer]
+          - listitem "Train Seat Availability" [ref=e468] [cursor=pointer]
+          - listitem "PNR Status" [ref=e469] [cursor=pointer]
+          - listitem "Tatkal Ticket Booking" [ref=e470] [cursor=pointer]
+          - listitem "Premium Tatkal" [ref=e471] [cursor=pointer]
+          - listitem "Current Reservation" [ref=e472] [cursor=pointer]
+      - generic [ref=e473]:
+        - heading "Other Bus Routes to Bangalore" [level=2] [ref=e474]
+        - list "Other Bus Routes to Bangalore - 20 items" [ref=e475]:
+          - listitem "Gooty to Bangalore Bus" [ref=e476] [cursor=pointer]
+          - listitem "Thoothukudi to Bangalore Bus" [ref=e477] [cursor=pointer]
+          - listitem "Eluru to Bangalore Bus" [ref=e478] [cursor=pointer]
+          - listitem "Tanuku to Bangalore Bus" [ref=e479] [cursor=pointer]
+          - listitem "Uppunda to Bangalore Bus" [ref=e480] [cursor=pointer]
+          - listitem "Parassala to Bangalore Bus" [ref=e481] [cursor=pointer]
+          - listitem "Nimaaj to Bangalore Bus" [ref=e482] [cursor=pointer]
+          - listitem "Balaramapuram to Bangalore Bus" [ref=e483] [cursor=pointer]
+          - listitem "Ramanattukara to Bangalore Bus" [ref=e484] [cursor=pointer]
+          - listitem "Huvin Hipparagi to Bangalore Bus" [ref=e485] [cursor=pointer]
+          - listitem "Bilagi to Bangalore Bus" [ref=e486] [cursor=pointer]
+          - listitem "Paramathi Velur to Bangalore Bus" [ref=e487] [cursor=pointer]
+          - listitem "Banahatti to Bangalore Bus" [ref=e488] [cursor=pointer]
+          - listitem "Mayiladuthurai to Bangalore Bus" [ref=e489] [cursor=pointer]
+          - listitem "Srirangapattana to Bangalore Bus" [ref=e490] [cursor=pointer]
+          - listitem "Sirsi (Karnataka) to Bangalore Bus" [ref=e491] [cursor=pointer]
+          - listitem "Koppal to Bangalore Bus" [ref=e492] [cursor=pointer]
+          - listitem "Melkar to Bangalore Bus" [ref=e493] [cursor=pointer]
+          - listitem "Farangipete (karnataka) to Bangalore Bus" [ref=e494] [cursor=pointer]
+          - listitem "Sendhwa to Bangalore Bus" [ref=e495] [cursor=pointer]
+      - generic [ref=e496]:
+        - heading "Other Bus Routes from Hyderabad" [level=2] [ref=e497]
+        - list "Other Bus Routes from Hyderabad - 20 items" [ref=e498]:
+          - listitem "Hyderabad to Allagadda Bus" [ref=e499] [cursor=pointer]
+          - listitem "Hyderabad to Gudamalani Bus" [ref=e500] [cursor=pointer]
+          - listitem "Hyderabad to Bagoda Bus" [ref=e501] [cursor=pointer]
+          - listitem "Hyderabad to Thimmaraju Palem Bus" [ref=e502] [cursor=pointer]
+          - listitem "Hyderabad to Rayadurg Bus" [ref=e503] [cursor=pointer]
+          - listitem "Hyderabad to Putrela Bus" [ref=e504] [cursor=pointer]
+          - listitem "Hyderabad to Pedaprolu Bus" [ref=e505] [cursor=pointer]
+          - listitem "Hyderabad to Karapa Bus" [ref=e506] [cursor=pointer]
+          - listitem "Hyderabad to Utnoor Bus" [ref=e507] [cursor=pointer]
+          - listitem "Hyderabad to Penugonda (Andhra Pradesh) Bus" [ref=e508] [cursor=pointer]
+          - listitem "Hyderabad to Kunta(andhra pradesh) Bus" [ref=e509] [cursor=pointer]
+          - listitem "Hyderabad to Maihar Bus" [ref=e510] [cursor=pointer]
+          - listitem "Hyderabad to Vinukonda Bus" [ref=e511] [cursor=pointer]
+          - listitem "Hyderabad to Sangola (Solapur) Bus" [ref=e512] [cursor=pointer]
+          - listitem "Hyderabad to Medchal Bus" [ref=e513] [cursor=pointer]
+          - listitem "Hyderabad to Washim (Maharashtra) Bus" [ref=e514] [cursor=pointer]
+          - listitem "Hyderabad to Hoshangabad Bus" [ref=e515] [cursor=pointer]
+          - listitem "Hyderabad to Vemulawada(Telangana) Bus" [ref=e516] [cursor=pointer]
+          - listitem "Hyderabad to Anand Bus" [ref=e517] [cursor=pointer]
+          - listitem "Hyderabad to Chodavaram Bus" [ref=e518] [cursor=pointer]
+      - generic [ref=e519]:
+        - heading "More Bus Routes" [level=2] [ref=e520]
+        - list "More Bus Routes - 20 items" [ref=e521]:
+          - listitem "Rayakottai to Dindigul Bus" [ref=e522] [cursor=pointer]
+          - listitem "Valsad to Chhatral Bus" [ref=e523] [cursor=pointer]
+          - listitem "Nidhori to Lonavala Bus" [ref=e524] [cursor=pointer]
+          - listitem "Delhi to Rampur Bus" [ref=e525] [cursor=pointer]
+          - listitem "Navsari (Gujrat) to Kaprada Bus" [ref=e526] [cursor=pointer]
+          - listitem "Pharsabahar(chhattisgarh) to Bhilai (Madhya Pradesh) Bus" [ref=e527] [cursor=pointer]
+          - listitem "Narayangaon to Sangamner Bus" [ref=e528] [cursor=pointer]
+          - listitem "Ankleshwar to Samadhiyala Bus" [ref=e529] [cursor=pointer]
+          - listitem "Neyyattinkara to Ettumanoor Bus" [ref=e530] [cursor=pointer]
+          - listitem "Halol to Mumbai Bus" [ref=e531] [cursor=pointer]
+          - listitem "Kathua to Sonipat Bus" [ref=e532] [cursor=pointer]
+          - listitem "Jalore to Shivganj Bus" [ref=e533] [cursor=pointer]
+          - listitem "Pulwama to Chandigarh Bus" [ref=e534] [cursor=pointer]
+          - listitem "Victor to Mahuva (Gujarat) Bus" [ref=e535] [cursor=pointer]
+          - listitem "Karunya Nagar to Kavalkinaru Bus" [ref=e536] [cursor=pointer]
+          - listitem "Babra to Atkot Bus" [ref=e537] [cursor=pointer]
+          - listitem "Bikapur (uttar Pradesh) to Kaptanganj (basti) Bus" [ref=e538] [cursor=pointer]
+          - listitem "Bhanduri (Keshod) to Surat Bus" [ref=e539] [cursor=pointer]
+          - listitem "Gandhinagar (Gujarat) to Kanodar Bus" [ref=e540] [cursor=pointer]
+          - listitem "Muzaffarnagar to Khatushyamji Bus" [ref=e541] [cursor=pointer]
+      - generic [ref=e542]:
+        - heading "Top Cities on Redbus" [level=2] [ref=e543]
+        - list "Top Cities on Redbus - 20 items" [ref=e544]:
+          - listitem "Bangalore bus ticket booking" [ref=e545] [cursor=pointer]
+          - listitem "Chennai bus ticket booking" [ref=e546] [cursor=pointer]
+          - listitem "Hyderabad bus ticket booking" [ref=e547] [cursor=pointer]
+          - listitem "Pune bus ticket booking" [ref=e548] [cursor=pointer]
+          - listitem "Delhi bus ticket booking" [ref=e549] [cursor=pointer]
+          - listitem "Coimbatore bus ticket booking" [ref=e550] [cursor=pointer]
+          - listitem "Mumbai bus ticket booking" [ref=e551] [cursor=pointer]
+          - listitem "Indore bus ticket booking" [ref=e552] [cursor=pointer]
+          - listitem "Jaipur (Rajasthan) bus ticket booking" [ref=e553] [cursor=pointer]
+          - listitem "Kolkata bus ticket booking" [ref=e554] [cursor=pointer]
+          - listitem "Ahmedabad bus ticket booking" [ref=e555] [cursor=pointer]
+          - listitem "Vijayawada bus ticket booking" [ref=e556] [cursor=pointer]
+          - listitem "Madurai bus ticket booking" [ref=e557] [cursor=pointer]
+          - listitem "Nagpur bus ticket booking" [ref=e558] [cursor=pointer]
+          - listitem "Guwahati bus ticket booking" [ref=e559] [cursor=pointer]
+          - listitem "Prayagraj(Uttar Pradesh) bus ticket booking" [ref=e560] [cursor=pointer]
+          - listitem "Bhopal bus ticket booking" [ref=e561] [cursor=pointer]
+          - listitem "Tirupati bus ticket booking" [ref=e562] [cursor=pointer]
+          - listitem "Lucknow bus ticket booking" [ref=e563] [cursor=pointer]
+          - listitem "Chandigarh bus ticket booking" [ref=e564] [cursor=pointer]
+      - generic [ref=e565]:
+        - heading "Top Government Bus Operators on Redbus" [level=2] [ref=e566]
+        - list "Top Government Bus Operators on Redbus - 21 items" [ref=e567]:
+          - listitem "KSRTC (Karnataka)" [ref=e568] [cursor=pointer]
+          - listitem "APSRTC" [ref=e569] [cursor=pointer]
+          - listitem "TSRTC" [ref=e570] [cursor=pointer]
+          - listitem "KSRTC (Kerala)" [ref=e571] [cursor=pointer]
+          - listitem "UPSRTC" [ref=e572] [cursor=pointer]
+          - listitem "RSRTC" [ref=e573] [cursor=pointer]
+          - listitem "SBSTC" [ref=e574] [cursor=pointer]
+          - listitem "TNSTC" [ref=e575] [cursor=pointer]
+          - listitem "PRTC" [ref=e576] [cursor=pointer]
+          - listitem "PEPSU" [ref=e577] [cursor=pointer]
+          - listitem "SNT" [ref=e578] [cursor=pointer]
+          - listitem "WBTC" [ref=e579] [cursor=pointer]
+          - listitem "NBSTC" [ref=e580] [cursor=pointer]
+          - listitem "GSRTC" [ref=e581] [cursor=pointer]
+          - listitem "KTCL" [ref=e582] [cursor=pointer]
+          - listitem "MTC" [ref=e583] [cursor=pointer]
+          - listitem "KAAC TRANSPORT" [ref=e584] [cursor=pointer]
+          - listitem "HRTC" [ref=e585] [cursor=pointer]
+          - listitem "ASTC" [ref=e586] [cursor=pointer]
+          - listitem "BSRTC" [ref=e587] [cursor=pointer]
+          - listitem "CTU" [ref=e588] [cursor=pointer]
+      - generic [ref=e589]:
+        - heading "Popular Volvo Bus Routes To Bangalore" [level=2] [ref=e590]
+        - list "Popular Volvo Bus Routes To Bangalore - 7 items" [ref=e591]:
+          - listitem "Chennai to Bangalore Volvo bus" [ref=e592] [cursor=pointer]
+          - listitem "Erode to Bangalore Volvo bus" [ref=e593] [cursor=pointer]
+          - listitem "Virudhunagar to Bangalore Volvo bus" [ref=e594] [cursor=pointer]
+          - listitem "Ooty to Bangalore Volvo bus" [ref=e595] [cursor=pointer]
+          - listitem "Pune to Bangalore Volvo bus" [ref=e596] [cursor=pointer]
+          - listitem "Coimbatore to Bangalore Volvo bus" [ref=e597] [cursor=pointer]
+          - listitem "Bhadravati to Bangalore Volvo bus" [ref=e598] [cursor=pointer]
+  - generic [ref=e601]:
+    - navigation "Footer links" [ref=e602]:
+      - generic [ref=e603]:
+        - navigation "secondary" [ref=e604]:
+          - generic [ref=e606]:
+            - heading "About redBus" [level=2] [ref=e607]
+            - list [ref=e608]:
+              - listitem [ref=e609]:
+                - link "Contact us" [ref=e610] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/contactus
+              - listitem [ref=e611]:
+                - link "Sitemap" [ref=e612] [cursor=pointer]:
+                  - /url: https://www.redbus.in/sitemap.html
+              - listitem [ref=e613]:
+                - link "Offers" [ref=e614] [cursor=pointer]:
+                  - /url: https://www.redbus.in/offers
+              - listitem [ref=e615]:
+                - link "Careers" [ref=e616] [cursor=pointer]:
+                  - /url: https://www.redbus.in/careers
+        - navigation "secondary" [ref=e617]:
+          - generic [ref=e619]:
+            - heading "Info" [level=2] [ref=e620]
+            - list [ref=e621]:
+              - listitem [ref=e622]:
+                - link "T&C" [ref=e623] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/termscondition
+              - listitem [ref=e624]:
+                - link "Privacy policy" [ref=e625] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/privacypolicy
+              - listitem [ref=e626]:
+                - link "Blog" [ref=e627] [cursor=pointer]:
+                  - /url: https://blog.redbus.in
+              - listitem [ref=e628]:
+                - link "Bus operator registration" [ref=e629] [cursor=pointer]:
+                  - /url: https://onboardvendor.redbus.in/
+              - listitem [ref=e630]:
+                - link "Agent registration" [ref=e631] [cursor=pointer]:
+                  - /url: https://in3.seatseller.travel/
+              - listitem [ref=e632]:
+                - link "Insurance partner" [ref=e633] [cursor=pointer]:
+                  - /url: https://www.acko.com/
+              - listitem [ref=e634]:
+                - link "User agreement" [ref=e635] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/useragreement
+              - listitem [ref=e636]:
+                - link "Primo Bus" [ref=e637] [cursor=pointer]:
+                  - /url: https://www.redbus.in/primo/primo-service
+              - listitem [ref=e638]:
+                - link "Bus Timetable" [ref=e639] [cursor=pointer]:
+                  - /url: https://www.redbus.in/bus-timetable
+              - listitem [ref=e640]:
+                - link "Report Security Issues" [ref=e641] [cursor=pointer]:
+                  - /url: " https://www.redbus.in/bugbounty"
+        - navigation "secondary" [ref=e642]:
+          - generic [ref=e644]:
+            - heading "Global Sites" [level=2] [ref=e645]
+            - list [ref=e646]:
+              - listitem [ref=e647]:
+                - link "India" [ref=e648] [cursor=pointer]:
+                  - /url: https://www.redbus.in/
+              - listitem [ref=e649]:
+                - link "Singapore" [ref=e650] [cursor=pointer]:
+                  - /url: https://www.redbus.sg/
+              - listitem [ref=e651]:
+                - link "Malaysia" [ref=e652] [cursor=pointer]:
+                  - /url: https://www.redbus.my/
+              - listitem [ref=e653]:
+                - link "Indonesia" [ref=e654] [cursor=pointer]:
+                  - /url: https://www.redbus.id/
+              - listitem [ref=e655]:
+                - link "Peru" [ref=e656] [cursor=pointer]:
+                  - /url: https://www.redbus.pe/
+              - listitem [ref=e657]:
+                - link "Colombia" [ref=e658] [cursor=pointer]:
+                  - /url: https://www.redbus.co/
+              - listitem [ref=e659]:
+                - link "Cambodia" [ref=e660] [cursor=pointer]:
+                  - /url: https://www.redbus.com.kh/
+              - listitem [ref=e661]:
+                - link "Vietnam" [ref=e662] [cursor=pointer]:
+                  - /url: https://www.redbus.vn/
+        - navigation "secondary" [ref=e663]:
+          - generic [ref=e665]:
+            - heading "Our Partners" [level=2] [ref=e666]
+            - list [ref=e667]:
+              - listitem [ref=e668]:
+                - link "Goibibo Bus" [ref=e669] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/bus/
+              - listitem [ref=e670]:
+                - link "Goibibo Hotels" [ref=e671] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/hotels/
+              - listitem [ref=e672]:
+                - link "Makemytrip Hotels" [ref=e673] [cursor=pointer]:
+                  - /url: https://www.makemytrip.com/hotels/
+    - generic [ref=e674]:
+      - img "redBus Logo" [ref=e675]
+      - generic [ref=e676]: redBus is the world's largest online bus ticket booking service trusted by over 56+ million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.
+    - generic [ref=e677]:
+      - generic [ref=e678]: Ⓒ 2026 MAKEMYTRIP (INDIA) PRIVATE LIMITED. All rights reserved
+      - list [ref=e679]:
+        - listitem [ref=e680]:
+          - link "redbus_facebook" [ref=e681] [cursor=pointer]:
+            - /url: https://www.facebook.com/redbus.in/
+            - img "redbus_facebook" [ref=e682]
+        - listitem [ref=e683]:
+          - link "redbus_linkedin" [ref=e684] [cursor=pointer]:
+            - /url: https://in.linkedin.com/company/redbus_2/
+            - img "redbus_linkedin" [ref=e685]
+        - listitem [ref=e686]:
+          - link "redbus_twitter" [ref=e687] [cursor=pointer]:
+            - /url: https://twitter.com/redBus_in/
+            - img "redbus_twitter" [ref=e688]
+        - listitem [ref=e689]:
+          - link "redbus_instagram" [ref=e690] [cursor=pointer]:
+            - /url: https://www.instagram.com/accounts/login/?next=/redbusindia/
+            - img "redbus_instagram" [ref=e691]

@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import { defineConfig, devices } from '@playwright/test';
 
 /**
@@ -13,7 +14,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
-  testMatch: ['**/*.spec.ts', '**/spec.ts'],
+  testMatch: ['**/*.spec.ts'],
   timeout: 120 * 1000,
   expect: {
     timeout: 15 * 1000,

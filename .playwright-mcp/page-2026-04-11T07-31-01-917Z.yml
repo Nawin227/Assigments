@@ -1,0 +1,1770 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "redBus logo" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "redBus logo" [ref=e7]
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Bus tickets" [ref=e11] [cursor=pointer]:
+              - /url: https://www.redbus.in/bus-tickets
+              - img "Online Bus Tickets Booking" [ref=e12]
+              - generic [ref=e13]: Bus tickets
+          - listitem [ref=e14]:
+            - link "Train tickets" [ref=e15] [cursor=pointer]:
+              - /url: https://www.redbus.in/railways
+              - img "Online Train Tickets Booking" [ref=e16]
+              - generic [ref=e17]: Train tickets
+          - listitem [ref=e18]:
+            - link "Hotels" [ref=e19] [cursor=pointer]:
+              - /url: /hotels
+              - img "Online Hotel Booking" [ref=e20]
+              - generic [ref=e21]: Hotels
+        - navigation "Primary" [ref=e22]:
+          - list [ref=e23]:
+            - listitem [ref=e24]:
+              - link "Bookings" [ref=e25] [cursor=pointer]:
+                - /url: https://www.redbus.in/myprofile#trips
+                - generic [ref=e26]: 
+                - text: Bookings
+            - listitem [ref=e27]:
+              - link "Help" [ref=e28] [cursor=pointer]:
+                - /url: https://www.redbus.in/info/redcare
+                - generic [ref=e29]: 
+                - text: Help
+            - listitem [ref=e30]:
+              - button "Account" [ref=e31] [cursor=pointer]:
+                - generic [ref=e32]: 
+                - text: Account
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - button "back" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]: 
+          - generic [ref=e39]:
+            - generic "Hyderabad to Bangalore" [ref=e41]:
+              - generic [ref=e42]:
+                - text: Hyderabad
+                - generic [ref=e43]: 
+                - text: Bangalore
+            - generic [ref=e44]: 202 buses
+        - heading "Hyderabad to Bangalore Bus" [level=1] [ref=e45]
+      - generic [ref=e46]:
+        - status [ref=e47]
+        - generic [ref=e48]:
+          - img "redBus" [ref=e49] [cursor=pointer]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - combobox "Select From" [ref=e53] [cursor=pointer]:
+                - generic [ref=e54]:
+                  - generic [ref=e55]: 
+                  - generic [ref=e56]:
+                    - generic [ref=e57]: From
+                    - generic [ref=e58]: Hyderabad
+              - button "Swap source and destination" [ref=e59] [cursor=pointer]:
+                - img [ref=e60]
+            - combobox "Select To" [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]:
+                - generic [ref=e63]: 
+                - generic [ref=e64]:
+                  - generic [ref=e65]: To
+                  - generic [ref=e66]: Bangalore
+            - generic [ref=e67]:
+              - 'button "Select Date of journey. Current date: 11 Apr, 2026" [ref=e68] [cursor=pointer]':
+                - generic [ref=e69]: 
+                - generic [ref=e70]:
+                  - generic [ref=e71]: Date of journey
+                  - generic [ref=e72]:
+                    - generic [ref=e73]: 11 Apr, 2026
+                    - generic [ref=e74]: (Today)
+              - generic [ref=e75]:
+                - generic [ref=e76]:
+                  - button "Today" [disabled]
+                - button "Tomorrow" [ref=e78] [cursor=pointer]
+            - button "Search buses" [ref=e80] [cursor=pointer]:
+              - generic [ref=e81]: 
+    - generic [ref=e83]:
+      - complementary "Filter buses" [ref=e767]:
+        - generic [ref=e768]:
+          - generic [ref=e769]:
+            - generic [ref=e770]:
+              - img "Eazzy filter star icon" [ref=e772]
+              - generic [ref=e773]: Eazzy filter
+            - generic [ref=e774]:
+              - generic [ref=e775]: AI powered
+              - text: smart search
+          - generic [ref=e776]:
+            - button "Search icon Try \"கழிப்பறையுடன் கூடிய சொகுசு பேருந்து\"" [ref=e777] [cursor=pointer]:
+              - img "Search icon" [ref=e778]
+              - generic [ref=e781]: Try "கழிப்பறையுடன் கூடிய சொகுசு பேருந்து"
+            - button "Voice input" [ref=e783] [cursor=pointer]:
+              - img "Voice input" [ref=e784]
+        - navigation "Filters" [ref=e785]:
+          - heading "Filter buses" [level=2] [ref=e787]
+          - generic [ref=e788]:
+            - checkbox "Primo Bus (70) Free Cancellation (83) AC (181) SLEEPER (196) Single Seats (182) SEATER (39) NONAC (21) 18:00-24:00 (164) High Rated Buses (167) Live Tracking (163) Volvo Buses (47)" [ref=e790]:
+              - listitem [ref=e791]:
+                - button "Primo Bus (70)" [ref=e792] [cursor=pointer]:
+                  - generic [ref=e793]:
+                    - generic [ref=e794]: 
+                    - generic [ref=e795]: Primo Bus (70)
+              - listitem [ref=e796]:
+                - button "Free Cancellation (83)" [ref=e797] [cursor=pointer]:
+                  - generic [ref=e798]:
+                    - generic [ref=e799]: 
+                    - generic [ref=e800]: Free Cancellation (83)
+              - listitem [ref=e801]:
+                - button "AC (181)" [ref=e802] [cursor=pointer]:
+                  - generic [ref=e803]:
+                    - generic [ref=e804]: 
+                    - generic [ref=e805]: AC (181)
+              - listitem [ref=e806]:
+                - button "SLEEPER (196)" [ref=e807] [cursor=pointer]:
+                  - generic [ref=e808]:
+                    - generic [ref=e809]: 
+                    - generic [ref=e810]: SLEEPER (196)
+              - listitem [ref=e811]:
+                - button "Single Seats (182)" [ref=e812] [cursor=pointer]:
+                  - generic [ref=e813]:
+                    - generic [ref=e814]: 
+                    - generic [ref=e815]: Single Seats (182)
+              - listitem [ref=e816]:
+                - button "SEATER (39)" [ref=e817] [cursor=pointer]:
+                  - generic [ref=e818]:
+                    - generic [ref=e819]: 
+                    - generic [ref=e820]: SEATER (39)
+              - listitem [ref=e821]:
+                - button "NONAC (21)" [ref=e822] [cursor=pointer]:
+                  - generic [ref=e823]:
+                    - generic [ref=e824]: 
+                    - generic [ref=e825]: NONAC (21)
+              - listitem [ref=e826]:
+                - button "18:00-24:00 (164)" [ref=e827] [cursor=pointer]:
+                  - generic [ref=e828]:
+                    - generic [ref=e829]: 
+                    - generic [ref=e830]: 18:00-24:00 (164)
+              - listitem [ref=e831]:
+                - button "High Rated Buses (167)" [ref=e832] [cursor=pointer]:
+                  - generic [ref=e833]:
+                    - generic [ref=e834]: 
+                    - generic [ref=e835]: High Rated Buses (167)
+              - listitem [ref=e836]:
+                - button "Live Tracking (163)" [ref=e837] [cursor=pointer]:
+                  - generic [ref=e838]:
+                    - generic [ref=e839]: 
+                    - generic [ref=e840]: Live Tracking (163)
+              - listitem [ref=e841]:
+                - button "Volvo Buses (47)" [ref=e842] [cursor=pointer]:
+                  - generic [ref=e843]:
+                    - generic [ref=e844]: 
+                    - generic [ref=e845]: Volvo Buses (47)
+            - group "Filter Buses" [ref=e846]:
+              - button "Departure time from source" [ref=e847] [cursor=pointer]:
+                - heading "Departure time from source" [level=3] [ref=e849]
+                - generic [ref=e850]: 
+            - group "Filter Buses" [ref=e851]:
+              - button "Arrival time at destination" [ref=e852] [cursor=pointer]:
+                - heading "Arrival time at destination" [level=3] [ref=e854]
+                - generic [ref=e855]: 
+            - group "Filter Buses" [ref=e856]:
+              - button "Bus type" [ref=e857] [cursor=pointer]:
+                - heading "Bus type" [level=3] [ref=e859]
+                - generic [ref=e860]: 
+            - group "Filter Buses" [ref=e861]:
+              - button "Single window seater/sleeper" [ref=e862] [cursor=pointer]:
+                - heading "Single window seater/sleeper" [level=3] [ref=e864]
+                - generic [ref=e865]: 
+            - group "Filter Buses" [ref=e866]:
+              - button "Bus features" [ref=e867] [cursor=pointer]:
+                - heading "Bus features" [level=3] [ref=e869]
+                - generic [ref=e870]: 
+            - group "Filter Buses" [ref=e871]:
+              - button "Bus operator" [ref=e872] [cursor=pointer]:
+                - heading "Bus operator" [level=2] [ref=e874]
+                - generic [ref=e875]: 
+            - button "Boarding points" [ref=e877] [cursor=pointer]:
+              - heading "Boarding points" [level=2] [ref=e879]
+              - generic [ref=e880]: 
+            - button "Dropping points" [ref=e882] [cursor=pointer]:
+              - heading "Dropping points" [level=2] [ref=e884]
+              - generic [ref=e885]: 
+            - group "Filter Buses" [ref=e886]:
+              - button "Amenities" [ref=e887] [cursor=pointer]:
+                - heading "Amenities" [level=2] [ref=e889]
+                - generic [ref=e890]: 
+            - group "Filter Buses" [ref=e891]:
+              - button "Special bus features" [ref=e892] [cursor=pointer]:
+                - heading "Special bus features" [level=3] [ref=e894]
+                - generic [ref=e895]: 
+            - group "Filter Buses" [ref=e896]:
+              - button "RTC bus type" [ref=e897] [cursor=pointer]:
+                - heading "RTC bus type" [level=3] [ref=e899]
+                - generic [ref=e900]: 
+      - generic [ref=e107]:
+        - region [ref=e109]:
+          - img "oipCard_20310" [ref=e903] [cursor=pointer]
+          - img "oipCard_555" [ref=e114] [cursor=pointer]
+          - img "oipCard_86" [ref=e117] [cursor=pointer]
+          - img "oipCard_37" [ref=e120] [cursor=pointer]
+          - img "oipCard_7" [ref=e123] [cursor=pointer]
+          - img "oipCard_4" [ref=e126] [cursor=pointer]
+          - img "oipCard_15" [ref=e129] [cursor=pointer]
+        - status "Carousel navigation status" [ref=e130]
+        - status "Search results update" [ref=e904]: 202 buses found
+        - generic [ref=e905]:
+          - generic [ref=e906]: 202 buses found
+          - group "Sort by:" [ref=e907]:
+            - generic [ref=e908]: "Sort by:"
+            - radiogroup "Sort by" [ref=e909]:
+              - radio "Ratings" [ref=e910] [cursor=pointer]:
+                - generic [ref=e911]: Ratings
+              - radio "Departure time" [ref=e912] [cursor=pointer]:
+                - generic [ref=e913]: Departure time
+              - radio "Price" [ref=e914] [cursor=pointer]:
+                - generic [ref=e915]: Price
+        - generic [ref=e918]: 25000+ bookings on this route last month
+        - generic [ref=e920]:
+          - generic [ref=e923] [cursor=pointer]:
+            - generic [ref=e927]:
+              - generic [ref=e929]: Live Tracking
+              - generic [ref=e931]: Use Code TGSRTC to Get Upto ₹250 off on TGSRTC!
+              - generic [ref=e933]: 50% Concession for Child Passengers.
+            - generic [ref=e934]:
+              - generic [ref=e935]:
+                - img "TGSRTC Buses" [ref=e936]
+                - generic [ref=e937]:
+                  - generic [ref=e938]:
+                    - generic [ref=e939]: TGSRTC Buses
+                    - generic [ref=e940]: తెలంగాణ రాష్ట్ర రోడ్డు రవాణా సంస్థ
+                  - generic [ref=e941]:
+                    - generic [ref=e942]: 15 buses
+                    - text: starting from
+                    - generic [ref=e943]: ₹946
+              - button "Show buses" [ref=e945]
+          - list [ref=e948]:
+            - button "LVP Travels, A/C Sleeper (2+1). Departs 22:30, arrives 08:50. Duration 10h 20m. Available seats 24 Seats. Price 1299 INR. Rated 4.7 out of 5. Total reviewers 1169. Live tracking, New Bus, On Time" [ref=e949] [cursor=pointer]:
+              - img "hero img" [ref=e953]
+              - generic [ref=e954]:
+                - generic [ref=e955]:
+                  - generic [ref=e956]:
+                    - paragraph [ref=e957]: 22:30
+                    - paragraph [ref=e959]: 08:50
+                  - generic [ref=e960]:
+                    - paragraph [ref=e961]: 10h 20m
+                    - generic [ref=e963]:
+                      - paragraph [ref=e964]: 24 Seats
+                      - paragraph [ref=e965]: (8 Single)
+                - generic [ref=e967]:
+                  - paragraph [ref=e970]: ₹1,299
+                  - paragraph [ref=e974]: ₹2,199
+                - generic [ref=e976]:
+                  - generic [ref=e977]:
+                    - generic [ref=e978]: LVP Travels
+                    - generic [ref=e980]: 
+                  - paragraph [ref=e982]: A/C Sleeper (2+1)
+                - generic "4.7 star rating, 1169 ratings" [ref=e984]:
+                  - generic [ref=e1484]:
+                    - generic [ref=e1485]: 
+                    - generic [ref=e1486]: "4.7"
+                  - generic [ref=e989]: "1169"
+              - generic [ref=e991]:  
+              - generic [ref=e993]:
+                - listitem [ref=e994]:
+                  - generic [ref=e995]: New Bus
+                - listitem [ref=e996]:
+                  - generic [ref=e997]: On Time
+              - button "View seats for LVP Travels" [ref=e998]: View seats
+            - button "LVP Travels, A/C Sleeper (2+1). Departs 21:30, arrives 08:10. Duration 10h 40m. Available seats 22 Seats. Price 1299 INR. Rated 4.8 out of 5. Total reviewers 1169. Live tracking, New Bus, On Time" [ref=e999] [cursor=pointer]:
+              - img "hero img" [ref=e1003]
+              - generic [ref=e1004]:
+                - generic [ref=e1005]:
+                  - generic [ref=e1006]:
+                    - paragraph [ref=e1007]: 21:30
+                    - paragraph [ref=e1009]: 08:10
+                  - generic [ref=e1010]:
+                    - paragraph [ref=e1011]: 10h 40m
+                    - generic [ref=e1013]:
+                      - paragraph [ref=e1014]: 22 Seats
+                      - paragraph [ref=e1015]: (8 Single)
+                - generic [ref=e1017]:
+                  - paragraph [ref=e1020]: ₹1,299
+                  - paragraph [ref=e1024]: ₹2,199
+                - generic [ref=e1026]:
+                  - generic [ref=e1027]:
+                    - generic [ref=e1028]: LVP Travels
+                    - generic [ref=e1030]: 
+                  - paragraph [ref=e1032]: A/C Sleeper (2+1)
+                - generic "4.8 star rating, 1169 ratings" [ref=e1034]:
+                  - generic [ref=e1487]:
+                    - generic [ref=e1488]: 
+                    - generic [ref=e1489]: "4.8"
+                  - generic [ref=e1039]: "1169"
+              - generic [ref=e1041]:  
+              - generic [ref=e1043]:
+                - listitem [ref=e1044]:
+                  - generic [ref=e1045]: New Bus
+                - listitem [ref=e1046]:
+                  - generic [ref=e1047]: On Time
+              - button "View seats for LVP Travels" [ref=e1048]: View seats
+            - button "Mythri Tours And Travels, A/C Sleeper (2+1). Departs 20:45, arrives 07:15. Duration 10h 30m. Available seats 7 Seats. Price 999 INR. Rated 4.7 out of 5. Total reviewers 1252. Live tracking, 10% OFF, Limited seats, On Time, Exclusive discounts available for women passengers" [ref=e1049] [cursor=pointer]:
+              - generic [ref=e1050]:
+                - img "hero img" [ref=e1053]
+                - button "Women 10% OFF" [ref=e1054]:
+                  - generic [ref=e1055]:
+                    - generic [ref=e1056]: Women
+                    - generic [ref=e1057]: 10% OFF
+              - generic [ref=e1058]:
+                - generic [ref=e1059]:
+                  - generic [ref=e1060]:
+                    - paragraph [ref=e1061]: 20:45
+                    - paragraph [ref=e1063]: 07:15
+                  - generic [ref=e1064]:
+                    - paragraph [ref=e1065]: 10h 30m
+                    - generic [ref=e1067]:
+                      - paragraph [ref=e1068]: 7 Seats
+                      - paragraph [ref=e1069]: (1 Single)
+                - generic [ref=e1071]:
+                  - paragraph [ref=e1074]: ₹999
+                  - paragraph [ref=e1078]: ₹1,679
+                - generic [ref=e1080]:
+                  - generic [ref=e1081]:
+                    - generic [ref=e1082]: Mythri Tours And Travels
+                    - generic [ref=e1084]: 
+                  - paragraph [ref=e1086]: A/C Sleeper (2+1)
+                - generic "4.7 star rating, 1252 ratings" [ref=e1088]:
+                  - generic [ref=e1490]:
+                    - generic [ref=e1491]: 
+                    - generic [ref=e1492]: "4.7"
+                  - generic [ref=e1093]: "1252"
+              - generic [ref=e1095]:  
+              - listitem [ref=e1098]:
+                - generic [ref=e1099]: On Time
+              - generic [ref=e1101]: Exclusive discounts available for women passengers
+              - button "View seats for Mythri Tours And Travels" [ref=e1102]: View seats
+            - button "Rajdhani Travels, Volvo 9600 Multi-Axle A/C Sleeper (2+1). Departs 23:35, arrives 09:10. Duration 9h 35m. Available seats 25 Seats. Price 1169 INR. Rated 4.2 out of 5. Total reviewers 517. Sponsored, Live tracking, 10% OFF, New Bus, Minimum 10% off on return ticket" [ref=e1103] [cursor=pointer]:
+              - generic [ref=e1104]:
+                - img "hero img" [ref=e1107]
+                - button "Last min. 10% OFF" [ref=e1108]:
+                  - generic [ref=e1109]:
+                    - generic [ref=e1110]: Last min.
+                    - generic [ref=e1111]: 10% OFF
+              - generic [ref=e1112]:
+                - generic [ref=e1113]:
+                  - generic [ref=e1114]:
+                    - paragraph [ref=e1115]: 23:35
+                    - paragraph [ref=e1117]: 09:10
+                  - generic [ref=e1118]:
+                    - paragraph [ref=e1119]: 9h 35m
+                    - generic [ref=e1121]:
+                      - paragraph [ref=e1122]: 25 Seats
+                      - paragraph [ref=e1123]: (7 Single)
+                - generic [ref=e1125]:
+                  - generic [ref=e1127]:
+                    - paragraph [ref=e1128]: ₹1,169
+                    - paragraph [ref=e1129]: ₹1,299
+                  - generic [ref=e1132]:
+                    - paragraph [ref=e1133]: ₹1,619
+                    - paragraph [ref=e1134]: ₹1,799
+                - generic [ref=e1136]:
+                  - generic [ref=e1137]:
+                    - generic [ref=e1138]: Rajdhani Travels
+                    - generic [ref=e1140]: 
+                    - paragraph [ref=e1141]: Ad
+                  - paragraph [ref=e1143]: Volvo 9600 Multi-Axle A/C Sleeper (2+1)
+                - generic "4.2 star rating, 517 ratings" [ref=e1145]:
+                  - generic [ref=e1493]:
+                    - generic [ref=e1494]: 
+                    - generic [ref=e1495]: "4.2"
+                  - generic [ref=e1150]: "517"
+              - generic [ref=e1152]:  
+              - listitem [ref=e1155]:
+                - generic [ref=e1156]: New Bus
+              - generic [ref=e1158]: Minimum 10% off on return ticket
+              - button "View seats for Rajdhani Travels" [ref=e1159]: View seats
+            - button "VSR Tours and Travels, A/C Sleeper (2+1). Departs 20:55, arrives 07:10. Duration 10h 15m. Available seats 10 Seats. Price 1109 INR. Rated 4.7 out of 5. Total reviewers 1254. Live tracking, ₹100 OFF, New Bus, On Time, Exclusive discounts available for women passengers" [ref=e1160] [cursor=pointer]:
+              - generic [ref=e1161]:
+                - img "hero img" [ref=e1164]
+                - button "Women ₹100 OFF" [ref=e1165]:
+                  - generic [ref=e1166]:
+                    - generic [ref=e1167]: Women
+                    - generic [ref=e1168]: ₹100 OFF
+              - generic [ref=e1169]:
+                - generic [ref=e1170]:
+                  - generic [ref=e1171]:
+                    - paragraph [ref=e1172]: 20:55
+                    - paragraph [ref=e1174]: 07:10
+                  - generic [ref=e1175]:
+                    - paragraph [ref=e1176]: 10h 15m
+                    - generic [ref=e1178]:
+                      - paragraph [ref=e1179]: 10 Seats
+                      - paragraph [ref=e1180]: (4 Single)
+                - generic [ref=e1182]:
+                  - paragraph [ref=e1185]: ₹1,109
+                  - paragraph [ref=e1189]: ₹1,979
+                - generic [ref=e1191]:
+                  - generic [ref=e1192]:
+                    - generic [ref=e1193]: VSR Tours and Travels
+                    - generic [ref=e1195]: 
+                  - paragraph [ref=e1197]: A/C Sleeper (2+1)
+                - generic "4.7 star rating, 1254 ratings" [ref=e1199]:
+                  - generic [ref=e1496]:
+                    - generic [ref=e1497]: 
+                    - generic [ref=e1498]: "4.7"
+                  - generic [ref=e1204]: "1254"
+              - generic [ref=e1206]:  
+              - generic [ref=e1208]:
+                - listitem [ref=e1209]:
+                  - generic [ref=e1210]: New Bus
+                - listitem [ref=e1211]:
+                  - generic [ref=e1212]: On Time
+              - generic [ref=e1214]: Exclusive discounts available for women passengers
+              - button "View seats for VSR Tours and Travels" [ref=e1215]: View seats
+            - button "Streamline tours and travels, Bharat Benz A/C Sleeper (2+1). Departs 23:15, arrives 09:30. Duration 10h 15m. Available seats 19 Seats. Price 1169 INR. Rated 4.2 out of 5. Total reviewers 663. Sponsored, Live tracking, 10% OFF, New Bus, Minimum 10% off on return ticket" [ref=e1216] [cursor=pointer]:
+              - generic [ref=e1217]:
+                - img "hero img" [ref=e1220]
+                - button "Last min. 10% OFF" [ref=e1221]:
+                  - generic [ref=e1222]:
+                    - generic [ref=e1223]: Last min.
+                    - generic [ref=e1224]: 10% OFF
+              - generic [ref=e1225]:
+                - generic [ref=e1226]:
+                  - generic [ref=e1227]:
+                    - paragraph [ref=e1228]: 23:15
+                    - paragraph [ref=e1230]: 09:30
+                  - generic [ref=e1231]:
+                    - paragraph [ref=e1232]: 10h 15m
+                    - generic [ref=e1234]:
+                      - paragraph [ref=e1235]: 19 Seats
+                      - paragraph [ref=e1236]: (7 Single)
+                - generic [ref=e1238]:
+                  - generic [ref=e1240]:
+                    - paragraph [ref=e1241]: ₹1,169
+                    - paragraph [ref=e1242]: ₹1,299
+                  - generic [ref=e1245]:
+                    - paragraph [ref=e1246]: ₹1,709
+                    - paragraph [ref=e1247]: ₹1,899
+                - generic [ref=e1249]:
+                  - generic [ref=e1250]:
+                    - generic [ref=e1251]: Streamline tours and travels
+                    - generic [ref=e1253]: 
+                    - paragraph [ref=e1254]: Ad
+                  - paragraph [ref=e1256]: Bharat Benz A/C Sleeper (2+1)
+                - generic "4.2 star rating, 663 ratings" [ref=e1258]:
+                  - generic [ref=e1499]:
+                    - generic [ref=e1500]: 
+                    - generic [ref=e1501]: "4.2"
+                  - generic [ref=e1263]: "663"
+              - generic [ref=e1265]:  
+              - listitem [ref=e1268]:
+                - generic [ref=e1269]: New Bus
+              - generic [ref=e1271]: Minimum 10% off on return ticket
+              - button "View seats for Streamline tours and travels" [ref=e1272]: View seats
+            - button "KSM Roadways, Bharat Benz A/C Sleeper (2+1). Departs 21:00, arrives 06:28. Duration 9h 28m. Available seats 21 Seats. Price 1200 INR. Rated 4.7 out of 5. Total reviewers 1048. Live tracking" [ref=e1273] [cursor=pointer]:
+              - generic [ref=e1274]:
+                - generic [ref=e1275]:
+                  - generic [ref=e1276]:
+                    - paragraph [ref=e1277]: 21:00
+                    - paragraph [ref=e1279]: 06:28
+                  - generic [ref=e1280]:
+                    - paragraph [ref=e1281]: 9h 28m
+                    - generic [ref=e1283]:
+                      - paragraph [ref=e1284]: 21 Seats
+                      - paragraph [ref=e1285]: (10 Single)
+                - generic [ref=e1287]:
+                  - paragraph [ref=e1290]: ₹1,200
+                  - paragraph [ref=e1294]: ₹2,170
+                - generic [ref=e1296]:
+                  - generic [ref=e1297]:
+                    - generic [ref=e1298]: KSM Roadways
+                    - generic [ref=e1300]: 
+                  - paragraph [ref=e1302]: Bharat Benz A/C Sleeper (2+1)
+                - generic "4.7 star rating, 1048 ratings" [ref=e1304]:
+                  - generic [ref=e1502]:
+                    - generic [ref=e1503]: 
+                    - generic [ref=e1504]: "4.7"
+                  - generic [ref=e1309]: "1048"
+              - generic [ref=e1311]:  
+              - button "View seats for KSM Roadways" [ref=e1312]: View seats
+            - generic [ref=e1313]:
+              - img "FCGradient"
+              - generic [ref=e1314]:
+                - img [ref=e1315]
+                - generic [ref=e1316]:
+                  - heading "Travel plans might change" [level=4] [ref=e1317]
+                  - generic [ref=e1318]:
+                    - generic [ref=e1319]: Add
+                    - generic [ref=e1320]: Free Cancellation
+                    - generic [ref=e1321]: to get full refund
+              - switch "Only show buses that provide Free Cancellation" [ref=e1322] [cursor=pointer]:
+                - generic [ref=e1325]: Only show buses that provide Free Cancellation
+                - switch [ref=e1328]:
+                  - checkbox [ref=e1329]
+            - button "HASH BUS, Bharat Benz A/C Sleeper (2+1). Departs 22:20, arrives 07:30. Duration 9h 10m. Available seats 22 Seats. Price 999 INR. Rated 4.3 out of 5. Total reviewers 682. Sponsored, Live tracking, New Bus" [ref=e1330] [cursor=pointer]:
+              - generic [ref=e1331]:
+                - generic [ref=e1332]:
+                  - generic [ref=e1333]:
+                    - paragraph [ref=e1334]: 22:20
+                    - paragraph [ref=e1336]: 07:30
+                  - generic [ref=e1337]:
+                    - paragraph [ref=e1338]: 9h 10m
+                    - generic [ref=e1340]:
+                      - paragraph [ref=e1341]: 22 Seats
+                      - paragraph [ref=e1342]: (2 Single)
+                - generic [ref=e1344]:
+                  - paragraph [ref=e1347]: ₹999
+                  - paragraph [ref=e1351]: ₹1,499
+                - generic [ref=e1353]:
+                  - generic [ref=e1354]:
+                    - generic [ref=e1355]: HASH BUS
+                    - generic [ref=e1357]: 
+                    - paragraph [ref=e1358]: Ad
+                  - paragraph [ref=e1360]: Bharat Benz A/C Sleeper (2+1)
+                - generic "4.3 star rating, 682 ratings" [ref=e1362]:
+                  - generic [ref=e1505]:
+                    - generic [ref=e1506]: 
+                    - generic [ref=e1507]: "4.3"
+                  - generic [ref=e1367]: "682"
+              - generic [ref=e1369]:  
+              - listitem [ref=e1372]:
+                - generic [ref=e1373]: New Bus
+              - button "View seats for HASH BUS" [ref=e1374]: View seats
+            - button "Pramukh Travels, Volvo 9600 SLX Multi-Axle AC Sleeper (2+1). Departs 22:30, arrives 08:15. Duration 9h 45m. Available seats 11 Seats. Price 1299 INR. Rated 4.7 out of 5. Total reviewers 879. Live tracking, ₹100 OFF, New Bus, Business Class, Exclusive discounts available for women passengers" [ref=e1375] [cursor=pointer]:
+              - generic [ref=e1376]:
+                - img "hero img" [ref=e1379]
+                - button "Women ₹100 OFF" [ref=e1380]:
+                  - generic [ref=e1381]:
+                    - generic [ref=e1382]: Women
+                    - generic [ref=e1383]: ₹100 OFF
+              - generic [ref=e1384]:
+                - generic [ref=e1385]:
+                  - generic [ref=e1386]:
+                    - paragraph [ref=e1387]: 22:30
+                    - paragraph [ref=e1389]: 08:15
+                  - generic [ref=e1390]:
+                    - paragraph [ref=e1391]: 9h 45m
+                    - generic [ref=e1393]:
+                      - paragraph [ref=e1394]: 11 Seats
+                      - paragraph [ref=e1395]: (3 Single)
+                - generic [ref=e1397]:
+                  - paragraph [ref=e1400]: ₹1,299
+                  - paragraph [ref=e1404]: ₹2,124
+                - generic [ref=e1406]:
+                  - generic [ref=e1407]:
+                    - generic [ref=e1408]: Pramukh Travels
+                    - generic [ref=e1410]: 
+                  - paragraph [ref=e1412]: Volvo 9600 SLX Multi-Axle AC Sleeper (2+1)
+                - generic "4.7 star rating, 879 ratings" [ref=e1414]:
+                  - generic [ref=e1508]:
+                    - generic [ref=e1509]: 
+                    - generic [ref=e1510]: "4.7"
+                  - generic [ref=e1419]: "879"
+              - generic [ref=e1421]:  
+              - generic [ref=e1423]:
+                - listitem [ref=e1424]:
+                  - generic [ref=e1425]: New Bus
+                - listitem [ref=e1426]:
+                  - generic [ref=e1427]: Business Class
+              - generic [ref=e1429]: Exclusive discounts available for women passengers
+              - button "View seats for Pramukh Travels" [ref=e1430]: View seats
+            - button "zingbus plus, A/C Seater/Sleeper (2+1). Departs 19:10, arrives 07:15. Duration 12h 5m. Available seats 18 Seats. Price 779 INR. Rated 4.7 out of 5. Total reviewers 687. Live tracking, 15% OFF, New Bus, On Time" [ref=e1431] [cursor=pointer]:
+              - button "Last min. 15% OFF" [ref=e1433]:
+                - generic [ref=e1434]:
+                  - generic [ref=e1435]: Last min.
+                  - generic [ref=e1436]: 15% OFF
+              - generic [ref=e1437]:
+                - generic [ref=e1438]:
+                  - generic [ref=e1439]:
+                    - paragraph [ref=e1440]: 19:10
+                    - paragraph [ref=e1442]: 07:15
+                  - generic [ref=e1443]:
+                    - paragraph [ref=e1444]: 12h 5m
+                    - generic [ref=e1446]:
+                      - paragraph [ref=e1447]: 18 Seats
+                      - paragraph [ref=e1448]: (7 Single)
+                - generic [ref=e1450]:
+                  - generic [ref=e1452]:
+                    - paragraph [ref=e1453]: ₹779
+                    - paragraph [ref=e1454]: ₹916
+                  - generic [ref=e1457]:
+                    - paragraph [ref=e1458]: ₹1,901
+                    - paragraph [ref=e1459]: ₹2,236
+                - generic [ref=e1461]:
+                  - generic [ref=e1462]:
+                    - generic [ref=e1463]: zingbus plus
+                    - generic [ref=e1465]: 
+                  - paragraph [ref=e1467]: A/C Seater/Sleeper (2+1)
+                - generic "4.7 star rating, 687 ratings" [ref=e1469]:
+                  - generic [ref=e1511]:
+                    - generic [ref=e1512]: 
+                    - generic [ref=e1513]: "4.7"
+                  - generic [ref=e1474]: "687"
+              - generic [ref=e1476]:  
+              - generic [ref=e1478]:
+                - listitem [ref=e1479]:
+                  - generic [ref=e1480]: New Bus
+                - listitem [ref=e1481]:
+                  - generic [ref=e1482]: On Time
+              - button "View seats for zingbus plus" [ref=e1483]: View seats
+    - navigation "breadcrumb" [ref=e187]:
+      - listitem [ref=e188]:
+        - link "Home" [ref=e189] [cursor=pointer]:
+          - /url: https://www.redbus.in/
+        - text: ＞
+      - listitem [ref=e190]:
+        - link "Bus Booking" [ref=e191] [cursor=pointer]:
+          - /url: /bus-tickets
+        - text: ＞
+      - listitem [ref=e192]:
+        - link "Hyderabad to Bangalore Bus" [ref=e193] [cursor=pointer]:
+          - /url: /bus-tickets/hyderabad-to-bangalore
+  - generic [ref=e194]:
+    - generic [ref=e195]:
+      - heading "Hyderabad to Bangalore Bus Service" [level=2] [ref=e196]
+      - generic [ref=e197]:
+        - generic [ref=e198]:
+          - paragraph [ref=e199]: Avg. Bus Duration
+          - generic [ref=e200]: ":"
+          - paragraph [ref=e201]: 9 hrs 51 mins
+        - generic [ref=e202]:
+          - paragraph [ref=e203]: Buses depart from
+          - generic [ref=e204]: ":"
+          - paragraph [ref=e205]: Hyderabad
+        - generic [ref=e206]:
+          - paragraph [ref=e207]: Bus arrives in
+          - generic [ref=e208]: ":"
+          - paragraph [ref=e209]: Bangalore
+        - generic [ref=e210]:
+          - paragraph [ref=e211]: Cheapest Bus Ticket Price
+          - generic [ref=e212]: ":"
+          - paragraph [ref=e213]: INR 635.00
+        - generic [ref=e214]:
+          - paragraph [ref=e215]: Bus Companies
+          - generic [ref=e216]: ":"
+          - paragraph [ref=e217]: "105"
+        - generic [ref=e218]:
+          - paragraph [ref=e219]: First Bus
+          - generic [ref=e220]: ":"
+          - paragraph [ref=e221]: 01:45
+        - generic [ref=e222]:
+          - paragraph [ref=e223]: Last Bus
+          - generic [ref=e224]: ":"
+          - paragraph [ref=e225]: 23:59
+        - generic [ref=e226]:
+          - paragraph [ref=e227]: Daily Bus Services
+          - generic [ref=e228]: ":"
+          - paragraph [ref=e229]: "295"
+    - generic [ref=e230]:
+      - heading "Hyderabad to Bangalore Bus Timings & Fare" [level=2] [ref=e231]
+      - list [ref=e232]:
+        - listitem [ref=e233]: Bus Operator
+        - listitem [ref=e234]: First Bus
+        - listitem [ref=e235]: Last Bus
+        - listitem [ref=e236]: Duration
+      - link "IntrCity SmartBus" [ref=e237] [cursor=pointer]:
+        - /url: /travels/intrcity-smartbus
+      - text: First Bus - 17:30 Last Bus - 23:10 11 hrs 5 mins
+      - link "VIEW PRICE for IntrCity SmartBus" [ref=e238]:
+        - generic [ref=e240] [cursor=pointer]: VIEW PRICE
+      - link "FlixBus" [ref=e241] [cursor=pointer]:
+        - /url: /travels/flixbus
+      - text: First Bus - 18:45 Last Bus - 23:20 12 hrs 37 mins
+      - link "VIEW PRICE for FlixBus" [ref=e242]:
+        - generic [ref=e244] [cursor=pointer]: VIEW PRICE
+      - link "Go Tour Travels and Holidays" [ref=e245] [cursor=pointer]:
+        - /url: /travels/go-tour-travels-and-holidays
+      - text: First Bus - 13:30 Last Bus - 23:30 9 hrs 37 mins
+      - link "VIEW PRICE for Go Tour Travels and Holidays" [ref=e246]:
+        - generic [ref=e248] [cursor=pointer]: VIEW PRICE
+      - link "Jabbar Travels" [ref=e249] [cursor=pointer]:
+        - /url: /travels/jabbar-travels
+      - text: First Bus - 09:50 Last Bus - 23:15 10 hrs 7 mins
+      - link "VIEW PRICE for Jabbar Travels" [ref=e250]:
+        - generic [ref=e252] [cursor=pointer]: VIEW PRICE
+      - link "KSM Roadways" [ref=e253] [cursor=pointer]:
+        - /url: /travels/ksm-roadways
+      - text: First Bus - 20:45 Last Bus - 23:30 8 hrs 20 mins
+      - link "VIEW PRICE for KSM Roadways" [ref=e254]:
+        - generic [ref=e256] [cursor=pointer]: VIEW PRICE
+    - generic [ref=e257]:
+      - heading "Hyderabad to Bangalore Bus Overview" [level=2] [ref=e258]
+      - generic [ref=e259]:
+        - paragraph [ref=e260]: The Hyderabad to Bangalore bus route covers approximately 569 kms and takes about 9 hrs 51 mins. A total of 295 direct buses operated by 105 bus operators run on this route. The first bus departs at 01:45, and the last bus leaves at 23:59.
+        - paragraph [ref=e261]: Major boarding points in Hyderabad include A S Rao Nagar, Afzalgunj, Allwyn colony x road, Alwal, Amberpet, Ameerpet, Aramghar, Ashok Nagar, Attapur, Bachupally, while common drop locations in Bangalore are Agara, Anand Rao Circle, Attibele, BTM Layout, Bagepalli, Baiyappanahalli, Bannerghatta Road, Bellandur, Bommanahalli, Bommasandra.
+        - paragraph [ref=e262]: RTC and private operators such as Orange Tours And Travels, Northern Travels, IntrCity SmartBus, National travels, Jabbar Travels offer Volvo, AC, and non-AC seater and sleeper buses. Ticket prices on redBus range from INR 635 - INR 7350.00 depending on the bus type and features.
+    - generic [ref=e263]:
+      - heading "Hyderabad to Bangalore Bus Tickets on redBus" [level=2] [ref=e264]
+      - generic [ref=e265]:
+        - paragraph [ref=e266]: Choose from a wide range of private and government bus operators, compare schedules, bus types, and amenities to book your tickets online on the redBus website or app in just a few clicks.
+        - paragraph [ref=e267]: With exclusive deals, best-price offers, secure payments, and instant confirmation, redBus ensures a smooth and reliable booking experience.
+    - generic [ref=e268]:
+      - heading "Hyderabad to Bangalore Ticket Prices" [level=2] [ref=e269]
+      - generic [ref=e270]:
+        - paragraph [ref=e271]: Ticket prices for Hyderabad to Bangalore buses typically range from INR 635 - INR 7350.00 per person, depending on the bus type and operator. Ticket prices during festivals or weekends are usually higher than on weekdays.
+        - paragraph [ref=e272]: You can also book your return ticket from Bangalore to Hyderabad bus on redBus, hassle-free.
+    - generic [ref=e273]:
+      - heading "Distance from Hyderabad to Bangalore by Bus" [level=2] [ref=e274]
+      - paragraph [ref=e276]: The distance from Hyderabad to Bangalore by road is approximately 569 kms. Whether it is an early morning journey or late-night travel, choose the best bus from Hyderabad to Bangalore by comparing bus types, price, ratings, and reviews.
+    - generic [ref=e277]:
+      - heading "Hyderabad to Bangalore Bus Timings and Duration" [level=2] [ref=e278]
+      - generic [ref=e279]:
+        - paragraph [ref=e280]: The average time taken to reach Bangalore from Hyderabad is around 9 hrs 51 mins. Early morning buses on this route start at 01:45, and the last bus departs at 23:59.
+        - paragraph [ref=e281]: Hyderabad to Bangalore Volvo buses primarily operate overnight, while AC and non-AC sleeper buses run throughout the day.
+    - generic [ref=e282]:
+      - heading "Bus Types" [level=2] [ref=e283]
+      - generic [ref=e284]:
+        - paragraph [ref=e285]: Several RTC and private bus operators offer options ranging from standard non-AC seats to premium sleeper/seater services.
+        - paragraph [ref=e286]: Bus Types Available on the Hyderabad to Bangalore route
+        - table [ref=e288]:
+          - rowgroup [ref=e292]:
+            - row "Bus Type Features" [ref=e293]:
+              - cell "Bus Type" [ref=e294]:
+                - paragraph [ref=e295]:
+                  - strong [ref=e296]: Bus Type
+              - cell "Features" [ref=e297]:
+                - paragraph [ref=e298]:
+                  - strong [ref=e299]: Features
+            - row "Non-AC Seater Budget-friendly, basic seating, no air conditioning" [ref=e300]:
+              - cell "Non-AC Seater" [ref=e301]:
+                - paragraph [ref=e302]: Non-AC Seater
+              - cell "Budget-friendly, basic seating, no air conditioning" [ref=e303]:
+                - paragraph [ref=e304]: Budget-friendly, basic seating, no air conditioning
+            - row "Semi-Sleeper Reclining seats, moderate comfort for mid-length trips" [ref=e305]:
+              - cell "Semi-Sleeper" [ref=e306]:
+                - paragraph [ref=e307]: Semi-Sleeper
+              - cell "Reclining seats, moderate comfort for mid-length trips" [ref=e308]:
+                - paragraph [ref=e309]: Reclining seats, moderate comfort for mid-length trips
+            - row "AC Sleeper Reclined berths, privacy curtains, AC Cabins, ideal for night travel" [ref=e310]:
+              - cell "AC Sleeper" [ref=e311]:
+                - paragraph [ref=e312]: AC Sleeper
+              - cell "Reclined berths, privacy curtains, AC Cabins, ideal for night travel" [ref=e313]:
+                - paragraph [ref=e314]: Reclined berths, privacy curtains, AC Cabins, ideal for night travel
+            - row "Volvo AC Coach Premium seating, faster service, smoother suspension, pushback seats" [ref=e315]:
+              - cell "Volvo AC Coach" [ref=e316]:
+                - paragraph [ref=e317]: Volvo AC Coach
+              - cell "Premium seating, faster service, smoother suspension, pushback seats" [ref=e318]:
+                - paragraph [ref=e319]: Premium seating, faster service, smoother suspension, pushback seats
+    - generic [ref=e321]:
+      - heading "Top Images of Buses from Hyderabad to Bangalore Route" [level=2] [ref=e322]
+      - generic:
+        - img "IntrCity SmartBus Bus-Front Image"
+        - img "FlixBus Bus-Front Image"
+        - img "Go Tour Travels and Holidays Bus-Front Image"
+        - img "Jabbar Travels Bus-Front Image"
+        - img "KSM Roadways Bus-Front Image"
+    - generic [ref=e323]:
+      - heading "Buses from Hyderabad to Bangalore" [level=2] [ref=e324]
+      - generic [ref=e325]: "Over 295 daily bus services operate on this route, run by both government and private operators. Currently, 105 bus operators serve the Hyderabad to Bangalore route. Some of the top-rated popular operators include:"
+      - list [ref=e326]:
+        - listitem [ref=e327]:
+          - link "V Kaveri Travels" [ref=e328] [cursor=pointer]:
+            - /url: /travels/v-kaveri-travels
+        - listitem [ref=e329]:
+          - link "BigBus" [ref=e330] [cursor=pointer]:
+            - /url: /travels/bigbus
+        - listitem [ref=e331]:
+          - link "Kamakshi Tours And Travels" [ref=e332] [cursor=pointer]:
+            - /url: /travels/kamakshi-tours-and-travels
+        - listitem [ref=e333]:
+          - link "Sri Krishna Travels" [ref=e334] [cursor=pointer]:
+            - /url: /travels/sri-krishna-travels-ongole
+        - listitem [ref=e335]:
+          - link "Morning Star Travels" [ref=e336] [cursor=pointer]:
+            - /url: /travels/morning-star-travels
+    - generic [ref=e337]:
+      - heading "Popular Boarding Points in Hyderabad" [level=2] [ref=e338]
+      - paragraph [ref=e340]: When booking a Hyderabad to Bangalore bus on redBus, you can choose from several popular Hyderabad boarding locations. Some of the major boarding points are A S Rao Nagar, Afzalgunj, Allwyn colony x road, Alwal, Amberpet, Ameerpet, Aramghar, Ashok Nagar, Attapur, Bachupally
+    - generic [ref=e341]:
+      - heading "Popular Dropping Points in Bangalore" [level=2] [ref=e342]
+      - paragraph [ref=e344]: Some of the major Bangalore dropping points are Agara, Anand Rao Circle, Attibele, BTM Layout, Bagepalli, Baiyappanahalli, Bannerghatta Road, Bellandur, Bommanahalli, Bommasandra
+    - generic [ref=e345]:
+      - heading "Seat Availability on Hyderabad to Bangalore Bus" [level=2] [ref=e346]
+      - paragraph [ref=e348]: redBus provides real-time seat availability across different bus types, allowing you to choose your preferred seat. Explore seater, semi-sleeper, and sleeper options, and book your preferred seat instantly for a comfortable journey.
+    - generic [ref=e349]:
+      - heading "Live Tracking" [level=2] [ref=e350]
+      - generic [ref=e351]:
+        - paragraph [ref=e352]: Most of the buses are GPS-enabled, making live tracking easy. You will receive the tracking link 30 minutes before your bus journey.
+        - paragraph [ref=e353]: This feature allows you to monitor the bus’s real-time location from start to finish. It shows expected arrival times and any delays, helping you plan your pick-up or reach your destination without any stress.
+    - generic [ref=e354]:
+      - heading "Flexi Ticket" [level=2] [ref=e355]
+      - generic [ref=e356]:
+        - paragraph [ref=e357]: Change in plans? Reschedule easily with redBus.
+        - paragraph [ref=e358]: FlexiTicket lets you change your travel date for free up to 8 hours before departure, without the hassle of cancelling and rebooking.
+    - generic [ref=e359]:
+      - heading "How to Book Hyderabad to Bangalore Bus Tickets on redBus?" [level=2] [ref=e360]
+      - generic [ref=e361]:
+        - paragraph [ref=e362]: Book bus tickets on redBus in just a few simple steps.
+        - paragraph [ref=e363]:
+          - strong [ref=e364]: "Step 1:"
+          - text: Visit the redBus website or app.
+        - paragraph [ref=e365]:
+          - strong [ref=e366]: "Step 2:"
+          - text: Enter the date of the journey, the source and the destination.
+        - paragraph [ref=e367]:
+          - strong [ref=e368]: "Step 3:"
+          - text: Click Search to see the list of available buses on your chosen date.
+        - paragraph [ref=e369]:
+          - strong [ref=e370]: "Step 4:"
+          - text: Compare fares, bus types, amenities, etc and select your preferred bus
+        - paragraph [ref=e371]:
+          - strong [ref=e372]: "Step 5:"
+          - text: Choose convenient boarding and dropping points.
+        - paragraph [ref=e373]:
+          - strong [ref=e374]: "Step 5:"
+          - text: Enter passenger details, including name and contact information.
+        - paragraph [ref=e375]:
+          - strong [ref=e376]: "Step 6:"
+          - text: Select a payment method and complete your booking securely.
+        - paragraph [ref=e377]: Once payment is successful, your bus ticket will be sent to your email and registered mobile number.
+    - generic [ref=e378]:
+      - heading "Get Additional Discount with redDeals for Hyderabad to Bangalore Bus" [level=2] [ref=e379]
+      - generic [ref=e380]:
+        - paragraph [ref=e381]: "31 redDeals are currently live on this route:"
+        - list [ref=e382]:
+          - listitem [ref=e383]: "PERCENT Discount By FlixBus: Get 10% Extra OFF. offer valid till 20 Apr 2026"
+          - listitem [ref=e384]: "LASTMIN Discount By SL Travels: Get 10% Extra OFF. offer valid till 10 Apr 2026"
+          - listitem [ref=e385]: "LASTMIN Discount By Streamline tours and travels: Get 10% Extra OFF. offer valid till 08 Apr 2027"
+          - listitem [ref=e386]: "EARLYBIRD Discount By Go Tour Travels and Holidays: Get 10% Extra OFF. offer valid till 31 Dec 2026"
+          - listitem [ref=e387]: "PERCENT Discount By Mythri Tours And Travels: Get 12.5% Extra OFF. offer valid till 30 Apr 2026"
+        - paragraph
+    - generic [ref=e388]:
+      - heading "Travel Tips" [level=2] [ref=e389]
+      - list [ref=e391]:
+        - listitem [ref=e392]:
+          - paragraph [ref=e393]: Book early as prices rise on weekends and peak days
+        - listitem [ref=e394]:
+          - paragraph [ref=e395]: Evening and night buses help save hotel costs
+        - listitem [ref=e396]:
+          - paragraph [ref=e397]: Choose highly-rated operators for a smoother journey
+        - listitem [ref=e398]:
+          - paragraph [ref=e399]: Select boarding points closer to metro stations or public transportation
+        - listitem [ref=e400]:
+          - paragraph [ref=e401]: Recheck your boarding location before travel
+        - listitem [ref=e402]:
+          - paragraph [ref=e403]: Keep your ID ready at the boarding point
+        - listitem [ref=e404]:
+          - paragraph [ref=e405]: Reach the boarding point at least 15 minutes early
+        - listitem [ref=e406]:
+          - paragraph [ref=e407]: Use filters to shortlist suitable buses
+        - listitem [ref=e408]:
+          - paragraph [ref=e409]: Track your bus live using the app
+        - listitem [ref=e410]:
+          - paragraph [ref=e411]: Carry water, snacks, a power bank, and earphones
+        - listitem [ref=e412]:
+          - paragraph [ref=e413]: Avoid last-minute bookings during festivals
+        - listitem [ref=e414]:
+          - paragraph [ref=e415]: Pick lower berths in sleepers for easier access
+        - listitem [ref=e416]: Add Free Cancellation for full refunds
+        - listitem [ref=e417]: Contact customer support in case of delays
+    - generic [ref=e418]:
+      - heading "FAQS for Hyderabad to Bangalore bus ticket booking" [level=2] [ref=e419]
+      - group [ref=e420]:
+        - generic "How long does the bus journey take from Hyderabad to Bangalore? " [ref=e421] [cursor=pointer]:
+          - text: How long does the bus journey take from Hyderabad to Bangalore?
+          - generic [ref=e422]: 
+      - group [ref=e424]:
+        - generic "What is the distance between Hyderabad and Bangalore by bus? " [ref=e425] [cursor=pointer]:
+          - text: What is the distance between Hyderabad and Bangalore by bus?
+          - generic [ref=e426]: 
+      - group [ref=e428]:
+        - generic "What is the cheapest bus ticket from Hyderabad to Bangalore? " [ref=e429] [cursor=pointer]:
+          - text: What is the cheapest bus ticket from Hyderabad to Bangalore?
+          - generic [ref=e430]: 
+      - group [ref=e432]:
+        - generic "What is the first and last bus timing for Hyderabad to Bangalore? " [ref=e433] [cursor=pointer]:
+          - text: What is the first and last bus timing for Hyderabad to Bangalore?
+          - generic [ref=e434]: 
+      - group [ref=e436]:
+        - generic "Which bus type is best for travelling from Hyderabad to Bangalore? " [ref=e437] [cursor=pointer]:
+          - text: Which bus type is best for travelling from Hyderabad to Bangalore?
+          - generic [ref=e438]: 
+      - group [ref=e440]:
+        - generic "Can I choose my seat while booking the bus ticket? " [ref=e441] [cursor=pointer]:
+          - text: Can I choose my seat while booking the bus ticket?
+          - generic [ref=e442]: 
+      - group [ref=e444]:
+        - generic "Which day is cheapest to book a bus from Hyderabad to Bangalore? " [ref=e445] [cursor=pointer]:
+          - text: Which day is cheapest to book a bus from Hyderabad to Bangalore?
+          - generic [ref=e446]: 
+      - group [ref=e448]:
+        - generic "How early should I book buses to get the best price? " [ref=e449] [cursor=pointer]:
+          - text: How early should I book buses to get the best price?
+          - generic [ref=e450]: 
+      - group [ref=e452]:
+        - generic "What are the popular boarding points in Hyderabad? " [ref=e453] [cursor=pointer]:
+          - text: What are the popular boarding points in Hyderabad?
+          - generic [ref=e454]: 
+      - group [ref=e456]:
+        - generic "What are the common drop points in Bangalore? " [ref=e457] [cursor=pointer]:
+          - text: What are the common drop points in Bangalore?
+          - generic [ref=e458]: 
+      - group [ref=e460]:
+        - generic "Is it safe for women to travel by bus from Hyderabad to Bangalore? " [ref=e461] [cursor=pointer]:
+          - text: Is it safe for women to travel by bus from Hyderabad to Bangalore?
+          - generic [ref=e462]: 
+      - group [ref=e464]:
+        - generic "Are government buses available from Hyderabad to Bangalore? " [ref=e465] [cursor=pointer]:
+          - text: Are government buses available from Hyderabad to Bangalore?
+          - generic [ref=e466]: 
+      - group [ref=e468]:
+        - generic "Will I get an e-ticket after booking? " [ref=e469] [cursor=pointer]:
+          - text: Will I get an e-ticket after booking?
+          - generic [ref=e470]: 
+      - group [ref=e472]:
+        - generic "What are the cancellation charges on Hyderabad to Bangalore bus ticket? " [ref=e473] [cursor=pointer]:
+          - text: What are the cancellation charges on Hyderabad to Bangalore bus ticket?
+          - generic [ref=e474]: 
+      - group [ref=e476]:
+        - generic "Are night buses available from Hyderabad to Bangalore? " [ref=e477] [cursor=pointer]:
+          - text: Are night buses available from Hyderabad to Bangalore?
+          - generic [ref=e478]: 
+    - generic [ref=e480]:
+      - generic [ref=e481]:
+        - heading "Top Bus Operators for Hyderabad to Bangalore" [level=2] [ref=e482]
+        - list "Top Bus Operators for Hyderabad to Bangalore - 10 items" [ref=e483]:
+          - listitem "IntrCity SmartBus" [ref=e484] [cursor=pointer]
+          - listitem "FlixBus" [ref=e485] [cursor=pointer]
+          - listitem "Go Tour Travels and Holidays" [ref=e486] [cursor=pointer]
+          - listitem "Jabbar Travels" [ref=e487] [cursor=pointer]
+          - listitem "KSM Roadways" [ref=e488] [cursor=pointer]
+          - listitem "November Travels" [ref=e489] [cursor=pointer]
+          - listitem "Intercity Fleet Management Solutions" [ref=e490] [cursor=pointer]
+          - listitem "Shyamoli Paribahan Pvt Ltd" [ref=e491] [cursor=pointer]
+          - listitem "BSR Tours And Travels" [ref=e492] [cursor=pointer]
+          - listitem "CMR Express" [ref=e493] [cursor=pointer]
+      - generic [ref=e494]:
+        - heading "Popular Bus Routes From Hyderabad" [level=2] [ref=e495]
+        - list "Popular Bus Routes From Hyderabad - 19 items" [ref=e496]:
+          - listitem "Hyderabad to Vijayawada Bus" [ref=e497] [cursor=pointer]
+          - listitem "Hyderabad to Tirupati Bus" [ref=e498] [cursor=pointer]
+          - listitem "Hyderabad to Visakhapatnam Bus" [ref=e499] [cursor=pointer]
+          - listitem "Hyderabad to Chennai Bus" [ref=e500] [cursor=pointer]
+          - listitem "Hyderabad to Pune Bus" [ref=e501] [cursor=pointer]
+          - listitem "Hyderabad to Nellore Bus" [ref=e502] [cursor=pointer]
+          - listitem "Hyderabad to Ongole Bus" [ref=e503] [cursor=pointer]
+          - listitem "Hyderabad to Mumbai Bus" [ref=e504] [cursor=pointer]
+          - listitem "Hyderabad to Guntur (Andhra Pradesh) Bus" [ref=e505] [cursor=pointer]
+          - listitem "Hyderabad to Kadapa Bus" [ref=e506] [cursor=pointer]
+          - listitem "Hyderabad to Rajahmundry Bus" [ref=e507] [cursor=pointer]
+          - listitem "Hyderabad to Nagpur Bus" [ref=e508] [cursor=pointer]
+          - listitem "Hyderabad to Eluru Bus" [ref=e509] [cursor=pointer]
+          - listitem "Hyderabad to Anantapur (andhra pradesh) Bus" [ref=e510] [cursor=pointer]
+          - listitem "Hyderabad to Bhubaneswar Bus" [ref=e511] [cursor=pointer]
+          - listitem "Hyderabad to Amalapuram Bus" [ref=e512] [cursor=pointer]
+          - listitem "Hyderabad to Proddatur (andhra pradesh) Bus" [ref=e513] [cursor=pointer]
+          - listitem "Hyderabad to Kakinada Bus" [ref=e514] [cursor=pointer]
+          - listitem "Hyderabad to Nandyala Bus" [ref=e515] [cursor=pointer]
+      - generic [ref=e516]:
+        - heading "Popular Bus Routes to Bangalore" [level=2] [ref=e517]
+        - list "Popular Bus Routes to Bangalore - 19 items" [ref=e518]:
+          - listitem "Chennai to Bangalore Bus" [ref=e519] [cursor=pointer]
+          - listitem "Coimbatore to Bangalore Bus" [ref=e520] [cursor=pointer]
+          - listitem "Tirupati to Bangalore Bus" [ref=e521] [cursor=pointer]
+          - listitem "Mangaluru to Bangalore Bus" [ref=e522] [cursor=pointer]
+          - listitem "Madurai to Bangalore Bus" [ref=e523] [cursor=pointer]
+          - listitem "Nellore to Bangalore Bus" [ref=e524] [cursor=pointer]
+          - listitem "Ernakulam to Bangalore Bus" [ref=e525] [cursor=pointer]
+          - listitem "Vijayawada to Bangalore Bus" [ref=e526] [cursor=pointer]
+          - listitem "Pondicherry to Bangalore Bus" [ref=e527] [cursor=pointer]
+          - listitem "Tiruchirapalli to Bangalore Bus" [ref=e528] [cursor=pointer]
+          - listitem "Pune to Bangalore Bus" [ref=e529] [cursor=pointer]
+          - listitem "Salem to Bangalore Bus" [ref=e530] [cursor=pointer]
+          - listitem "Belagavi to Bangalore Bus" [ref=e531] [cursor=pointer]
+          - listitem "Kozhikode to Bangalore Bus" [ref=e532] [cursor=pointer]
+          - listitem "Thrissur to Bangalore Bus" [ref=e533] [cursor=pointer]
+          - listitem "Udupi to Bangalore Bus" [ref=e534] [cursor=pointer]
+          - listitem "Goa to Bangalore Bus" [ref=e535] [cursor=pointer]
+          - listitem "Thiruvananthapuram to Bangalore Bus" [ref=e536] [cursor=pointer]
+          - listitem "Guntur (Andhra Pradesh) to Bangalore Bus" [ref=e537] [cursor=pointer]
+      - generic [ref=e538]:
+        - heading "Railway Information" [level=2] [ref=e539]
+        - list "Railway Information - 7 items" [ref=e540]:
+          - listitem "Train Ticket Booking" [ref=e541] [cursor=pointer]
+          - listitem "Train Between Stations" [ref=e542] [cursor=pointer]
+          - listitem "Train Seat Availability" [ref=e543] [cursor=pointer]
+          - listitem "PNR Status" [ref=e544] [cursor=pointer]
+          - listitem "Tatkal Ticket Booking" [ref=e545] [cursor=pointer]
+          - listitem "Premium Tatkal" [ref=e546] [cursor=pointer]
+          - listitem "Current Reservation" [ref=e547] [cursor=pointer]
+      - generic [ref=e548]:
+        - heading "Other Bus Routes to Bangalore" [level=2] [ref=e549]
+        - list "Other Bus Routes to Bangalore - 20 items" [ref=e550]:
+          - listitem "Gooty to Bangalore Bus" [ref=e551] [cursor=pointer]
+          - listitem "Thoothukudi to Bangalore Bus" [ref=e552] [cursor=pointer]
+          - listitem "Eluru to Bangalore Bus" [ref=e553] [cursor=pointer]
+          - listitem "Tanuku to Bangalore Bus" [ref=e554] [cursor=pointer]
+          - listitem "Uppunda to Bangalore Bus" [ref=e555] [cursor=pointer]
+          - listitem "Parassala to Bangalore Bus" [ref=e556] [cursor=pointer]
+          - listitem "Nimaaj to Bangalore Bus" [ref=e557] [cursor=pointer]
+          - listitem "Balaramapuram to Bangalore Bus" [ref=e558] [cursor=pointer]
+          - listitem "Ramanattukara to Bangalore Bus" [ref=e559] [cursor=pointer]
+          - listitem "Huvin Hipparagi to Bangalore Bus" [ref=e560] [cursor=pointer]
+          - listitem "Bilagi to Bangalore Bus" [ref=e561] [cursor=pointer]
+          - listitem "Paramathi Velur to Bangalore Bus" [ref=e562] [cursor=pointer]
+          - listitem "Banahatti to Bangalore Bus" [ref=e563] [cursor=pointer]
+          - listitem "Mayiladuthurai to Bangalore Bus" [ref=e564] [cursor=pointer]
+          - listitem "Srirangapattana to Bangalore Bus" [ref=e565] [cursor=pointer]
+          - listitem "Sirsi (Karnataka) to Bangalore Bus" [ref=e566] [cursor=pointer]
+          - listitem "Koppal to Bangalore Bus" [ref=e567] [cursor=pointer]
+          - listitem "Melkar to Bangalore Bus" [ref=e568] [cursor=pointer]
+          - listitem "Farangipete (karnataka) to Bangalore Bus" [ref=e569] [cursor=pointer]
+          - listitem "Sendhwa to Bangalore Bus" [ref=e570] [cursor=pointer]
+      - generic [ref=e571]:
+        - heading "Other Bus Routes from Hyderabad" [level=2] [ref=e572]
+        - list "Other Bus Routes from Hyderabad - 20 items" [ref=e573]:
+          - listitem "Hyderabad to Allagadda Bus" [ref=e574] [cursor=pointer]
+          - listitem "Hyderabad to Gudamalani Bus" [ref=e575] [cursor=pointer]
+          - listitem "Hyderabad to Bagoda Bus" [ref=e576] [cursor=pointer]
+          - listitem "Hyderabad to Thimmaraju Palem Bus" [ref=e577] [cursor=pointer]
+          - listitem "Hyderabad to Rayadurg Bus" [ref=e578] [cursor=pointer]
+          - listitem "Hyderabad to Putrela Bus" [ref=e579] [cursor=pointer]
+          - listitem "Hyderabad to Pedaprolu Bus" [ref=e580] [cursor=pointer]
+          - listitem "Hyderabad to Karapa Bus" [ref=e581] [cursor=pointer]
+          - listitem "Hyderabad to Utnoor Bus" [ref=e582] [cursor=pointer]
+          - listitem "Hyderabad to Penugonda (Andhra Pradesh) Bus" [ref=e583] [cursor=pointer]
+          - listitem "Hyderabad to Kunta(andhra pradesh) Bus" [ref=e584] [cursor=pointer]
+          - listitem "Hyderabad to Maihar Bus" [ref=e585] [cursor=pointer]
+          - listitem "Hyderabad to Vinukonda Bus" [ref=e586] [cursor=pointer]
+          - listitem "Hyderabad to Sangola (Solapur) Bus" [ref=e587] [cursor=pointer]
+          - listitem "Hyderabad to Medchal Bus" [ref=e588] [cursor=pointer]
+          - listitem "Hyderabad to Washim (Maharashtra) Bus" [ref=e589] [cursor=pointer]
+          - listitem "Hyderabad to Hoshangabad Bus" [ref=e590] [cursor=pointer]
+          - listitem "Hyderabad to Vemulawada(Telangana) Bus" [ref=e591] [cursor=pointer]
+          - listitem "Hyderabad to Anand Bus" [ref=e592] [cursor=pointer]
+          - listitem "Hyderabad to Chodavaram Bus" [ref=e593] [cursor=pointer]
+      - generic [ref=e594]:
+        - heading "More Bus Routes" [level=2] [ref=e595]
+        - list "More Bus Routes - 20 items" [ref=e596]:
+          - listitem "Rayakottai to Dindigul Bus" [ref=e597] [cursor=pointer]
+          - listitem "Valsad to Chhatral Bus" [ref=e598] [cursor=pointer]
+          - listitem "Nidhori to Lonavala Bus" [ref=e599] [cursor=pointer]
+          - listitem "Delhi to Rampur Bus" [ref=e600] [cursor=pointer]
+          - listitem "Navsari (Gujrat) to Kaprada Bus" [ref=e601] [cursor=pointer]
+          - listitem "Pharsabahar(chhattisgarh) to Bhilai (Madhya Pradesh) Bus" [ref=e602] [cursor=pointer]
+          - listitem "Narayangaon to Sangamner Bus" [ref=e603] [cursor=pointer]
+          - listitem "Ankleshwar to Samadhiyala Bus" [ref=e604] [cursor=pointer]
+          - listitem "Neyyattinkara to Ettumanoor Bus" [ref=e605] [cursor=pointer]
+          - listitem "Halol to Mumbai Bus" [ref=e606] [cursor=pointer]
+          - listitem "Kathua to Sonipat Bus" [ref=e607] [cursor=pointer]
+          - listitem "Jalore to Shivganj Bus" [ref=e608] [cursor=pointer]
+          - listitem "Pulwama to Chandigarh Bus" [ref=e609] [cursor=pointer]
+          - listitem "Victor to Mahuva (Gujarat) Bus" [ref=e610] [cursor=pointer]
+          - listitem "Karunya Nagar to Kavalkinaru Bus" [ref=e611] [cursor=pointer]
+          - listitem "Babra to Atkot Bus" [ref=e612] [cursor=pointer]
+          - listitem "Bikapur (uttar Pradesh) to Kaptanganj (basti) Bus" [ref=e613] [cursor=pointer]
+          - listitem "Bhanduri (Keshod) to Surat Bus" [ref=e614] [cursor=pointer]
+          - listitem "Gandhinagar (Gujarat) to Kanodar Bus" [ref=e615] [cursor=pointer]
+          - listitem "Muzaffarnagar to Khatushyamji Bus" [ref=e616] [cursor=pointer]
+      - generic [ref=e617]:
+        - heading "Top Cities on Redbus" [level=2] [ref=e618]
+        - list "Top Cities on Redbus - 20 items" [ref=e619]:
+          - listitem "Bangalore bus ticket booking" [ref=e620] [cursor=pointer]
+          - listitem "Chennai bus ticket booking" [ref=e621] [cursor=pointer]
+          - listitem "Hyderabad bus ticket booking" [ref=e622] [cursor=pointer]
+          - listitem "Pune bus ticket booking" [ref=e623] [cursor=pointer]
+          - listitem "Delhi bus ticket booking" [ref=e624] [cursor=pointer]
+          - listitem "Coimbatore bus ticket booking" [ref=e625] [cursor=pointer]
+          - listitem "Mumbai bus ticket booking" [ref=e626] [cursor=pointer]
+          - listitem "Indore bus ticket booking" [ref=e627] [cursor=pointer]
+          - listitem "Jaipur (Rajasthan) bus ticket booking" [ref=e628] [cursor=pointer]
+          - listitem "Kolkata bus ticket booking" [ref=e629] [cursor=pointer]
+          - listitem "Ahmedabad bus ticket booking" [ref=e630] [cursor=pointer]
+          - listitem "Vijayawada bus ticket booking" [ref=e631] [cursor=pointer]
+          - listitem "Madurai bus ticket booking" [ref=e632] [cursor=pointer]
+          - listitem "Nagpur bus ticket booking" [ref=e633] [cursor=pointer]
+          - listitem "Guwahati bus ticket booking" [ref=e634] [cursor=pointer]
+          - listitem "Prayagraj(Uttar Pradesh) bus ticket booking" [ref=e635] [cursor=pointer]
+          - listitem "Bhopal bus ticket booking" [ref=e636] [cursor=pointer]
+          - listitem "Tirupati bus ticket booking" [ref=e637] [cursor=pointer]
+          - listitem "Lucknow bus ticket booking" [ref=e638] [cursor=pointer]
+          - listitem "Chandigarh bus ticket booking" [ref=e639] [cursor=pointer]
+      - generic [ref=e640]:
+        - heading "Top Government Bus Operators on Redbus" [level=2] [ref=e641]
+        - list "Top Government Bus Operators on Redbus - 21 items" [ref=e642]:
+          - listitem "KSRTC (Karnataka)" [ref=e643] [cursor=pointer]
+          - listitem "APSRTC" [ref=e644] [cursor=pointer]
+          - listitem "TSRTC" [ref=e645] [cursor=pointer]
+          - listitem "KSRTC (Kerala)" [ref=e646] [cursor=pointer]
+          - listitem "UPSRTC" [ref=e647] [cursor=pointer]
+          - listitem "RSRTC" [ref=e648] [cursor=pointer]
+          - listitem "SBSTC" [ref=e649] [cursor=pointer]
+          - listitem "TNSTC" [ref=e650] [cursor=pointer]
+          - listitem "PRTC" [ref=e651] [cursor=pointer]
+          - listitem "PEPSU" [ref=e652] [cursor=pointer]
+          - listitem "SNT" [ref=e653] [cursor=pointer]
+          - listitem "WBTC" [ref=e654] [cursor=pointer]
+          - listitem "NBSTC" [ref=e655] [cursor=pointer]
+          - listitem "GSRTC" [ref=e656] [cursor=pointer]
+          - listitem "KTCL" [ref=e657] [cursor=pointer]
+          - listitem "MTC" [ref=e658] [cursor=pointer]
+          - listitem "KAAC TRANSPORT" [ref=e659] [cursor=pointer]
+          - listitem "HRTC" [ref=e660] [cursor=pointer]
+          - listitem "ASTC" [ref=e661] [cursor=pointer]
+          - listitem "BSRTC" [ref=e662] [cursor=pointer]
+          - listitem "CTU" [ref=e663] [cursor=pointer]
+      - generic [ref=e664]:
+        - heading "Popular Volvo Bus Routes To Bangalore" [level=2] [ref=e665]
+        - list "Popular Volvo Bus Routes To Bangalore - 7 items" [ref=e666]:
+          - listitem "Chennai to Bangalore Volvo bus" [ref=e667] [cursor=pointer]
+          - listitem "Erode to Bangalore Volvo bus" [ref=e668] [cursor=pointer]
+          - listitem "Virudhunagar to Bangalore Volvo bus" [ref=e669] [cursor=pointer]
+          - listitem "Ooty to Bangalore Volvo bus" [ref=e670] [cursor=pointer]
+          - listitem "Pune to Bangalore Volvo bus" [ref=e671] [cursor=pointer]
+          - listitem "Coimbatore to Bangalore Volvo bus" [ref=e672] [cursor=pointer]
+          - listitem "Bhadravati to Bangalore Volvo bus" [ref=e673] [cursor=pointer]
+  - generic [ref=e676]:
+    - navigation "Footer links" [ref=e677]:
+      - generic [ref=e678]:
+        - navigation "secondary" [ref=e679]:
+          - generic [ref=e681]:
+            - heading "About redBus" [level=2] [ref=e682]
+            - list [ref=e683]:
+              - listitem [ref=e684]:
+                - link "Contact us" [ref=e685] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/contactus
+              - listitem [ref=e686]:
+                - link "Sitemap" [ref=e687] [cursor=pointer]:
+                  - /url: https://www.redbus.in/sitemap.html
+              - listitem [ref=e688]:
+                - link "Offers" [ref=e689] [cursor=pointer]:
+                  - /url: https://www.redbus.in/offers
+              - listitem [ref=e690]:
+                - link "Careers" [ref=e691] [cursor=pointer]:
+                  - /url: https://www.redbus.in/careers
+        - navigation "secondary" [ref=e692]:
+          - generic [ref=e694]:
+            - heading "Info" [level=2] [ref=e695]
+            - list [ref=e696]:
+              - listitem [ref=e697]:
+                - link "T&C" [ref=e698] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/termscondition
+              - listitem [ref=e699]:
+                - link "Privacy policy" [ref=e700] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/privacypolicy
+              - listitem [ref=e701]:
+                - link "Blog" [ref=e702] [cursor=pointer]:
+                  - /url: https://blog.redbus.in
+              - listitem [ref=e703]:
+                - link "Bus operator registration" [ref=e704] [cursor=pointer]:
+                  - /url: https://onboardvendor.redbus.in/
+              - listitem [ref=e705]:
+                - link "Agent registration" [ref=e706] [cursor=pointer]:
+                  - /url: https://in3.seatseller.travel/
+              - listitem [ref=e707]:
+                - link "Insurance partner" [ref=e708] [cursor=pointer]:
+                  - /url: https://www.acko.com/
+              - listitem [ref=e709]:
+                - link "User agreement" [ref=e710] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/useragreement
+              - listitem [ref=e711]:
+                - link "Primo Bus" [ref=e712] [cursor=pointer]:
+                  - /url: https://www.redbus.in/primo/primo-service
+              - listitem [ref=e713]:
+                - link "Bus Timetable" [ref=e714] [cursor=pointer]:
+                  - /url: https://www.redbus.in/bus-timetable
+              - listitem [ref=e715]:
+                - link "Report Security Issues" [ref=e716] [cursor=pointer]:
+                  - /url: " https://www.redbus.in/bugbounty"
+        - navigation "secondary" [ref=e717]:
+          - generic [ref=e719]:
+            - heading "Global Sites" [level=2] [ref=e720]
+            - list [ref=e721]:
+              - listitem [ref=e722]:
+                - link "India" [ref=e723] [cursor=pointer]:
+                  - /url: https://www.redbus.in/
+              - listitem [ref=e724]:
+                - link "Singapore" [ref=e725] [cursor=pointer]:
+                  - /url: https://www.redbus.sg/
+              - listitem [ref=e726]:
+                - link "Malaysia" [ref=e727] [cursor=pointer]:
+                  - /url: https://www.redbus.my/
+              - listitem [ref=e728]:
+                - link "Indonesia" [ref=e729] [cursor=pointer]:
+                  - /url: https://www.redbus.id/
+              - listitem [ref=e730]:
+                - link "Peru" [ref=e731] [cursor=pointer]:
+                  - /url: https://www.redbus.pe/
+              - listitem [ref=e732]:
+                - link "Colombia" [ref=e733] [cursor=pointer]:
+                  - /url: https://www.redbus.co/
+              - listitem [ref=e734]:
+                - link "Cambodia" [ref=e735] [cursor=pointer]:
+                  - /url: https://www.redbus.com.kh/
+              - listitem [ref=e736]:
+                - link "Vietnam" [ref=e737] [cursor=pointer]:
+                  - /url: https://www.redbus.vn/
+        - navigation "secondary" [ref=e738]:
+          - generic [ref=e740]:
+            - heading "Our Partners" [level=2] [ref=e741]
+            - list [ref=e742]:
+              - listitem [ref=e743]:
+                - link "Goibibo Bus" [ref=e744] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/bus/
+              - listitem [ref=e745]:
+                - link "Goibibo Hotels" [ref=e746] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/hotels/
+              - listitem [ref=e747]:
+                - link "Makemytrip Hotels" [ref=e748] [cursor=pointer]:
+                  - /url: https://www.makemytrip.com/hotels/
+    - generic [ref=e749]:
+      - img "redBus Logo" [ref=e750]
+      - generic [ref=e751]: redBus is the world's largest online bus ticket booking service trusted by over 56+ million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.
+    - generic [ref=e752]:
+      - generic [ref=e753]: Ⓒ 2026 MAKEMYTRIP (INDIA) PRIVATE LIMITED. All rights reserved
+      - list [ref=e754]:
+        - listitem [ref=e755]:
+          - link "redbus_facebook" [ref=e756] [cursor=pointer]:
+            - /url: https://www.facebook.com/redbus.in/
+            - img "redbus_facebook" [ref=e757]
+        - listitem [ref=e758]:
+          - link "redbus_linkedin" [ref=e759] [cursor=pointer]:
+            - /url: https://in.linkedin.com/company/redbus_2/
+            - img "redbus_linkedin" [ref=e760]
+        - listitem [ref=e761]:
+          - link "redbus_twitter" [ref=e762] [cursor=pointer]:
+            - /url: https://twitter.com/redBus_in/
+            - img "redbus_twitter" [ref=e763]
+        - listitem [ref=e764]:
+          - link "redbus_instagram" [ref=e765] [cursor=pointer]:
+            - /url: https://www.instagram.com/accounts/login/?next=/redbusindia/
+            - img "redbus_instagram" [ref=e766]
+  - dialog [active] [ref=e1515]:
+    - heading [level=2] [ref=e1516]: Hyderabad to Bangalore
+    - generic [ref=e1518]:
+      - button [ref=e1520] [cursor=pointer]:
+        - generic [ref=e1521]: 
+      - heading [level=3] [ref=e1523]:
+        - generic [ref=e1524]:
+          - generic [ref=e1525]: Hyderabad
+          - generic [ref=e1526]: 
+          - text: Bangalore
+    - tablist [ref=e1527]:
+      - generic [ref=e1528]:
+        - tab [selected] [ref=e1530]:
+          - tab [selected] [ref=e1531] [cursor=pointer]:
+            - generic [ref=e1532]: 1. Select seats
+        - tab [ref=e1533]:
+          - tab [ref=e1534] [cursor=pointer]:
+            - generic [ref=e1535]: 2. Board/Drop point
+        - tab [ref=e1536]:
+          - tab [ref=e1537] [cursor=pointer]:
+            - generic [ref=e1538]: 3. Passenger Info
+    - generic [ref=e1542]:
+      - generic [ref=e1543]:
+        - link [ref=e1544] [cursor=pointer]: Use Tab to navigate through available seats. Press Space or Enter to select or deselect a seat. Lower deck seats are listed first, followed by upper deck seats. Maximum 6 seats can be selected.
+        - main [ref=e1545]:
+          - group [ref=e1546]:
+            - generic [ref=e1547]: Press Enter to start navigating seats. Use arrow keys to move between seats. Press Tab or Escape to exit seat navigation. Lower deck seats are listed first, followed by upper deck seats. Maximum 6 seats can be selected.
+            - group [ref=e1548]:
+              - generic [ref=e1549]:
+                - generic [ref=e1550]:
+                  - heading [level=3] [ref=e1551]: Lower deck
+                  - img [ref=e1552]
+                - button [ref=e1554]:
+                  - generic: Sold
+                  - img [ref=e1555]
+                - button [ref=e1559]:
+                  - generic: Sold
+                  - img [ref=e1560]
+                - button [ref=e1564] [cursor=pointer]:
+                  - generic: ₹2199
+                - button [ref=e1566] [cursor=pointer]:
+                  - generic: ₹1599
+                - button [ref=e1568] [cursor=pointer]:
+                  - generic: ₹1599
+                - button [ref=e1570]:
+                  - generic: Sold
+                  - img [ref=e1571]
+                - button [ref=e1575]:
+                  - generic: Sold
+                  - img [ref=e1576]
+                - button [ref=e1580]:
+                  - generic: Sold
+                  - img [ref=e1581]
+                - button [ref=e1585] [cursor=pointer]:
+                  - generic: ₹2199
+                - button [ref=e1587]:
+                  - generic: Sold
+                  - img [ref=e1588]
+                - button [ref=e1592] [cursor=pointer]:
+                  - generic: ₹1599
+                  - img [ref=e1594]
+                - button [ref=e1598]:
+                  - generic: Sold
+                  - img [ref=e1599]
+                - button [ref=e1603] [cursor=pointer]:
+                  - generic: ₹1599
+                - button [ref=e1605] [cursor=pointer]:
+                  - generic: ₹1599
+                - button [ref=e1607] [cursor=pointer]:
+                  - generic: ₹2199
+                - button [ref=e1609] [cursor=pointer]:
+                  - generic: ₹1599
+                - button [ref=e1611] [cursor=pointer]:
+                  - generic: ₹1599
+                - button [ref=e1613] [cursor=pointer]:
+                  - generic: ₹2199
+            - group [ref=e1615]:
+              - generic [ref=e1616]:
+                - heading [level=3] [ref=e1617]: Upper deck
+                - button [ref=e1618] [cursor=pointer]:
+                  - generic: ₹1499
+                - button [ref=e1620] [cursor=pointer]:
+                  - generic: ₹1499
+                - button [ref=e1622] [cursor=pointer]:
+                  - generic: ₹1999
+                - button [ref=e1624]:
+                  - generic: Sold
+                  - img [ref=e1625]
+                - button [ref=e1629]:
+                  - generic: Sold
+                  - img [ref=e1630]
+                - button [ref=e1634]:
+                  - generic: Sold
+                  - img [ref=e1635]
+                - button [ref=e1639] [cursor=pointer]:
+                  - generic: ₹1499
+                - button [ref=e1641] [cursor=pointer]:
+                  - generic: ₹1499
+                - button [ref=e1643] [cursor=pointer]:
+                  - generic: ₹1999
+                - button [ref=e1645] [cursor=pointer]:
+                  - generic: ₹1499
+                - button [ref=e1647] [cursor=pointer]:
+                  - generic: ₹1499
+                - button [ref=e1649]:
+                  - generic: Sold
+                  - img [ref=e1650]
+                - button [ref=e1654]:
+                  - generic: Sold
+                  - img [ref=e1655]
+                - button [ref=e1659] [cursor=pointer]:
+                  - generic: ₹1499
+                  - img [ref=e1661]
+                - button [ref=e1665] [cursor=pointer]:
+                  - generic: ₹1999
+                - button [ref=e1667] [cursor=pointer]:
+                  - generic: ₹1499
+                  - img [ref=e1669]
+                - button [ref=e1673] [cursor=pointer]:
+                  - generic: ₹1299
+                  - img [ref=e1675]
+                - button [ref=e1679] [cursor=pointer]:
+                  - generic: ₹1999
+        - generic [ref=e1682]:
+          - heading [level=3] [ref=e1683]: Know your seat types
+          - table [ref=e1685]:
+            - rowgroup [ref=e1686]:
+              - row [ref=e1687]:
+                - columnheader [ref=e1688]: Seat Types
+                - columnheader [ref=e1689]: Seater
+                - columnheader [ref=e1690]: Sleeper
+            - rowgroup [ref=e1691]:
+              - row [ref=e1692]:
+                - cell [ref=e1693]: Available
+                - cell [ref=e1694]:
+                  - img [ref=e1696]
+                - cell [ref=e1697]:
+                  - img [ref=e1699]
+              - row [ref=e1700]:
+                - cell [ref=e1701]: Available only for male passenger
+                - cell [ref=e1702]:
+                  - img [ref=e1704]
+                - cell [ref=e1705]:
+                  - img [ref=e1707]
+              - row [ref=e1708]:
+                - cell [ref=e1709]: Already booked
+                - cell [ref=e1710]:
+                  - img [ref=e1712]
+                - cell [ref=e1713]:
+                  - img [ref=e1715]
+              - row [ref=e1716]:
+                - cell [ref=e1717]: Selected by you
+                - cell [ref=e1718]:
+                  - img [ref=e1720]
+                - cell [ref=e1721]:
+                  - img [ref=e1723]
+              - row [ref=e1724]:
+                - cell [ref=e1725]: Available only for female passenger
+                - cell [ref=e1726]:
+                  - img [ref=e1728]
+                - cell [ref=e1729]:
+                  - img [ref=e1731]
+              - row [ref=e1732]:
+                - cell [ref=e1733]: Booked by female passenger
+                - cell [ref=e1734]:
+                  - img [ref=e1736]
+                - cell [ref=e1737]:
+                  - img [ref=e1739]
+              - row [ref=e1740]:
+                - cell [ref=e1741]: Booked by male passenger
+                - cell [ref=e1742]:
+                  - img [ref=e1744]
+                - cell [ref=e1745]:
+                  - img [ref=e1747]
+      - generic [ref=e1751]:
+        - article [ref=e1753]:
+          - generic [ref=e1754]:
+            - generic [ref=e1755]:
+              - generic [ref=e1756]:
+                - img [ref=e1757]
+                - heading [level=2] [ref=e1758]: LVP Travels
+              - paragraph [ref=e1759]: 22:30 - 08:50 · Sat 11 Apr
+            - button [ref=e1761] [cursor=pointer]:
+              - generic [ref=e1762]:
+                - generic [ref=e1764]:
+                  - generic [ref=e1765]: 
+                  - generic [ref=e1766]: "4.7"
+                - generic [ref=e1767]: "1169"
+        - region [ref=e1769]:
+          - generic [ref=e1770]:
+            - button [ref=e1771]:
+              - img [ref=e1772] [cursor=pointer]
+            - button [ref=e1773]:
+              - img [ref=e1774] [cursor=pointer]
+            - button [ref=e1775]:
+              - img [ref=e1776] [cursor=pointer]
+            - button [ref=e1777]:
+              - img [ref=e1778] [cursor=pointer]
+            - button [ref=e1779]:
+              - img [ref=e1780] [cursor=pointer]
+            - button [ref=e1781]:
+              - img [ref=e1782] [cursor=pointer]
+            - button [ref=e1783]:
+              - img [ref=e1784] [cursor=pointer]
+            - button [ref=e1785]:
+              - img [ref=e1786] [cursor=pointer]
+            - button [ref=e1787]:
+              - img [ref=e1788] [cursor=pointer]
+            - button [ref=e1789]:
+              - img [ref=e1790] [cursor=pointer]
+            - button [ref=e1791]:
+              - img [ref=e1792] [cursor=pointer]
+            - button [ref=e1793]:
+              - img [ref=e1794] [cursor=pointer]
+            - button [ref=e1795]:
+              - img [ref=e1796] [cursor=pointer]
+            - button [ref=e1797]:
+              - img [ref=e1798] [cursor=pointer]
+            - button [ref=e1799]:
+              - img [ref=e1800] [cursor=pointer]
+        - tablist [ref=e1802]:
+          - generic [ref=e1803]:
+            - tab [selected] [ref=e1805]:
+              - tab [selected] [ref=e1806] [cursor=pointer]:
+                - generic [ref=e1807]: Highlights
+            - tab [ref=e1808]:
+              - tab [ref=e1809] [cursor=pointer]:
+                - generic [ref=e1810]: Cancellation policy
+            - tab [ref=e1811]:
+              - tab [ref=e1812] [cursor=pointer]:
+                - generic [ref=e1813]: Reschedule Policy
+            - tab [ref=e1814]:
+              - tab [ref=e1815] [cursor=pointer]:
+                - generic [ref=e1816]: Boarding point
+            - tab [ref=e1817]:
+              - tab [ref=e1818] [cursor=pointer]:
+                - generic [ref=e1819]: Dropping point
+            - tab [ref=e1820]:
+              - tab [ref=e1821] [cursor=pointer]:
+                - generic [ref=e1822]: Bus route
+            - tab [ref=e1823]:
+              - tab [ref=e1824] [cursor=pointer]:
+                - generic [ref=e1825]: Rest stop
+            - tab [ref=e1826]:
+              - tab [ref=e1827] [cursor=pointer]:
+                - generic [ref=e1828]: Bus Features
+            - tab [ref=e1829]:
+              - tab [ref=e1830] [cursor=pointer]:
+                - generic [ref=e1831]: Rating and reviews
+            - tab [ref=e1832]:
+              - tab [ref=e1833] [cursor=pointer]:
+                - generic [ref=e1834]: This is a Primo
+            - tab [ref=e1835]:
+              - tab [ref=e1836] [cursor=pointer]:
+                - generic [ref=e1837]: Other Policies
+        - generic [ref=e1841]:
+          - generic [ref=e1843]:
+            - button [ref=e1844] [cursor=pointer]:
+              - generic [ref=e1846]:
+                - paragraph [ref=e1847]: Highly On Time
+                - paragraph [ref=e1848]: 827 of 880 past trips
+              - button [ref=e1849]: 
+            - generic [ref=e1850]:
+              - generic [ref=e1852]:
+                - paragraph [ref=e1853]: New Bus
+                - paragraph [ref=e1854]: 10 months old
+              - img [ref=e1856]
+          - button [ref=e1859] [cursor=pointer]:
+            - generic [ref=e1860]:
+              - paragraph [ref=e1863]: Top 5%
+              - paragraph [ref=e1866]: One of the best on this route
+            - button [ref=e1868]: 
+        - generic [ref=e1872]:
+          - heading [level=4] [ref=e1875]: Cancellation policy
+          - table [ref=e1878]:
+            - rowgroup [ref=e1879]:
+              - row [ref=e1880]:
+                - columnheader [ref=e1881]: Time window
+                - columnheader [ref=e1882]: Refund
+            - rowgroup [ref=e1883]:
+              - row [ref=e1884]:
+                - cell [ref=e1885]: Before 4th Apr 09:00 PM
+                - cell [ref=e1886]: 90%
+              - row [ref=e1887]:
+                - cell [ref=e1888]: From 4th Apr 09:00 PM Until 8th Apr 09:00 PM
+                - cell [ref=e1889]: 88%
+              - row [ref=e1890]:
+                - cell [ref=e1891]: From 8th Apr 09:00 PM Until 10th Apr 09:00 PM
+                - cell [ref=e1892]: 85%
+              - row [ref=e1893]:
+                - cell [ref=e1894]: From 10th Apr 09:00 PM Until 11th Apr 09:00 AM
+                - cell [ref=e1895]: 80%
+              - row [ref=e1896]:
+                - cell [ref=e1897]: From 11th Apr 09:00 AM Until 11th Apr 01:00 PM
+                - cell [ref=e1898]: 50%
+              - row [ref=e1899]:
+                - cell [ref=e1900]: From 11th Apr 01:00 PM Until 11th Apr 09:00 PM
+                - cell [ref=e1901]: 0%
+          - paragraph [ref=e1904]: Add Free Cancellation while booking to get a 100% refund on cancellation.
+          - list [ref=e1905]:
+            - listitem [ref=e1906]: "* Cancellation charges are computed on a per seat basis. Above cancellation fare is calculated based on seat fare of ₹ 1299"
+            - listitem [ref=e1907]: "* Cancellation charges are calculated based on service start date + time at :11-04-2026 21:00"
+            - listitem [ref=e1908]: "* Ticket cannot be cancelled after scheduled bus departure time from the first boarding point"
+            - listitem [ref=e1909]: "* Note: Cancellation charges mentioned above are excluding GST"
+            - listitem [ref=e1910]: "* For group bookings individual seats can be cancelled."
+        - generic [ref=e1913]:
+          - heading [level=4] [ref=e1916]: Date change policy
+          - table [ref=e1919]:
+            - rowgroup [ref=e1920]:
+              - row [ref=e1921]:
+                - columnheader [ref=e1922]: Time before travel
+                - columnheader [ref=e1923]: Date change charges
+            - rowgroup [ref=e1924]:
+              - row [ref=e1925]:
+                - cell [ref=e1926]: Before 11th Apr 01:00 PM
+                - cell [ref=e1927]: FREE
+        - generic [ref=e1930]:
+          - generic [ref=e1932]:
+            - heading [level=4] [ref=e1933]: Boarding point
+            - generic [ref=e1934]: Hyderabad
+          - list [ref=e1935]:
+            - listitem [ref=e1936]:
+              - generic [ref=e1937]:
+                - text: 20:30
+                - generic [ref=e1938]: 11 Apr
+              - generic [ref=e1941]:
+                - generic [ref=e1942]: LB NAGAR METRO PICK UP
+                - generic [ref=e1943]: avail free metro pickup drop at miyapur metro
+            - listitem [ref=e1944]:
+              - generic [ref=e1945]:
+                - text: 20:30
+                - generic [ref=e1946]: 11 Apr
+              - generic [ref=e1949]:
+                - generic [ref=e1950]: Beeramguda (Pickup Van/Bus)
+                - generic [ref=e1951]: (pickup van pick )at near beeramguda Arch Vijetha Super Market pickup van drop at miyapur
+            - listitem [ref=e1952]:
+              - generic [ref=e1953]:
+                - text: 20:31
+                - generic [ref=e1954]: 11 Apr
+              - generic [ref=e1957]:
+                - generic [ref=e1958]: VICTORIA MEMORIAL METRO
+                - generic [ref=e1959]: Avail Free Metro Pickup Drop At Miyapur Metro
+            - listitem [ref=e1960]:
+              - generic [ref=e1961]:
+                - text: 20:31
+                - generic [ref=e1962]: 11 Apr
+              - generic [ref=e1965]:
+                - generic [ref=e1966]: Chaithanyapuri Metro Pick up
+                - generic [ref=e1967]: Avail Free Metro Pickup Drop At Miyapur Metro
+          - button [ref=e1970] [cursor=pointer]: View all boarding points
+        - generic [ref=e1973]:
+          - generic [ref=e1975]:
+            - heading [level=4] [ref=e1976]: Dropping point
+            - generic [ref=e1977]: Bangalore
+          - list [ref=e1978]:
+            - listitem [ref=e1979]:
+              - generic [ref=e1980]:
+                - text: 06:30
+                - generic [ref=e1981]: 12 Apr
+              - generic [ref=e1984]:
+                - generic [ref=e1985]: chikkaballapur bypass
+                - generic [ref=e1986]: NEAR CHIKABALLAPUR BYPASS
+            - listitem [ref=e1987]:
+              - generic [ref=e1988]:
+                - text: 07:00
+                - generic [ref=e1989]: 12 Apr
+              - generic [ref=e1992]:
+                - generic [ref=e1993]: Devanahalli
+                - generic [ref=e1994]: Devanahalli,Devanahalli
+            - listitem [ref=e1995]:
+              - generic [ref=e1996]:
+                - text: 07:20
+                - generic [ref=e1997]: 12 Apr
+              - generic [ref=e2000]:
+                - generic [ref=e2001]: BIAL Airport
+                - generic [ref=e2002]: near toll gate BIAL
+            - listitem [ref=e2003]:
+              - generic [ref=e2004]:
+                - text: 07:25
+                - generic [ref=e2005]: 12 Apr
+              - generic [ref=e2008]:
+                - generic [ref=e2009]: Sada Hali Toll Gate
+                - generic [ref=e2010]: Sadahalli Toll gate
+          - button [ref=e2013] [cursor=pointer]: View all dropping points
+        - generic [ref=e2016]:
+          - generic [ref=e2018]:
+            - heading [level=4] [ref=e2019]: Bus route
+            - generic [ref=e2020]: 569 km · 10 hr 20 min
+          - generic [ref=e2021]:
+            - generic [ref=e2022]:
+              - generic [ref=e2023]: Hyderabad
+              - generic [ref=e2024]: →
+            - generic [ref=e2025]:
+              - generic [ref=e2026]: Kurnool
+              - generic [ref=e2027]: →
+            - generic [ref=e2028]:
+              - generic [ref=e2029]: Gooty
+              - generic [ref=e2030]: →
+            - generic [ref=e2031]:
+              - generic [ref=e2032]: Anantapur (andhra pradesh)
+              - generic [ref=e2033]: →
+            - generic [ref=e2034]:
+              - generic [ref=e2035]: Penukonda
+              - generic [ref=e2036]: →
+            - generic [ref=e2038]: Bangalore
+          - generic [ref=e2039]:
+            - generic [ref=e2040]:
+              - img
+              - generic [ref=e2041]:
+                - generic [ref=e2042]:
+                  - paragraph [ref=e2043]: Reaches Bangalore
+                  - heading [level=3] [ref=e2044]: Highly On Time
+                  - paragraph [ref=e2045]: 827 of 880 past trips in the last 15 days
+                - generic [ref=e2047]:
+                  - img [ref=e2048]
+                  - generic [ref=e2051]:
+                    - generic [ref=e2052]: "94"
+                    - generic [ref=e2053]: "%"
+            - paragraph [ref=e2054]: "*Insights based on tracking information exclusive to redBus"
+        - generic [ref=e2057]:
+          - heading [level=4] [ref=e2060]: Rest stop
+          - generic [ref=e2061]: This bus has no rest stop
+        - region [ref=e2064]:
+          - heading [level=4] [ref=e2067]: Bus Features
+          - list [ref=e2070]:
+            - listitem [ref=e2071]:
+              - img [ref=e2072]
+              - generic [ref=e2073]: Blankets
+            - listitem [ref=e2074]:
+              - img [ref=e2075]
+              - generic [ref=e2076]: Charging Point
+            - listitem [ref=e2077]:
+              - img [ref=e2078]
+              - generic [ref=e2079]: Reading Light
+            - listitem [ref=e2080]:
+              - img [ref=e2081]
+              - generic [ref=e2082]: Pillow
+            - listitem [ref=e2083]:
+              - img [ref=e2084]
+              - generic [ref=e2085]: CCTV
+            - listitem [ref=e2086]:
+              - img [ref=e2087]
+              - generic [ref=e2088]: Bed Sheet
+        - generic [ref=e2092]:
+          - generic [ref=e2093]:
+            - heading [level=4] [ref=e2094]: Ratings & reviews
+            - group [ref=e2095]:
+              - generic [ref=e2096]:
+                - generic [ref=e2097]: 
+                - text: "4.7"
+              - generic [ref=e2098]: 1169 Ratings
+          - generic [ref=e2099]:
+            - generic [ref=e2101]: 
+            - generic [ref=e2102]: Real Feedback from verified travellers
+          - generic [ref=e2103]:
+            - list [ref=e2104]:
+              - listitem [ref=e2105]:
+                - generic [ref=e2106]:
+                  - generic [ref=e2107]: "5"
+                  - generic [ref=e2108]: 
+                - generic [ref=e2111]: 85%
+              - listitem [ref=e2112]:
+                - generic [ref=e2113]:
+                  - generic [ref=e2114]: "4"
+                  - generic [ref=e2115]: 
+                - generic [ref=e2118]: 11%
+              - listitem [ref=e2119]:
+                - generic [ref=e2120]:
+                  - generic [ref=e2121]: "3"
+                  - generic [ref=e2122]: 
+                - generic [ref=e2125]: 2%
+              - listitem [ref=e2126]:
+                - generic [ref=e2127]:
+                  - generic [ref=e2128]: "2"
+                  - generic [ref=e2129]: 
+                - generic [ref=e2132]: 1%
+              - listitem [ref=e2133]:
+                - generic [ref=e2134]:
+                  - generic [ref=e2135]: "1"
+                  - generic [ref=e2136]: 
+                - generic [ref=e2139]: 1%
+            - generic [ref=e2140]:
+              - heading [level=4] [ref=e2141]: Loved by travelers
+              - list [ref=e2142]:
+                - listitem [ref=e2143]:
+                  - generic [ref=e2144]: Punctuality (751)
+                - listitem [ref=e2145]:
+                  - generic [ref=e2146]: Cleanliness (631)
+                - listitem [ref=e2147]:
+                  - generic [ref=e2148]: Driving (623)
+                - listitem [ref=e2149]:
+                  - generic [ref=e2150]: Staff behavior (610)
+                - listitem [ref=e2151]:
+                  - generic [ref=e2152]: Seat / Sleep Comfort (609)
+                - listitem [ref=e2153]:
+                  - generic [ref=e2154]: AC (560)
+                - listitem [ref=e2155]:
+                  - generic [ref=e2156]: Live tracking (536)
+                - listitem [ref=e2157]:
+                  - generic [ref=e2158]: Rest stop hygiene (421)
+            - button [ref=e2161] [cursor=pointer]: Read all 352 reviews
+        - generic [ref=e2164]:
+          - heading [level=4] [ref=e2167]: This is a Primo
+          - generic [ref=e2168]:
+            - generic [ref=e2170]:
+              - generic [ref=e2171]: LVP Travels
+              - generic [ref=e2172]: A Rising Star on redBus
+            - img [ref=e2176]
+        - generic [ref=e2179]:
+          - heading [level=4] [ref=e2182]: Other Policies
+          - list [ref=e2183]:
+            - generic [ref=e2185] [cursor=pointer]:
+              - img [ref=e2186]
+              - generic [ref=e2187]:
+                - heading [level=5] [ref=e2188]: Child passenger policy
+                - generic [ref=e2190]: Children above the age of 4 will need a ticket
+            - generic [ref=e2192] [cursor=pointer]:
+              - img [ref=e2193]
+              - generic [ref=e2194]:
+                - heading [level=5] [ref=e2195]: Luggage policy
+                - generic [ref=e2196]:
+                  - generic [ref=e2197]: 2 pieces of luggage will be accepted free of charge per passenger. Excess items will be chargeable
+                  - generic [ref=e2198]: Excess baggage over 20 kgs per passenger will be chargeable
+            - generic [ref=e2200] [cursor=pointer]:
+              - img [ref=e2201]
+              - generic [ref=e2202]:
+                - heading [level=5] [ref=e2203]: Pets Policy
+                - generic [ref=e2205]: Pets are not allowed
+            - generic [ref=e2207] [cursor=pointer]:
+              - img [ref=e2208]
+              - generic [ref=e2209]:
+                - heading [level=5] [ref=e2210]: Liquor Policy
+                - generic [ref=e2212]: Carrying or consuming liquor inside the bus is prohibited. Bus operator reserves the right to deboard drunk passengers.
+            - generic [ref=e2214] [cursor=pointer]:
+              - img [ref=e2215]
+              - generic [ref=e2216]:
+                - heading [level=5] [ref=e2217]: Pick up time policy
+                - generic [ref=e2219]: Bus operator is not obligated to wait beyond the scheduled departure time of the bus. No refund request will be entertained for late arriving passengers.
+  - button "Open chat support" [ref=e2220] [cursor=pointer]:
+    - img

@@ -1,0 +1,4 @@
+﻿
+Running 1 test using 1 worker
+
+  Γ£ÿ  1 [chromium] ΓÇ║ tests\Redbus.spec.ts:102:7 ΓÇ║ RedBus Combined Suite ΓÇ║ TC005 Full E2E: seat -> boarding/dropping -> passenger details (stop before payment) (1.1m)

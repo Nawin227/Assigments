@@ -1,0 +1,1310 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e808]:
+      - generic [ref=e809]:
+        - link [ref=e810] [cursor=pointer]:
+          - /url: /
+          - img [ref=e811]
+        - list [ref=e813]:
+          - listitem [ref=e814]:
+            - link [ref=e815] [cursor=pointer]:
+              - /url: https://www.redbus.in/bus-tickets
+              - img [ref=e816]
+              - generic [ref=e817]: Bus tickets
+          - listitem [ref=e818]:
+            - link [ref=e819] [cursor=pointer]:
+              - /url: https://www.redbus.in/railways
+              - img [ref=e820]
+              - generic [ref=e821]: Train tickets
+          - listitem [ref=e822]:
+            - link [ref=e823] [cursor=pointer]:
+              - /url: /hotels
+              - img [ref=e824]
+              - generic [ref=e825]: Hotels
+        - navigation [ref=e826]:
+          - list [ref=e827]:
+            - listitem [ref=e828]:
+              - link [ref=e829] [cursor=pointer]:
+                - /url: https://www.redbus.in/myprofile#trips
+                - generic [ref=e830]: 
+                - text: Bookings
+            - listitem [ref=e831]:
+              - link [ref=e832] [cursor=pointer]:
+                - /url: https://www.redbus.in/info/redcare
+                - generic [ref=e833]: 
+                - text: Help
+            - listitem [ref=e834]:
+              - button [ref=e835] [cursor=pointer]:
+                - generic [ref=e836]: 
+                - text: Account
+    - generic [ref=e3]:
+      - generic [ref=e838]:
+        - button [ref=e840] [cursor=pointer]:
+          - generic [ref=e841]: 
+        - generic [ref=e842]:
+          - generic [ref=e845]:
+            - text: Benz Circle
+            - generic [ref=e846]: 
+            - text: Hyderabad
+          - generic [ref=e847]: 550 buses
+      - generic [ref=e848]:
+        - status [ref=e849]
+        - generic [ref=e850]:
+          - img [ref=e851] [cursor=pointer]
+          - generic [ref=e853]:
+            - generic [ref=e854]:
+              - combobox [ref=e855] [cursor=pointer]:
+                - generic [ref=e856]:
+                  - generic [ref=e857]: 
+                  - generic [ref=e858]:
+                    - generic [ref=e859]: From
+                    - generic [ref=e860]: Benz Circle
+              - button [ref=e861] [cursor=pointer]:
+                - img [ref=e862]
+            - combobox [ref=e863] [cursor=pointer]:
+              - generic [ref=e864]:
+                - generic [ref=e865]: 
+                - generic [ref=e866]:
+                  - generic [ref=e867]: To
+                  - generic [ref=e868]: Hyderabad
+            - generic [ref=e869]:
+              - button [ref=e870] [cursor=pointer]:
+                - generic [ref=e871]: 
+                - generic [ref=e872]:
+                  - generic [ref=e873]: Date of journey
+                  - generic [ref=e874]:
+                    - generic [ref=e875]: 11 Apr, 2026
+                    - generic [ref=e876]: (Today)
+              - generic [ref=e877]:
+                - generic [ref=e878]:
+                  - button [disabled]: Today
+                - button [ref=e880] [cursor=pointer]: Tomorrow
+            - button [ref=e882] [cursor=pointer]:
+              - generic [ref=e883]: 
+    - generic [ref=e32]:
+      - complementary [ref=e884]:
+        - generic [ref=e885]:
+          - generic [ref=e886]:
+            - generic [ref=e887]:
+              - img [ref=e889]
+              - generic [ref=e890]: Eazzy filter
+            - generic [ref=e891]:
+              - generic [ref=e892]: AI powered
+              - text: smart search
+          - generic [ref=e893]:
+            - button [ref=e894] [cursor=pointer]:
+              - img [ref=e895]
+              - generic [ref=e898]: Try "வைஃபை வசதியுடன் கூடிய ஏசி ஸ்லீப்பர் பேருந்து"
+            - button [ref=e900] [cursor=pointer]:
+              - img [ref=e901]
+        - navigation [ref=e902]:
+          - heading [level=2] [ref=e904]: Filter buses
+          - generic [ref=e905]:
+            - checkbox [ref=e907]:
+              - listitem [ref=e908]:
+                - button [ref=e909] [cursor=pointer]:
+                  - generic [ref=e910]:
+                    - generic [ref=e911]: 
+                    - generic [ref=e912]: Primo Bus (30)
+              - listitem [ref=e913]:
+                - button [ref=e914] [cursor=pointer]:
+                  - generic [ref=e915]:
+                    - generic [ref=e916]: 
+                    - generic [ref=e917]: Deals (48)
+              - listitem [ref=e918]:
+                - button [ref=e919] [cursor=pointer]:
+                  - generic [ref=e920]:
+                    - generic [ref=e921]: 
+                    - generic [ref=e922]: Free Cancellation (138)
+              - listitem [ref=e923]:
+                - button [ref=e924] [cursor=pointer]:
+                  - generic [ref=e925]:
+                    - generic [ref=e926]: 
+                    - generic [ref=e927]: AC (337)
+              - listitem [ref=e928]:
+                - button [ref=e929] [cursor=pointer]:
+                  - generic [ref=e930]:
+                    - generic [ref=e931]: 
+                    - generic [ref=e932]: SLEEPER (332)
+              - listitem [ref=e933]:
+                - button [ref=e934] [cursor=pointer]:
+                  - generic [ref=e935]:
+                    - generic [ref=e936]: 
+                    - generic [ref=e937]: Single Seats (309)
+              - listitem [ref=e938]:
+                - button [ref=e939] [cursor=pointer]:
+                  - generic [ref=e940]:
+                    - generic [ref=e941]: 
+                    - generic [ref=e942]: SEATER (424)
+              - listitem [ref=e943]:
+                - button [ref=e944] [cursor=pointer]:
+                  - generic [ref=e945]:
+                    - generic [ref=e946]: 
+                    - generic [ref=e947]: NONAC (213)
+              - listitem [ref=e948]:
+                - button [ref=e949] [cursor=pointer]:
+                  - generic [ref=e950]:
+                    - generic [ref=e951]: 
+                    - generic [ref=e952]: 18:00-24:00 (302)
+              - listitem [ref=e953]:
+                - button [ref=e954] [cursor=pointer]:
+                  - generic [ref=e955]:
+                    - generic [ref=e956]: 
+                    - generic [ref=e957]: 06:00-12:00 (60)
+              - listitem [ref=e958]:
+                - button [ref=e959] [cursor=pointer]:
+                  - generic [ref=e960]:
+                    - generic [ref=e961]: 
+                    - generic [ref=e962]: High Rated Buses (381)
+              - listitem [ref=e963]:
+                - button [ref=e964] [cursor=pointer]:
+                  - generic [ref=e965]:
+                    - generic [ref=e966]: 
+                    - generic [ref=e967]: Volvo Buses (15)
+            - group [ref=e968]:
+              - button [ref=e969] [cursor=pointer]:
+                - heading [level=3] [ref=e971]: Departure time from source
+                - generic [ref=e972]: 
+            - group [ref=e973]:
+              - button [ref=e974] [cursor=pointer]:
+                - heading [level=3] [ref=e976]: Arrival time at destination
+                - generic [ref=e977]: 
+            - group [ref=e978]:
+              - button [ref=e979] [cursor=pointer]:
+                - heading [level=3] [ref=e981]: Bus type
+                - generic [ref=e982]: 
+            - group [ref=e983]:
+              - button [ref=e984] [cursor=pointer]:
+                - heading [level=3] [ref=e986]: Single window seater/sleeper
+                - generic [ref=e987]: 
+            - group [ref=e988]:
+              - button [ref=e989] [cursor=pointer]:
+                - heading [level=3] [ref=e991]: Bus features
+                - generic [ref=e992]: 
+            - group [ref=e993]:
+              - button [ref=e994] [cursor=pointer]:
+                - heading [level=2] [ref=e996]: Bus operator
+                - generic [ref=e997]: 
+            - button [ref=e999] [cursor=pointer]:
+              - heading [level=2] [ref=e1001]: Boarding points
+              - generic [ref=e1002]: 
+            - button [ref=e1004] [cursor=pointer]:
+              - heading [level=2] [ref=e1006]: Dropping points
+              - generic [ref=e1007]: 
+            - group [ref=e1008]:
+              - button [ref=e1009] [cursor=pointer]:
+                - heading [level=3] [ref=e1011]: Special bus features
+                - generic [ref=e1012]: 
+            - group [ref=e1013]:
+              - button [ref=e1014] [cursor=pointer]:
+                - heading [level=3] [ref=e1016]: RTC bus type
+                - generic [ref=e1017]: 
+      - generic [ref=e33]:
+        - region [ref=e35]:
+          - img [ref=e1018] [cursor=pointer]
+          - img [ref=e1019] [cursor=pointer]
+          - img [ref=e1020] [cursor=pointer]
+          - img [ref=e1021] [cursor=pointer]
+          - img [ref=e1022] [cursor=pointer]
+          - img [ref=e1023] [cursor=pointer]
+          - img [ref=e1024] [cursor=pointer]
+          - img [ref=e1025] [cursor=pointer]
+        - status [ref=e1026]
+        - status [ref=e1027]: 550 buses found
+        - generic [ref=e1028]:
+          - generic [ref=e1029]: 550 buses found
+          - group [ref=e1030]:
+            - generic [ref=e1031]: "Sort by:"
+            - radiogroup [ref=e1032]:
+              - radio [ref=e1033] [cursor=pointer]:
+                - generic [ref=e1034]: Ratings
+              - radio [ref=e1035] [cursor=pointer]:
+                - generic [ref=e1036]: Departure time
+              - radio [ref=e1037] [cursor=pointer]:
+                - generic [ref=e1038]: Price
+        - generic [ref=e298]: 25000+ bookings on this route last month
+        - generic [ref=e300]:
+          - generic [ref=e303] [cursor=pointer]:
+            - generic [ref=e307]:
+              - generic [ref=e309]: Live Tracking
+              - generic [ref=e311]: Vehicle & Driver details
+              - generic [ref=e313]: 25% Concession for Senior Citizens
+              - generic [ref=e315]: 50% Concession for Child Passengers.
+            - generic [ref=e316]:
+              - generic [ref=e317]:
+                - img [ref=e1039]
+                - generic [ref=e319]:
+                  - generic [ref=e320]:
+                    - generic [ref=e321]: APSRTC Buses
+                    - generic [ref=e322]: ఆంధ్రప్రదేశ్ రాష్ట్ర రోడ్డు రవాణా సంస్థ
+                  - generic [ref=e323]:
+                    - generic [ref=e324]: 25 buses
+                    - text: starting from
+                    - generic [ref=e325]: ₹414
+              - button [ref=e1040]: Show buses
+          - list [ref=e330]:
+            - button [ref=e1041] [cursor=pointer]:
+              - button [ref=e1042]:
+                - generic [ref=e334]:
+                  - generic [ref=e335]: Exclusive
+                  - generic [ref=e336]: 5% OFF
+              - generic [ref=e337]:
+                - generic [ref=e338]:
+                  - generic [ref=e339]:
+                    - paragraph [ref=e340]: 11:10
+                    - paragraph [ref=e342]: 17:35
+                  - generic [ref=e343]:
+                    - paragraph [ref=e344]: 6h 25m
+                    - generic [ref=e346]:
+                      - paragraph [ref=e347]: 25 Seats
+                      - paragraph [ref=e348]: (4 Single)
+                - generic [ref=e350]:
+                  - generic [ref=e352]:
+                    - paragraph [ref=e353]: ₹309
+                    - paragraph [ref=e354]: ₹325
+                  - generic [ref=e357]:
+                    - paragraph [ref=e358]: ₹579
+                    - paragraph [ref=e359]: ₹609
+                - generic [ref=e361]:
+                  - generic [ref=e363]: FRESHBUS
+                  - generic [ref=e364]:
+                    - img [ref=e1043]
+                    - paragraph [ref=e366]: Electric A/C Seater/Sleeper (2+1)
+                - generic [ref=e1044]:
+                  - generic [ref=e1045]:
+                    - generic [ref=e1046]: 
+                    - generic [ref=e1047]: "4.8"
+                  - generic [ref=e373]: "511"
+              - generic [ref=e374]:  
+              - listitem [ref=e377]:
+                - generic [ref=e378]: Free Snacks
+              - generic [ref=e380]: Minimum 15% off on return ticket
+              - button [ref=e1049]: View seats
+            - button [ref=e1050] [cursor=pointer]:
+              - button [ref=e1051]:
+                - generic [ref=e384]:
+                  - generic [ref=e385]: Exclusive
+                  - generic [ref=e386]: 5% OFF
+              - generic [ref=e387]:
+                - generic [ref=e388]:
+                  - generic [ref=e389]:
+                    - paragraph [ref=e390]: 21:15
+                    - paragraph [ref=e392]: 04:25
+                  - generic [ref=e393]:
+                    - paragraph [ref=e394]: 7h 10m
+                    - generic [ref=e396]:
+                      - paragraph [ref=e397]: 36 Seats
+                      - paragraph [ref=e398]: (7 Single)
+                - generic [ref=e400]:
+                  - generic [ref=e402]:
+                    - paragraph [ref=e403]: ₹719
+                    - paragraph [ref=e404]: ₹757
+                  - generic [ref=e407]:
+                    - paragraph [ref=e408]: ₹1,579
+                    - paragraph [ref=e409]: ₹1,662
+                - generic [ref=e411]:
+                  - generic [ref=e413]: FRESHBUS
+                  - generic [ref=e414]:
+                    - img [ref=e1052]
+                    - paragraph [ref=e416]: Electric A/C Seater/Sleeper (2+1)
+                - generic [ref=e1053]:
+                  - generic [ref=e1054]:
+                    - generic [ref=e1055]: 
+                    - generic [ref=e1056]: "4.7"
+                  - generic [ref=e423]: "713"
+              - generic [ref=e424]:  
+              - listitem [ref=e427]:
+                - generic [ref=e428]: Free Snacks
+              - generic [ref=e430]: Minimum 15% off on return ticket
+              - button [ref=e1058]: View seats
+            - button [ref=e1059] [cursor=pointer]:
+              - button [ref=e1060]:
+                - generic [ref=e434]:
+                  - generic [ref=e435]: Exclusive
+                  - generic [ref=e436]: 5% OFF
+              - generic [ref=e437]:
+                - generic [ref=e438]:
+                  - generic [ref=e439]:
+                    - paragraph [ref=e440]: 16:15
+                    - paragraph [ref=e442]: 23:40
+                  - generic [ref=e443]:
+                    - paragraph [ref=e444]: 7h 25m
+                    - paragraph [ref=e447]: 20 Seats
+                - generic [ref=e449]:
+                  - generic [ref=e451]:
+                    - paragraph [ref=e452]: ₹522
+                    - paragraph [ref=e453]: ₹549
+                  - generic [ref=e456]:
+                    - paragraph [ref=e457]: ₹750
+                    - paragraph [ref=e458]: ₹789
+                - generic [ref=e460]:
+                  - generic [ref=e462]: FRESHBUS
+                  - generic [ref=e463]:
+                    - img [ref=e1061]
+                    - paragraph [ref=e465]: Electric A/C Seater (2+2)
+                - generic [ref=e1062]:
+                  - generic [ref=e1063]:
+                    - generic [ref=e1064]: 
+                    - generic [ref=e1065]: "4.6"
+                  - generic [ref=e472]: "608"
+              - generic [ref=e473]:  
+              - generic [ref=e475]:
+                - listitem [ref=e476]:
+                  - generic [ref=e477]: On Time
+                - listitem [ref=e478]:
+                  - generic [ref=e479]: Free Snacks
+              - generic [ref=e481]: Minimum 15% off on return ticket
+              - button [ref=e1067]: View seats
+            - button [ref=e1068] [cursor=pointer]:
+              - generic [ref=e483]:
+                - generic [ref=e484]:
+                  - generic [ref=e485]:
+                    - paragraph [ref=e486]: 22:00
+                    - paragraph [ref=e488]: 05:25
+                  - generic [ref=e489]:
+                    - paragraph [ref=e490]: 7h 25m
+                    - generic [ref=e492]:
+                      - paragraph [ref=e493]: 31 Seats
+                      - paragraph [ref=e494]: (8 Single)
+                - generic [ref=e496]:
+                  - paragraph [ref=e499]: ₹510
+                  - paragraph [ref=e503]: ₹750
+                - generic [ref=e505]:
+                  - generic [ref=e506]:
+                    - generic [ref=e507]: Sai Gayathri travels
+                    - paragraph [ref=e508]: Ad
+                  - paragraph [ref=e510]: Non A/C Seater / Sleeper (2+1)
+                - generic [ref=e1069]:
+                  - generic [ref=e1070]:
+                    - generic [ref=e1071]: 
+                    - generic [ref=e1072]: "3.1"
+                  - generic [ref=e517]: "32"
+              - generic [ref=e518]:  
+              - generic [ref=e520]: Minimum 10% off on return ticket
+              - button [ref=e1074]: View seats
+            - button [ref=e1075] [cursor=pointer]:
+              - generic [ref=e522]:
+                - generic [ref=e523]:
+                  - generic [ref=e524]:
+                    - paragraph [ref=e525]: 23:45
+                    - paragraph [ref=e527]: 06:30
+                  - generic [ref=e528]:
+                    - paragraph [ref=e529]: 6h 45m
+                    - generic [ref=e531]:
+                      - paragraph [ref=e532]: 26 Seats
+                      - paragraph [ref=e533]: (5 Single)
+                - generic [ref=e535]:
+                  - paragraph [ref=e538]: ₹439
+                  - paragraph [ref=e542]: ₹1,079
+                - generic [ref=e544]:
+                  - generic [ref=e546]: IntrCity SmartBus
+                  - paragraph [ref=e548]: A/C Seater / Sleeper (2+2)
+                - generic [ref=e1076]:
+                  - generic [ref=e1077]:
+                    - generic [ref=e1078]: 
+                    - generic [ref=e1079]: "4.6"
+                  - generic [ref=e555]: "608"
+              - generic [ref=e556]:  
+              - generic [ref=e558]:
+                - listitem [ref=e559]:
+                  - generic [ref=e560]: New Bus
+                - listitem [ref=e561]:
+                  - generic [ref=e562]: Toilet
+              - button [ref=e1081]: View seats
+            - button [ref=e1082] [cursor=pointer]:
+              - generic [ref=e564]:
+                - generic [ref=e565]:
+                  - generic [ref=e566]:
+                    - paragraph [ref=e567]: 22:15
+                    - paragraph [ref=e569]: 05:30
+                  - generic [ref=e570]:
+                    - paragraph [ref=e571]: 7h 15m
+                    - generic [ref=e573]:
+                      - paragraph [ref=e574]: 27 Seats
+                      - paragraph [ref=e575]: (5 Single)
+                - generic [ref=e577]:
+                  - paragraph [ref=e580]: ₹600
+                  - paragraph [ref=e584]: ₹800
+                - generic [ref=e586]:
+                  - generic [ref=e587]:
+                    - generic [ref=e588]: Sai RK Travels
+                    - paragraph [ref=e589]: Ad
+                  - paragraph [ref=e591]: A/C Seater / Sleeper (2+1)
+                - generic [ref=e1083]:
+                  - generic [ref=e1084]:
+                    - generic [ref=e1085]: 
+                    - generic [ref=e1086]: "3.7"
+                  - generic [ref=e598]: "196"
+              - generic [ref=e599]:  
+              - button [ref=e1088]: View seats
+            - button [ref=e1089] [cursor=pointer]:
+              - button [ref=e1090]:
+                - generic [ref=e603]:
+                  - generic [ref=e604]: Exclusive
+                  - generic [ref=e605]: 5% OFF
+              - generic [ref=e606]:
+                - generic [ref=e607]:
+                  - generic [ref=e608]:
+                    - paragraph [ref=e609]: 22:55
+                    - paragraph [ref=e611]: 05:40
+                  - generic [ref=e612]:
+                    - paragraph [ref=e613]: 6h 45m
+                    - generic [ref=e615]:
+                      - paragraph [ref=e616]: 29 Seats
+                      - paragraph [ref=e617]: (7 Single)
+                - generic [ref=e619]:
+                  - generic [ref=e621]:
+                    - paragraph [ref=e622]: ₹659
+                    - paragraph [ref=e623]: ₹694
+                  - generic [ref=e626]:
+                    - paragraph [ref=e627]: ₹1,539
+                    - paragraph [ref=e628]: ₹1,620
+                - generic [ref=e630]:
+                  - generic [ref=e632]: FRESHBUS
+                  - generic [ref=e633]:
+                    - img [ref=e1091]
+                    - paragraph [ref=e635]: Electric A/C Seater/Sleeper (2+1)
+                - generic [ref=e1092]:
+                  - generic [ref=e1093]:
+                    - generic [ref=e1094]: 
+                    - generic [ref=e1095]: "4.6"
+                  - generic [ref=e642]: "601"
+              - generic [ref=e643]:  
+              - listitem [ref=e646]:
+                - generic [ref=e647]: Free Snacks
+              - generic [ref=e649]: Minimum 15% off on return ticket
+              - button [ref=e1097]: View seats
+            - generic [ref=e650]:
+              - img
+              - generic [ref=e651]:
+                - img [ref=e652]
+                - generic [ref=e653]:
+                  - heading [level=4] [ref=e1098]: Travel plans might change
+                  - generic [ref=e655]:
+                    - generic [ref=e656]: Add
+                    - generic [ref=e657]: Free Cancellation
+                    - generic [ref=e658]: to get full refund
+              - switch [ref=e1099] [cursor=pointer]:
+                - generic [ref=e662]: Only show buses that provide Free Cancellation
+                - switch [ref=e665]:
+                  - checkbox [ref=e666]
+            - button [ref=e1100] [cursor=pointer]:
+              - generic [ref=e668]:
+                - generic [ref=e669]:
+                  - generic [ref=e670]:
+                    - paragraph [ref=e671]: 23:35
+                    - paragraph [ref=e673]: 05:52
+                  - generic [ref=e674]:
+                    - paragraph [ref=e675]: 6h 17m
+                    - generic [ref=e677]:
+                      - paragraph [ref=e678]: 21 Seats
+                      - paragraph [ref=e679]: (7 Single)
+                - generic [ref=e681]:
+                  - paragraph [ref=e684]: ₹640
+                  - paragraph [ref=e688]: ₹1,099
+                - generic [ref=e690]:
+                  - generic [ref=e691]:
+                    - generic [ref=e692]: Sai RK Travels
+                    - paragraph [ref=e693]: Ad
+                  - paragraph [ref=e695]: Non A/C Seater / Sleeper (2+1)
+                - generic [ref=e1101]:
+                  - generic [ref=e1102]:
+                    - generic [ref=e1103]: 
+                    - generic [ref=e1104]: "1.6"
+                  - generic [ref=e702]: "12"
+              - generic [ref=e703]:  
+              - button [ref=e1106]: View seats
+            - button [ref=e1107] [cursor=pointer]:
+              - button [ref=e1108]:
+                - generic [ref=e707]:
+                  - generic [ref=e708]: Exclusive
+                  - generic [ref=e709]: 5% OFF
+              - generic [ref=e710]:
+                - generic [ref=e711]:
+                  - generic [ref=e712]:
+                    - paragraph [ref=e713]: 17:15
+                    - paragraph [ref=e715]: 01:00
+                  - generic [ref=e716]:
+                    - paragraph [ref=e717]: 7h 45m
+                    - generic [ref=e719]:
+                      - paragraph [ref=e720]: 28 Seats
+                      - paragraph [ref=e721]: (8 Single)
+                - generic [ref=e723]:
+                  - generic [ref=e725]:
+                    - paragraph [ref=e726]: ₹649
+                    - paragraph [ref=e727]: ₹683
+                  - generic [ref=e730]:
+                    - paragraph [ref=e731]: ₹1,439
+                    - paragraph [ref=e732]: ₹1,515
+                - generic [ref=e734]:
+                  - generic [ref=e736]: FRESHBUS
+                  - generic [ref=e737]:
+                    - img [ref=e1109]
+                    - paragraph [ref=e739]: Electric A/C Seater/Sleeper (2+1)
+                - generic [ref=e1110]:
+                  - generic [ref=e1111]:
+                    - generic [ref=e1112]: 
+                    - generic [ref=e1113]: "4.7"
+                  - generic [ref=e746]: "565"
+              - generic [ref=e747]:  
+              - listitem [ref=e750]:
+                - generic [ref=e751]: Free Snacks
+              - generic [ref=e753]: Minimum 15% off on return ticket
+              - button [ref=e1115]: View seats
+            - button [ref=e1116] [cursor=pointer]:
+              - button [ref=e1117]:
+                - generic [ref=e757]:
+                  - generic [ref=e758]: Exclusive
+                  - generic [ref=e759]: 5% OFF
+              - generic [ref=e760]:
+                - generic [ref=e761]:
+                  - generic [ref=e762]:
+                    - paragraph [ref=e763]: 03:55
+                    - paragraph [ref=e765]: 11:05
+                  - generic [ref=e766]:
+                    - paragraph [ref=e767]: 7h 10m
+                    - paragraph [ref=e770]: 13 Seats
+                - generic [ref=e772]:
+                  - generic [ref=e774]:
+                    - paragraph [ref=e775]: ₹474
+                    - paragraph [ref=e776]: ₹499
+                  - generic [ref=e779]:
+                    - paragraph [ref=e780]: ₹569
+                    - paragraph [ref=e781]: ₹599
+                - generic [ref=e783]:
+                  - generic [ref=e785]: FRESHBUS
+                  - generic [ref=e786]:
+                    - img [ref=e1118]
+                    - paragraph [ref=e788]: Electric A/C Seater (2+2)
+                - generic [ref=e1119]:
+                  - generic [ref=e1120]:
+                    - generic [ref=e1121]: 
+                    - generic [ref=e1122]: "4.7"
+                  - generic [ref=e795]: "571"
+              - generic [ref=e796]:  
+              - generic [ref=e798]:
+                - listitem [ref=e799]:
+                  - generic [ref=e800]: New Bus
+                - listitem [ref=e801]:
+                  - generic [ref=e802]: Free Snacks
+              - generic [ref=e804]: Minimum 15% off on return ticket
+              - button [ref=e1124]: View seats
+  - generic [ref=e96]:
+    - navigation [ref=e1125]:
+      - generic [ref=e98]:
+        - navigation [ref=e1126]:
+          - generic [ref=e101]:
+            - heading [level=2] [ref=e1127]: About redBus
+            - list [ref=e103]:
+              - listitem [ref=e104]:
+                - link [ref=e1128] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/contactus
+                  - text: Contact us
+              - listitem [ref=e106]:
+                - link [ref=e1129] [cursor=pointer]:
+                  - /url: https://www.redbus.in/sitemap.html
+                  - text: Sitemap
+              - listitem [ref=e108]:
+                - link [ref=e1130] [cursor=pointer]:
+                  - /url: https://www.redbus.in/offers
+                  - text: Offers
+              - listitem [ref=e110]:
+                - link [ref=e1131] [cursor=pointer]:
+                  - /url: https://www.redbus.in/careers
+                  - text: Careers
+        - navigation [ref=e1132]:
+          - generic [ref=e114]:
+            - heading [level=2] [ref=e1133]: Info
+            - list [ref=e116]:
+              - listitem [ref=e117]:
+                - link [ref=e1134] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/termscondition
+                  - text: T&C
+              - listitem [ref=e119]:
+                - link [ref=e1135] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/privacypolicy
+                  - text: Privacy policy
+              - listitem [ref=e121]:
+                - link [ref=e1136] [cursor=pointer]:
+                  - /url: https://blog.redbus.in
+                  - text: Blog
+              - listitem [ref=e123]:
+                - link [ref=e1137] [cursor=pointer]:
+                  - /url: https://onboardvendor.redbus.in/
+                  - text: Bus operator registration
+              - listitem [ref=e125]:
+                - link [ref=e1138] [cursor=pointer]:
+                  - /url: https://in3.seatseller.travel/
+                  - text: Agent registration
+              - listitem [ref=e127]:
+                - link [ref=e1139] [cursor=pointer]:
+                  - /url: https://www.acko.com/
+                  - text: Insurance partner
+              - listitem [ref=e129]:
+                - link [ref=e1140] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/useragreement
+                  - text: User agreement
+              - listitem [ref=e131]:
+                - link [ref=e1141] [cursor=pointer]:
+                  - /url: https://www.redbus.in/primo/primo-service
+                  - text: Primo Bus
+              - listitem [ref=e133]:
+                - link [ref=e1142] [cursor=pointer]:
+                  - /url: https://www.redbus.in/bus-timetable
+                  - text: Bus Timetable
+              - listitem [ref=e135]:
+                - link [ref=e1143] [cursor=pointer]:
+                  - /url: " https://www.redbus.in/bugbounty"
+                  - text: Report Security Issues
+        - navigation [ref=e1144]:
+          - generic [ref=e139]:
+            - heading [level=2] [ref=e1145]: Global Sites
+            - list [ref=e141]:
+              - listitem [ref=e142]:
+                - link [ref=e1146] [cursor=pointer]:
+                  - /url: https://www.redbus.in/
+                  - text: India
+              - listitem [ref=e144]:
+                - link [ref=e1147] [cursor=pointer]:
+                  - /url: https://www.redbus.sg/
+                  - text: Singapore
+              - listitem [ref=e146]:
+                - link [ref=e1148] [cursor=pointer]:
+                  - /url: https://www.redbus.my/
+                  - text: Malaysia
+              - listitem [ref=e148]:
+                - link [ref=e1149] [cursor=pointer]:
+                  - /url: https://www.redbus.id/
+                  - text: Indonesia
+              - listitem [ref=e150]:
+                - link [ref=e1150] [cursor=pointer]:
+                  - /url: https://www.redbus.pe/
+                  - text: Peru
+              - listitem [ref=e152]:
+                - link [ref=e1151] [cursor=pointer]:
+                  - /url: https://www.redbus.co/
+                  - text: Colombia
+              - listitem [ref=e154]:
+                - link [ref=e1152] [cursor=pointer]:
+                  - /url: https://www.redbus.com.kh/
+                  - text: Cambodia
+              - listitem [ref=e156]:
+                - link [ref=e1153] [cursor=pointer]:
+                  - /url: https://www.redbus.vn/
+                  - text: Vietnam
+        - navigation [ref=e1154]:
+          - generic [ref=e160]:
+            - heading [level=2] [ref=e1155]: Our Partners
+            - list [ref=e162]:
+              - listitem [ref=e163]:
+                - link [ref=e1156] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/bus/
+                  - text: Goibibo Bus
+              - listitem [ref=e165]:
+                - link [ref=e1157] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/hotels/
+                  - text: Goibibo Hotels
+              - listitem [ref=e167]:
+                - link [ref=e1158] [cursor=pointer]:
+                  - /url: https://www.makemytrip.com/hotels/
+                  - text: Makemytrip Hotels
+    - generic [ref=e169]:
+      - img [ref=e1159]
+      - generic [ref=e171]: redBus is the world's largest online bus ticket booking service trusted by over 56+ million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.
+    - generic [ref=e172]:
+      - generic [ref=e173]: Ⓒ 2026 MAKEMYTRIP (INDIA) PRIVATE LIMITED. All rights reserved
+      - list [ref=e174]:
+        - listitem [ref=e175]:
+          - link [ref=e1160] [cursor=pointer]:
+            - /url: https://www.facebook.com/redbus.in/
+            - img [ref=e1161]
+        - listitem [ref=e178]:
+          - link [ref=e1162] [cursor=pointer]:
+            - /url: https://in.linkedin.com/company/redbus_2/
+            - img [ref=e1163]
+        - listitem [ref=e181]:
+          - link [ref=e1164] [cursor=pointer]:
+            - /url: https://twitter.com/redBus_in/
+            - img [ref=e1165]
+        - listitem [ref=e184]:
+          - link [ref=e1166] [cursor=pointer]:
+            - /url: https://www.instagram.com/accounts/login/?next=/redbusindia/
+            - img [ref=e1167]
+  - dialog [ref=e1169]:
+    - heading [level=2] [ref=e1170]: Benz Circle to Hyderabad
+    - generic [ref=e1172]:
+      - button [ref=e1174] [cursor=pointer]:
+        - generic [ref=e1175]: 
+      - heading [level=2] [ref=e1176]:
+        - generic [ref=e1178]:
+          - generic [ref=e1179]: Benz Circle
+          - generic [ref=e1180]: 
+          - text: Hyderabad
+      - button [ref=e1182]:
+        - generic [ref=e1183] [cursor=pointer]:
+          - generic [ref=e1184]: Exclusive
+          - generic [ref=e1185]: 5% OFF
+    - tablist [ref=e1186]:
+      - generic [ref=e1187]:
+        - tab [selected] [ref=e1189]:
+          - tab [selected] [ref=e1190] [cursor=pointer]:
+            - generic [ref=e1191]: 1. Select seats
+        - tab [ref=e1192]:
+          - tab [ref=e1193] [cursor=pointer]:
+            - generic [ref=e1194]: 2. Board/Drop point
+        - tab [ref=e1195]:
+          - tab [ref=e1196] [cursor=pointer]:
+            - generic [ref=e1197]: 3. Passenger Info
+    - generic [ref=e1201]:
+      - generic [ref=e1202]:
+        - link [ref=e1203] [cursor=pointer]: Use Tab to navigate through available seats. Press Space or Enter to select or deselect a seat. Lower deck seats are listed first, followed by upper deck seats. Maximum 6 seats can be selected.
+        - main [ref=e1204]:
+          - group [ref=e1205]:
+            - generic [ref=e1206]: Press Enter to start navigating seats. Use arrow keys to move between seats. Press Tab or Escape to exit seat navigation. Lower deck seats are listed first, followed by upper deck seats. Maximum 6 seats can be selected.
+            - group [ref=e1207]:
+              - generic [ref=e1208]:
+                - generic [ref=e1209]:
+                  - heading [level=3] [ref=e1210]: Lower deck
+                  - img [ref=e1211]
+                - button [ref=e1213]:
+                  - img [ref=e1214]
+                  - generic: Sold
+                - button [ref=e1221] [cursor=pointer]:
+                  - img [ref=e1222]
+                  - generic: ₹309
+                - button [ref=e1229]:
+                  - generic: Sold
+                  - img [ref=e1230]
+                - button [ref=e1234]:
+                  - img [ref=e1235]
+                  - generic: Sold
+                - button [ref=e1242]:
+                  - img [ref=e1243]
+                  - generic: Sold
+                - button [ref=e1250] [cursor=pointer]:
+                  - img [ref=e1251]
+                  - generic: ₹359
+                - button [ref=e1255] [cursor=pointer]:
+                  - img [ref=e1256]
+                  - generic: ₹339
+                - button [ref=e1260]:
+                  - generic: Sold
+                  - img [ref=e1261]
+                - button [ref=e1265]:
+                  - img [ref=e1266]
+                  - generic: Sold
+                - button [ref=e1273] [cursor=pointer]:
+                  - img [ref=e1274]
+                  - generic: ₹339
+                - button [ref=e1278]:
+                  - img [ref=e1279]
+                  - generic: Sold
+                - button [ref=e1286]:
+                  - img [ref=e1287]
+                  - generic: Sold
+                - button [ref=e1294]:
+                  - generic: Sold
+                  - img [ref=e1295]
+                - button [ref=e1299]:
+                  - img [ref=e1300]
+                  - generic: Sold
+                - button [ref=e1307] [cursor=pointer]:
+                  - img [ref=e1308]
+                  - generic: ₹339
+                - button [ref=e1312] [cursor=pointer]:
+                  - img [ref=e1313]
+                  - generic: ₹359
+                - button [ref=e1317] [cursor=pointer]:
+                  - img [ref=e1318]
+                  - generic: ₹339
+                - button [ref=e1322]:
+                  - generic: Sold
+                  - img [ref=e1323]
+                - button [ref=e1327] [cursor=pointer]:
+                  - img [ref=e1328]
+                  - generic: ₹359
+                - button [ref=e1332] [cursor=pointer]:
+                  - img [ref=e1333]
+                  - generic: ₹339
+                - button [ref=e1337] [cursor=pointer]:
+                  - img [ref=e1338]
+                  - generic: ₹339
+                - button [ref=e1342] [cursor=pointer]:
+                  - img [ref=e1343]
+                  - generic: ₹319
+                - button [ref=e1347] [cursor=pointer]:
+                  - generic: ₹589
+                - button [ref=e1349] [cursor=pointer]:
+                  - img [ref=e1350]
+                  - generic: ₹319
+                - button [ref=e1354] [cursor=pointer]:
+                  - img [ref=e1355]
+                  - generic: ₹319
+                - button [ref=e1359] [cursor=pointer]:
+                  - img [ref=e1360]
+                  - generic: ₹309
+                - button [ref=e1367] [cursor=pointer]:
+                  - img [ref=e1368]
+                  - generic: ₹309
+                - button [ref=e1375]:
+                  - img [ref=e1376]
+                  - generic: Sold
+            - group [ref=e1383]:
+              - generic [ref=e1384]:
+                - heading [level=3] [ref=e1385]: Upper deck
+                - button [ref=e1386] [cursor=pointer]:
+                  - generic: ₹529
+                - button [ref=e1388] [cursor=pointer]:
+                  - generic: ₹529
+                - button [ref=e1390]:
+                  - generic: Sold
+                  - img [ref=e1391]
+                - button [ref=e1395]:
+                  - generic: Sold
+                  - img [ref=e1396]
+                - button [ref=e1400]:
+                  - generic: Sold
+                  - img [ref=e1401]
+                - button [ref=e1405]:
+                  - generic: Sold
+                  - img [ref=e1406]
+                - button [ref=e1410] [cursor=pointer]:
+                  - generic: ₹559
+                - button [ref=e1412] [cursor=pointer]:
+                  - generic: ₹559
+                - button [ref=e1414]:
+                  - generic: Sold
+                  - img [ref=e1415]
+                - button [ref=e1419] [cursor=pointer]:
+                  - generic: ₹529
+                - button [ref=e1421] [cursor=pointer]:
+                  - generic: ₹529
+                - button [ref=e1423] [cursor=pointer]:
+                  - generic: ₹589
+                - button [ref=e1425]:
+                  - generic: Sold
+                  - img [ref=e1426]
+                - button [ref=e1430]:
+                  - generic: Sold
+                  - img [ref=e1431]
+                - button [ref=e1435] [cursor=pointer]:
+                  - generic: ₹559
+        - generic [ref=e1438]:
+          - heading [level=3] [ref=e1439]: Know your seat types
+          - table [ref=e1441]:
+            - rowgroup [ref=e1442]:
+              - row [ref=e1443]:
+                - columnheader [ref=e1444]: Seat Types
+                - columnheader [ref=e1445]: Seater
+                - columnheader [ref=e1446]: Sleeper
+            - rowgroup [ref=e1447]:
+              - row [ref=e1448]:
+                - cell [ref=e1449]: Available
+                - cell [ref=e1450]:
+                  - img [ref=e1452]
+                - cell [ref=e1453]:
+                  - img [ref=e1455]
+              - row [ref=e1456]:
+                - cell [ref=e1457]: Available only for male passenger
+                - cell [ref=e1458]:
+                  - img [ref=e1460]
+                - cell [ref=e1461]:
+                  - img [ref=e1463]
+              - row [ref=e1464]:
+                - cell [ref=e1465]: Already booked
+                - cell [ref=e1466]:
+                  - img [ref=e1468]
+                - cell [ref=e1469]:
+                  - img [ref=e1471]
+              - row [ref=e1472]:
+                - cell [ref=e1473]: Selected by you
+                - cell [ref=e1474]:
+                  - img [ref=e1476]
+                - cell [ref=e1477]:
+                  - img [ref=e1479]
+              - row [ref=e1480]:
+                - cell [ref=e1481]: Available only for female passenger
+                - cell [ref=e1482]:
+                  - img [ref=e1484]
+                - cell [ref=e1485]:
+                  - img [ref=e1487]
+              - row [ref=e1488]:
+                - cell [ref=e1489]: Booked by female passenger
+                - cell [ref=e1490]:
+                  - img [ref=e1492]
+                - cell [ref=e1493]:
+                  - img [ref=e1495]
+              - row [ref=e1496]:
+                - cell [ref=e1497]: Booked by male passenger
+                - cell [ref=e1498]:
+                  - img [ref=e1500]
+                - cell [ref=e1501]:
+                  - img [ref=e1503]
+      - generic [ref=e1507]:
+        - article [ref=e1509]:
+          - generic [ref=e1510]:
+            - generic [ref=e1511]:
+              - heading [level=2] [ref=e1513]: FRESHBUS
+              - paragraph [ref=e1514]: 11:10 - 17:35 · Sat 11 Apr
+            - button [ref=e1516] [cursor=pointer]:
+              - generic [ref=e1517]:
+                - generic [ref=e1519]:
+                  - generic [ref=e1520]: 
+                  - generic [ref=e1521]: "4.8"
+                - generic [ref=e1522]: "511"
+        - region [ref=e1524]:
+          - generic [ref=e1525]:
+            - button [ref=e1526]:
+              - img [ref=e1527] [cursor=pointer]
+            - button [ref=e1528]:
+              - img [ref=e1529] [cursor=pointer]
+            - button [ref=e1530]:
+              - img [ref=e1531] [cursor=pointer]
+            - button [ref=e1532]:
+              - img [ref=e1533] [cursor=pointer]
+            - button [ref=e1534]:
+              - img [ref=e1535] [cursor=pointer]
+            - button [ref=e1536]:
+              - img [ref=e1537] [cursor=pointer]
+            - button [ref=e1538]:
+              - img [ref=e1539] [cursor=pointer]
+            - button [ref=e1540]:
+              - img [ref=e1541] [cursor=pointer]
+            - button [ref=e1542]:
+              - img [ref=e1543] [cursor=pointer]
+            - button [ref=e1544]:
+              - img [ref=e1545] [cursor=pointer]
+            - button [ref=e1546]:
+              - img [ref=e1547] [cursor=pointer]
+            - button [ref=e1548]:
+              - img [ref=e1549] [cursor=pointer]
+            - button [ref=e1550]:
+              - img [ref=e1551] [cursor=pointer]
+            - button [ref=e1552]:
+              - img [ref=e1553] [cursor=pointer]
+        - tablist [ref=e1555]:
+          - generic [ref=e1556]:
+            - tab [selected] [ref=e1558]:
+              - tab [selected] [ref=e1559] [cursor=pointer]:
+                - generic [ref=e1560]: Highlights
+            - tab [ref=e1561]:
+              - tab [ref=e1562] [cursor=pointer]:
+                - generic [ref=e1563]: Cancellation policy
+            - tab [ref=e1564]:
+              - tab [ref=e1565] [cursor=pointer]:
+                - generic [ref=e1566]: Boarding point
+            - tab [ref=e1567]:
+              - tab [ref=e1568] [cursor=pointer]:
+                - generic [ref=e1569]: Dropping point
+            - tab [ref=e1570]:
+              - tab [ref=e1571] [cursor=pointer]:
+                - generic [ref=e1572]: Bus route
+            - tab [ref=e1573]:
+              - tab [ref=e1574] [cursor=pointer]:
+                - generic [ref=e1575]: Rest stop
+            - tab [ref=e1576]:
+              - tab [ref=e1577] [cursor=pointer]:
+                - generic [ref=e1578]: Bus Features
+            - tab [ref=e1579]:
+              - tab [ref=e1580] [cursor=pointer]:
+                - generic [ref=e1581]: Rating and reviews
+            - tab [ref=e1582]:
+              - tab [ref=e1583] [cursor=pointer]:
+                - generic [ref=e1584]: Other Policies
+        - generic [ref=e1588]:
+          - generic [ref=e1591]:
+            - generic [ref=e1593]:
+              - paragraph [ref=e1594]: Electric Bus
+              - paragraph [ref=e1595]: Saving 33 kg CO2E
+            - img [ref=e1597]
+          - region [ref=e1599]:
+            - generic [ref=e1600] [cursor=pointer]:
+              - button [ref=e1601]:
+                - button [ref=e1602]:
+                  - generic [ref=e1603]:
+                    - generic [ref=e1604]: Exclusive
+                    - generic [ref=e1605]: 5% OFF
+                - generic [ref=e1606]: Special discount for you, only on redBus
+              - tablist [ref=e1608]:
+                - tab [selected] [ref=e1609]
+                - tab [ref=e1610]
+        - generic [ref=e1614]:
+          - heading [level=4] [ref=e1617]: Cancellation policy
+          - table [ref=e1620]:
+            - rowgroup [ref=e1621]:
+              - row [ref=e1622]:
+                - columnheader [ref=e1623]: Time window
+                - columnheader [ref=e1624]: Refund
+            - rowgroup [ref=e1625]:
+              - row [ref=e1626]:
+                - cell [ref=e1627]: Before 10th Apr 10:30 AM
+                - cell [ref=e1628]: 85%
+              - row [ref=e1629]:
+                - cell [ref=e1630]: From 10th Apr 10:30 AM Until 10th Apr 10:30 PM
+                - cell [ref=e1631]: 80%
+              - row [ref=e1632]:
+                - cell [ref=e1633]: From 10th Apr 10:30 PM Until 11th Apr 04:30 AM
+                - cell [ref=e1634]: 50%
+              - row [ref=e1635]:
+                - cell [ref=e1636]: From 11th Apr 04:30 AM Until 11th Apr 10:30 AM
+                - cell [ref=e1637]: 0%
+          - paragraph [ref=e1640]: Add Free Cancellation while booking to get a 100% refund on cancellation.
+          - list [ref=e1641]:
+            - listitem [ref=e1642]: "* Cancellation charges are computed on a per seat basis. Above cancellation fare is calculated based on seat fare of ₹ 325"
+            - listitem [ref=e1643]: "* Cancellation charges are calculated based on service start date + time at :11-04-2026 10:30"
+            - listitem [ref=e1644]: "* Ticket cannot be cancelled after scheduled bus departure time from the first boarding point"
+            - listitem [ref=e1645]: "* Note: Cancellation charges mentioned above are excluding GST"
+            - listitem [ref=e1646]: "* For group bookings individual seats can be cancelled."
+        - generic [ref=e1649]:
+          - generic [ref=e1651]:
+            - heading [level=4] [ref=e1652]: Boarding point
+            - generic [ref=e1653]: Vijayawada
+          - list [ref=e1654]:
+            - listitem [ref=e1655]:
+              - generic [ref=e1656]:
+                - text: 10:30
+                - generic [ref=e1657]: 11 Apr
+              - generic [ref=e1660]:
+                - generic [ref=e1661]: Raintree Park Namburu
+                - generic [ref=e1662]: In Front Of Raintree Park Apartments Entrance
+            - listitem [ref=e1663]:
+              - generic [ref=e1664]:
+                - text: 10:40
+                - generic [ref=e1665]: 11 Apr
+              - generic [ref=e1668]:
+                - generic [ref=e1669]: Mangalagiri Bypass
+                - generic [ref=e1670]: In Front Of Indian Oil Petrol Pump
+            - listitem [ref=e1671]:
+              - generic [ref=e1672]:
+                - text: 10:50
+                - generic [ref=e1673]: 11 Apr
+              - generic [ref=e1676]:
+                - generic [ref=e1677]: Tadepalli
+                - generic [ref=e1678]: Near Manipal Hospital Private Bus Stop
+            - listitem [ref=e1679]:
+              - generic [ref=e1680]:
+                - text: 11:10
+                - generic [ref=e1681]: 11 Apr
+              - generic [ref=e1684]:
+                - generic [ref=e1685]: Benz Circle
+                - generic [ref=e1686]: Pillar No:4, Near Hanuman Temple
+          - button [ref=e1689] [cursor=pointer]: View all boarding points
+        - generic [ref=e1692]:
+          - generic [ref=e1694]:
+            - heading [level=4] [ref=e1695]: Dropping point
+            - generic [ref=e1696]: Hyderabad
+          - list [ref=e1697]:
+            - listitem [ref=e1698]:
+              - generic [ref=e1699]:
+                - text: 17:10
+                - generic [ref=e1700]: 11 Apr
+              - generic [ref=e1703]:
+                - generic [ref=e1704]: Ramoji Film City
+                - generic [ref=e1705]: Opposite To Ramoji Film City (In Front Of Hotel Sridhar)
+            - listitem [ref=e1706]:
+              - generic [ref=e1707]:
+                - text: 17:25
+                - generic [ref=e1708]: 11 Apr
+              - generic [ref=e1711]:
+                - generic [ref=e1712]: Hayathnagar
+                - generic [ref=e1713]: In Front Of Sunrise Hospitals
+            - listitem [ref=e1714]:
+              - generic [ref=e1715]:
+                - text: 17:30
+                - generic [ref=e1716]: 11 Apr
+              - generic [ref=e1719]:
+                - generic [ref=e1720]: Vanasthalipuram
+                - generic [ref=e1721]: In Front Of Tata Motors Towards HYD
+            - listitem [ref=e1722]:
+              - generic [ref=e1723]:
+                - text: 17:35
+                - generic [ref=e1724]: 11 Apr
+              - generic [ref=e1727]:
+                - generic [ref=e1728]: LB Nagar Chintalkunta
+                - generic [ref=e1729]: At Orang Trade Centre
+          - button [ref=e1732] [cursor=pointer]: View all dropping points
+        - generic [ref=e1735]:
+          - generic [ref=e1737]:
+            - heading [level=4] [ref=e1738]: Bus route
+            - generic [ref=e1739]: 272 km · 6 hr 5 min
+          - generic [ref=e1740]:
+            - generic [ref=e1741]:
+              - generic [ref=e1742]: Vijayawada
+              - generic [ref=e1743]: →
+            - generic [ref=e1744]:
+              - generic [ref=e1745]: Mangalagiri
+              - generic [ref=e1746]: →
+            - generic [ref=e1747]:
+              - generic [ref=e1748]: Ibrahimpatnam
+              - generic [ref=e1749]: →
+            - generic [ref=e1750]:
+              - generic [ref=e1751]: Nandigama
+              - generic [ref=e1752]: →
+            - generic [ref=e1754]: Hyderabad
+        - generic [ref=e1757]:
+          - heading [level=4] [ref=e1760]: Rest stop
+          - generic [ref=e1761]: Rajugari Thota Hotel
+          - generic [ref=e1762]:
+            - generic [ref=e1763]: 01:30 PM
+            - generic [ref=e1764]: •
+            - generic [ref=e1765]: 45 Mins stop
+          - generic [ref=e1766]: Traveler experience
+          - generic [ref=e1768]:
+            - listitem [ref=e1769]:
+              - generic [ref=e1770]: 
+              - generic [ref=e1771]: Washroom Hygiene
+            - listitem [ref=e1772]:
+              - generic [ref=e1773]: 
+              - generic [ref=e1774]: Food Quality
+            - listitem [ref=e1775]:
+              - generic [ref=e1776]: 
+              - generic [ref=e1777]: Safety
+        - region [ref=e1780]:
+          - heading [level=4] [ref=e1783]: Bus Features
+          - list [ref=e1786]:
+            - listitem [ref=e1787]:
+              - img [ref=e1788]
+              - generic [ref=e1789]: Water Bottle
+            - listitem [ref=e1790]:
+              - img [ref=e1791]
+              - generic [ref=e1792]: Blankets
+            - listitem [ref=e1793]:
+              - img [ref=e1794]
+              - generic [ref=e1795]: Snacks
+            - listitem [ref=e1796]:
+              - img [ref=e1797]
+              - generic [ref=e1798]: Charging Point
+            - listitem [ref=e1799]:
+              - img [ref=e1800]
+              - generic [ref=e1801]: Reading Light
+            - listitem [ref=e1802]:
+              - img [ref=e1803]
+              - generic [ref=e1804]: CCTV
+        - generic [ref=e1808]:
+          - generic [ref=e1809]:
+            - heading [level=4] [ref=e1810]: Ratings & reviews
+            - group [ref=e1811]:
+              - generic [ref=e1812]:
+                - generic [ref=e1813]: 
+                - text: "4.8"
+              - generic [ref=e1814]: 511 Ratings
+          - generic [ref=e1815]:
+            - generic [ref=e1817]: 
+            - generic [ref=e1818]: Real Feedback from verified travellers
+          - generic [ref=e1819]:
+            - list [ref=e1820]:
+              - listitem [ref=e1821]:
+                - generic [ref=e1822]:
+                  - generic [ref=e1823]: "5"
+                  - generic [ref=e1824]: 
+                - generic [ref=e1827]: 80%
+              - listitem [ref=e1828]:
+                - generic [ref=e1829]:
+                  - generic [ref=e1830]: "4"
+                  - generic [ref=e1831]: 
+                - generic [ref=e1834]: 14%
+              - listitem [ref=e1835]:
+                - generic [ref=e1836]:
+                  - generic [ref=e1837]: "3"
+                  - generic [ref=e1838]: 
+                - generic [ref=e1841]: 2%
+              - listitem [ref=e1842]:
+                - generic [ref=e1843]:
+                  - generic [ref=e1844]: "2"
+                  - generic [ref=e1845]: 
+                - generic [ref=e1848]: 1%
+              - listitem [ref=e1849]:
+                - generic [ref=e1850]:
+                  - generic [ref=e1851]: "1"
+                  - generic [ref=e1852]: 
+                - generic [ref=e1855]: 4%
+            - generic [ref=e1856]:
+              - heading [level=4] [ref=e1857]: Loved by travelers
+              - list [ref=e1858]:
+                - listitem [ref=e1859]:
+                  - generic [ref=e1860]: Punctuality (256)
+                - listitem [ref=e1861]:
+                  - generic [ref=e1862]: Cleanliness (226)
+                - listitem [ref=e1863]:
+                  - generic [ref=e1864]: Driving (219)
+                - listitem [ref=e1865]:
+                  - generic [ref=e1866]: Staff behavior (209)
+                - listitem [ref=e1867]:
+                  - generic [ref=e1868]: Rest stop hygiene (208)
+                - listitem [ref=e1869]:
+                  - generic [ref=e1870]: AC (193)
+                - listitem [ref=e1871]:
+                  - generic [ref=e1872]: Live tracking (180)
+                - listitem [ref=e1873]:
+                  - generic [ref=e1874]: Seat comfort (161)
+                - listitem [ref=e1875]:
+                  - generic [ref=e1876]: Seat / Sleep Comfort (32)
+            - button [ref=e1879] [cursor=pointer]: Read all 142 reviews
+        - generic [ref=e1882]:
+          - heading [level=4] [ref=e1885]: Other Policies
+          - list [ref=e1886]:
+            - generic [ref=e1888] [cursor=pointer]:
+              - img [ref=e1889]
+              - generic [ref=e1890]:
+                - heading [level=5] [ref=e1891]: Child passenger policy
+                - generic [ref=e1893]: Children above the age of 5 will need a ticket
+            - generic [ref=e1895] [cursor=pointer]:
+              - img [ref=e1896]
+              - generic [ref=e1897]:
+                - heading [level=5] [ref=e1898]: Luggage policy
+                - generic [ref=e1899]:
+                  - generic [ref=e1900]: 2 pieces of luggage will be accepted free of charge per passenger. Excess items will be chargeable
+                  - generic [ref=e1901]: Excess baggage over 20 kgs per passenger will be chargeable
+            - generic [ref=e1903] [cursor=pointer]:
+              - img [ref=e1904]
+              - generic [ref=e1905]:
+                - heading [level=5] [ref=e1906]: Pets Policy
+                - generic [ref=e1908]: Pets are not allowed
+            - generic [ref=e1910] [cursor=pointer]:
+              - img [ref=e1911]
+              - generic [ref=e1912]:
+                - heading [level=5] [ref=e1913]: Liquor Policy
+                - generic [ref=e1915]: Carrying or consuming liquor inside the bus is prohibited. Bus operator reserves the right to deboard drunk passengers.
+            - generic [ref=e1917] [cursor=pointer]:
+              - img [ref=e1918]
+              - generic [ref=e1919]:
+                - heading [level=5] [ref=e1920]: Pick up time policy
+                - generic [ref=e1922]: Bus operator is not obligated to wait beyond the scheduled departure time of the bus. No refund request will be entertained for late arriving passengers.
+  - button [ref=e1923] [cursor=pointer]:
+    - img
+  - dialog [ref=e1925]:
+    - generic [ref=e1926]:
+      - heading [level=2] [ref=e1929]: Login to get exciting offers
+      - button [active] [ref=e1931] [cursor=pointer]:
+        - generic [ref=e1932]: 
+    - generic [ref=e1933]:
+      - generic [ref=e1934]:
+        - heading [level=4] [ref=e1937]: What's your mobile number?
+        - generic [ref=e1938]:
+          - generic [ref=e1941]:
+            - generic [ref=e1943] [cursor=pointer]:
+              - generic: Country Code
+              - generic [ref=e1944]:
+                - generic [ref=e1945]: +91 (IND)
+                - generic [ref=e1946]: 
+            - generic [ref=e1948]:
+              - generic: Mobile number
+              - textbox [ref=e1949]
+              - button [ref=e1950] [cursor=pointer]:
+                - img [ref=e1951]
+          - generic [ref=e1952]:
+            - generic [ref=e1953]:
+              - button [disabled] [ref=e1954] [cursor=pointer]: Continue
+              - button [ref=e1955] [cursor=pointer]
+            - button [ref=e1957] [cursor=pointer]: Sign in with Passkey
+      - generic [ref=e1958]:
+        - generic [ref=e1959]: By logging in, I agree
+        - generic [ref=e1960]:
+          - generic [ref=e1961]:
+            - link [ref=e1962] [cursor=pointer]:
+              - /url: https://www.redbus.in/info/termscondition
+              - text: Terms & Conditions
+            - text: "&"
+          - link [ref=e1964] [cursor=pointer]:
+            - /url: https://www.redbus.in/info/privacypolicy
+            - text: Privacy Policy

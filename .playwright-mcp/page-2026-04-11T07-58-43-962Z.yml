@@ -1,0 +1,612 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: Get 10% OFF on this route
+          - generic [ref=e9]: Use code APP10 on app
+        - button "Close App Install Banner" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: 
+        - button "Open redBus app" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: Open redBus app
+      - generic [ref=e18]:
+        - button "back" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: 
+        - generic [ref=e22]:
+          - generic "Hyderabad to Bangalore" [ref=e24]:
+            - generic [ref=e25]:
+              - text: Hyderabad
+              - generic [ref=e26]: 
+              - text: Bangalore
+          - generic [ref=e27]: 179 buses
+        - generic [ref=e28]:
+          - button "11 Apr" [ref=e29] [cursor=pointer]
+          - generic [ref=e30]: Sat
+      - heading "Hyderabad to Bangalore Bus" [level=1] [ref=e31]
+    - generic [ref=e34]:
+      - region [ref=e36]:
+        - img "oipCard_20310" [ref=e694] [cursor=pointer]
+        - img "oipCard_555" [ref=e41] [cursor=pointer]
+        - img "oipCard_86" [ref=e44] [cursor=pointer]
+        - img "oipCard_37" [ref=e47] [cursor=pointer]
+        - img "oipCard_7" [ref=e50] [cursor=pointer]
+        - img "oipCard_4" [ref=e53] [cursor=pointer]
+        - img "oipCard_15" [ref=e56] [cursor=pointer]
+      - status "Carousel navigation status" [ref=e57]
+      - generic [ref=e695]:
+        - generic [ref=e696]:
+          - generic [ref=e1305]: "1"
+          - button "Filter & Sort filter" [ref=e697] [cursor=pointer]:
+            - generic [ref=e698]:
+              - generic [ref=e699]: 
+              - generic [ref=e700]: Filter & Sort
+        - list [ref=e702]:
+          - listitem [ref=e703]:
+            - button "Primo Bus (65)" [ref=e1306] [cursor=pointer]:
+              - generic [ref=e705]:
+                - generic [ref=e706]: 
+                - generic [ref=e707]: Primo Bus (65)
+          - listitem [ref=e708]:
+            - button "Deals (70)" [ref=e1307] [cursor=pointer]:
+              - generic [ref=e710]:
+                - generic [ref=e711]: 
+                - generic [ref=e712]: Deals (70)
+          - listitem [ref=e713]:
+            - button "Free Cancellation (69)" [ref=e1308] [cursor=pointer]:
+              - generic [ref=e715]:
+                - generic [ref=e716]: 
+                - generic [ref=e717]: Free Cancellation (69)
+          - listitem [ref=e718]:
+            - button "AC (180)" [active] [ref=e719] [cursor=pointer]:
+              - generic [ref=e720]:
+                - generic [ref=e721]: 
+                - generic [ref=e722]: AC (180)
+                - generic [ref=e1309]: 
+          - listitem [ref=e723]:
+            - button "SLEEPER (178)" [ref=e1310] [cursor=pointer]:
+              - generic [ref=e725]:
+                - generic [ref=e726]: 
+                - generic [ref=e727]: SLEEPER (178)
+          - listitem [ref=e728]:
+            - button "Single Seats (164)" [ref=e1311] [cursor=pointer]:
+              - generic [ref=e730]:
+                - generic [ref=e731]: 
+                - generic [ref=e732]: Single Seats (164)
+          - listitem [ref=e733]:
+            - button "SEATER (30)" [ref=e1312] [cursor=pointer]:
+              - generic [ref=e735]:
+                - generic [ref=e736]: 
+                - generic [ref=e737]: SEATER (30)
+          - listitem [ref=e738]:
+            - button "NONAC (21)" [ref=e739] [cursor=pointer]:
+              - generic [ref=e740]:
+                - generic [ref=e741]: 
+                - generic [ref=e742]: NONAC (21)
+          - listitem [ref=e743]:
+            - button "18:00-24:00 (144)" [ref=e1313] [cursor=pointer]:
+              - generic [ref=e745]:
+                - generic [ref=e746]: 
+                - generic [ref=e747]: 18:00-24:00 (144)
+          - listitem [ref=e748]:
+            - button "High Rated Buses (154)" [ref=e1314] [cursor=pointer]:
+              - generic [ref=e750]:
+                - generic [ref=e751]: 
+                - generic [ref=e752]: High Rated Buses (154)
+          - listitem [ref=e753]:
+            - button "Volvo Buses (47)" [ref=e754] [cursor=pointer]:
+              - generic [ref=e755]:
+                - generic [ref=e756]: 
+                - generic [ref=e757]: Volvo Buses (47)
+      - generic [ref=e758]:
+        - generic [ref=e759]:
+          - generic [ref=e760]:
+            - img "Eazzy filter star icon" [ref=e762]
+            - generic [ref=e763]: Eazzy filter
+          - generic [ref=e764]:
+            - generic [ref=e765]: AI powered
+            - text: smart search
+        - generic [ref=e766]:
+          - button "Search icon Try \"morning bus with charging points\"" [ref=e1315] [cursor=pointer]:
+            - img "Search icon" [ref=e768]
+            - generic [ref=e771]: Try "morning bus with charging points"
+          - button "Voice input" [ref=e773] [cursor=pointer]:
+            - img "Voice input" [ref=e774]
+      - generic [ref=e777]: 25000+ bookings on this route last month
+      - generic [ref=e1317]:
+        - generic [ref=e1320] [cursor=pointer]:
+          - generic [ref=e1324]:
+            - generic [ref=e1326]: Live Tracking
+            - generic [ref=e1328]: Use Code TGSRTC to Get Upto ₹250 off on TGSRTC!
+            - generic [ref=e1330]: 50% Concession for Child Passengers.
+          - generic [ref=e1331]:
+            - generic [ref=e1332]:
+              - img "TGSRTC Buses" [ref=e1333]
+              - generic [ref=e1334]:
+                - generic [ref=e1335]:
+                  - generic [ref=e1336]: TGSRTC Buses
+                  - generic [ref=e1337]: తెలంగాణ రాష్ట్ర రోడ్డు రవాణా సంస్థ
+                - generic [ref=e1338]:
+                  - generic [ref=e1339]: 12 buses
+                  - text: starting from
+                  - generic [ref=e1340]: ₹1,203
+            - generic [ref=e1342]: 
+        - list [ref=e1345]:
+          - button "LVP Travels, A/C Sleeper (2+1). Departs 22:30, arrives 08:50. Duration 10h 20m. Available seats 24 Seats. Price 1299 INR. Rated 4.7 out of 5. Total reviewers 1169. Live tracking, New Bus, On Time" [ref=e1346] [cursor=pointer]:
+            - img "hero img" [ref=e1350]
+            - generic [ref=e1351]:
+              - generic [ref=e1352]:
+                - generic [ref=e1353]:
+                  - paragraph [ref=e1354]: 22:30
+                  - paragraph [ref=e1356]: 08:50
+                - generic [ref=e1357]:
+                  - paragraph [ref=e1358]: 10h 20m
+                  - generic [ref=e1360]:
+                    - paragraph [ref=e1361]: 24 Seats
+                    - paragraph [ref=e1362]: (8 Single)
+              - generic [ref=e1364]:
+                - paragraph [ref=e1367]: ₹1,299
+                - paragraph [ref=e1371]: ₹2,199
+              - generic [ref=e1373]:
+                - generic [ref=e1374]:
+                  - generic [ref=e1375]: LVP Travels
+                  - generic [ref=e1377]: 
+                - paragraph [ref=e1379]: A/C Sleeper (2+1)
+              - generic "4.7 star rating, 1169 ratings" [ref=e1381]:
+                - generic [ref=e1383]:
+                  - generic [ref=e1384]: 
+                  - generic [ref=e1385]: "4.7"
+                - generic [ref=e1386]: "1169"
+            - generic [ref=e1387]:  
+            - generic [ref=e1389]:
+              - listitem [ref=e1390]:
+                - generic [ref=e1391]: New Bus
+              - listitem [ref=e1392]:
+                - generic [ref=e1393]: On Time
+          - button "LVP Travels, A/C Sleeper (2+1). Departs 21:30, arrives 08:10. Duration 10h 40m. Available seats 22 Seats. Price 1299 INR. Rated 4.8 out of 5. Total reviewers 1169. Live tracking, New Bus, On Time" [ref=e1394] [cursor=pointer]:
+            - img "hero img" [ref=e1398]
+            - generic [ref=e1399]:
+              - generic [ref=e1400]:
+                - generic [ref=e1401]:
+                  - paragraph [ref=e1402]: 21:30
+                  - paragraph [ref=e1404]: 08:10
+                - generic [ref=e1405]:
+                  - paragraph [ref=e1406]: 10h 40m
+                  - generic [ref=e1408]:
+                    - paragraph [ref=e1409]: 22 Seats
+                    - paragraph [ref=e1410]: (8 Single)
+              - generic [ref=e1412]:
+                - paragraph [ref=e1415]: ₹1,299
+                - paragraph [ref=e1419]: ₹2,199
+              - generic [ref=e1421]:
+                - generic [ref=e1422]:
+                  - generic [ref=e1423]: LVP Travels
+                  - generic [ref=e1425]: 
+                - paragraph [ref=e1427]: A/C Sleeper (2+1)
+              - generic "4.8 star rating, 1169 ratings" [ref=e1429]:
+                - generic [ref=e1431]:
+                  - generic [ref=e1432]: 
+                  - generic [ref=e1433]: "4.8"
+                - generic [ref=e1434]: "1169"
+            - generic [ref=e1435]:  
+            - generic [ref=e1437]:
+              - listitem [ref=e1438]:
+                - generic [ref=e1439]: New Bus
+              - listitem [ref=e1440]:
+                - generic [ref=e1441]: On Time
+          - button "VSR Tours and Travels, A/C Sleeper (2+1). Departs 20:55, arrives 07:10. Duration 10h 15m. Available seats 10 Seats. Price 1109 INR. Rated 4.7 out of 5. Total reviewers 1254. Live tracking, ₹100 OFF, New Bus, On Time, Exclusive discounts available for women passengers" [ref=e1442] [cursor=pointer]:
+            - generic [ref=e1443]:
+              - img "hero img" [ref=e1446]
+              - button "Women ₹100 OFF" [ref=e1447]:
+                - generic [ref=e1448]:
+                  - generic [ref=e1449]: Women
+                  - generic [ref=e1450]: ₹100 OFF
+            - generic [ref=e1451]:
+              - generic [ref=e1452]:
+                - generic [ref=e1453]:
+                  - paragraph [ref=e1454]: 20:55
+                  - paragraph [ref=e1456]: 07:10
+                - generic [ref=e1457]:
+                  - paragraph [ref=e1458]: 10h 15m
+                  - generic [ref=e1460]:
+                    - paragraph [ref=e1461]: 10 Seats
+                    - paragraph [ref=e1462]: (4 Single)
+              - generic [ref=e1464]:
+                - paragraph [ref=e1467]: ₹1,109
+                - paragraph [ref=e1471]: ₹1,969
+              - generic [ref=e1473]:
+                - generic [ref=e1474]:
+                  - generic [ref=e1475]: VSR Tours and Travels
+                  - generic [ref=e1477]: 
+                - paragraph [ref=e1479]: A/C Sleeper (2+1)
+              - generic "4.7 star rating, 1254 ratings" [ref=e1481]:
+                - generic [ref=e1483]:
+                  - generic [ref=e1484]: 
+                  - generic [ref=e1485]: "4.7"
+                - generic [ref=e1486]: "1254"
+            - generic [ref=e1487]:  
+            - generic [ref=e1489]:
+              - listitem [ref=e1490]:
+                - generic [ref=e1491]: New Bus
+              - listitem [ref=e1492]:
+                - generic [ref=e1493]: On Time
+            - generic [ref=e1495]: Exclusive discounts available for women passengers
+          - button "Rajdhani Travels, Volvo 9600 Multi-Axle A/C Sleeper (2+1). Departs 23:35, arrives 09:10. Duration 9h 35m. Available seats 25 Seats. Price 1169 INR. Rated 4.2 out of 5. Total reviewers 517. Sponsored, Live tracking, 10% OFF, New Bus, Minimum 10% off on return ticket" [ref=e1496] [cursor=pointer]:
+            - generic [ref=e1497]:
+              - img "hero img" [ref=e1500]
+              - button "Last min. 10% OFF" [ref=e1501]:
+                - generic [ref=e1502]:
+                  - generic [ref=e1503]: Last min.
+                  - generic [ref=e1504]: 10% OFF
+            - generic [ref=e1505]:
+              - generic [ref=e1506]:
+                - generic [ref=e1507]:
+                  - paragraph [ref=e1508]: 23:35
+                  - paragraph [ref=e1510]: 09:10
+                - generic [ref=e1511]:
+                  - paragraph [ref=e1512]: 9h 35m
+                  - generic [ref=e1514]:
+                    - paragraph [ref=e1515]: 25 Seats
+                    - paragraph [ref=e1516]: (7 Single)
+              - generic [ref=e1518]:
+                - generic [ref=e1520]:
+                  - paragraph [ref=e1521]: ₹1,169
+                  - paragraph [ref=e1522]: ₹1,299
+                - generic [ref=e1525]:
+                  - paragraph [ref=e1526]: ₹1,619
+                  - paragraph [ref=e1527]: ₹1,799
+              - generic [ref=e1529]:
+                - generic [ref=e1530]:
+                  - generic [ref=e1531]: Rajdhani Travels
+                  - generic [ref=e1533]: 
+                  - paragraph [ref=e1534]: Ad
+                - paragraph [ref=e1536]: Volvo 9600 Multi-Axle A/C Sleeper (2+1)
+              - generic "4.2 star rating, 517 ratings" [ref=e1538]:
+                - generic [ref=e1540]:
+                  - generic [ref=e1541]: 
+                  - generic [ref=e1542]: "4.2"
+                - generic [ref=e1543]: "517"
+            - generic [ref=e1544]:  
+            - listitem [ref=e1547]:
+              - generic [ref=e1548]: New Bus
+            - generic [ref=e1550]: Minimum 10% off on return ticket
+          - button "Mythri Tours And Travels, A/C Sleeper (2+1). Departs 20:45, arrives 07:15. Duration 10h 30m. Available seats 6 Seats. Price 999 INR. Rated 4.7 out of 5. Total reviewers 1252. Live tracking, 10% OFF, Limited seats, On Time, Exclusive discounts available for women passengers" [ref=e1551] [cursor=pointer]:
+            - generic [ref=e1552]:
+              - img "hero img" [ref=e1555]
+              - button "Women 10% OFF" [ref=e1556]:
+                - generic [ref=e1557]:
+                  - generic [ref=e1558]: Women
+                  - generic [ref=e1559]: 10% OFF
+            - generic [ref=e1560]:
+              - generic [ref=e1561]:
+                - generic [ref=e1562]:
+                  - paragraph [ref=e1563]: 20:45
+                  - paragraph [ref=e1565]: 07:15
+                - generic [ref=e1566]:
+                  - paragraph [ref=e1567]: 10h 30m
+                  - generic [ref=e1569]:
+                    - paragraph [ref=e1570]: 6 Seats
+                    - paragraph [ref=e1571]: (1 Single)
+              - generic [ref=e1573]:
+                - paragraph [ref=e1576]: ₹999
+                - paragraph [ref=e1580]: ₹1,629
+              - generic [ref=e1582]:
+                - generic [ref=e1583]:
+                  - generic [ref=e1584]: Mythri Tours And Travels
+                  - generic [ref=e1586]: 
+                - paragraph [ref=e1588]: A/C Sleeper (2+1)
+              - generic "4.7 star rating, 1252 ratings" [ref=e1590]:
+                - generic [ref=e1592]:
+                  - generic [ref=e1593]: 
+                  - generic [ref=e1594]: "4.7"
+                - generic [ref=e1595]: "1252"
+            - generic [ref=e1596]:  
+            - listitem [ref=e1599]:
+              - generic [ref=e1600]: On Time
+            - generic [ref=e1602]: Exclusive discounts available for women passengers
+          - button "Streamline tours and travels, Bharat Benz A/C Sleeper (2+1). Departs 23:15, arrives 09:30. Duration 10h 15m. Available seats 17 Seats. Price 1169 INR. Rated 4.2 out of 5. Total reviewers 663. Sponsored, Live tracking, 10% OFF, New Bus, Minimum 10% off on return ticket" [ref=e1603] [cursor=pointer]:
+            - generic [ref=e1604]:
+              - img "hero img" [ref=e1607]
+              - button "Last min. 10% OFF" [ref=e1608]:
+                - generic [ref=e1609]:
+                  - generic [ref=e1610]: Last min.
+                  - generic [ref=e1611]: 10% OFF
+            - generic [ref=e1612]:
+              - generic [ref=e1613]:
+                - generic [ref=e1614]:
+                  - paragraph [ref=e1615]: 23:15
+                  - paragraph [ref=e1617]: 09:30
+                - generic [ref=e1618]:
+                  - paragraph [ref=e1619]: 10h 15m
+                  - generic [ref=e1621]:
+                    - paragraph [ref=e1622]: 17 Seats
+                    - paragraph [ref=e1623]: (6 Single)
+              - generic [ref=e1625]:
+                - generic [ref=e1627]:
+                  - paragraph [ref=e1628]: ₹1,169
+                  - paragraph [ref=e1629]: ₹1,299
+                - generic [ref=e1632]:
+                  - paragraph [ref=e1633]: ₹1,709
+                  - paragraph [ref=e1634]: ₹1,899
+              - generic [ref=e1636]:
+                - generic [ref=e1637]:
+                  - generic [ref=e1638]: Streamline tours and travels
+                  - generic [ref=e1640]: 
+                  - paragraph [ref=e1641]: Ad
+                - paragraph [ref=e1643]: Bharat Benz A/C Sleeper (2+1)
+              - generic "4.2 star rating, 663 ratings" [ref=e1645]:
+                - generic [ref=e1647]:
+                  - generic [ref=e1648]: 
+                  - generic [ref=e1649]: "4.2"
+                - generic [ref=e1650]: "663"
+            - generic [ref=e1651]:  
+            - listitem [ref=e1654]:
+              - generic [ref=e1655]: New Bus
+            - generic [ref=e1657]: Minimum 10% off on return ticket
+          - button "KSM Roadways, Bharat Benz A/C Sleeper (2+1). Departs 21:00, arrives 06:28. Duration 9h 28m. Available seats 21 Seats. Price 1200 INR. Rated 4.7 out of 5. Total reviewers 1048. Live tracking" [ref=e1658] [cursor=pointer]:
+            - generic [ref=e1659]:
+              - generic [ref=e1660]:
+                - generic [ref=e1661]:
+                  - paragraph [ref=e1662]: 21:00
+                  - paragraph [ref=e1664]: 06:28
+                - generic [ref=e1665]:
+                  - paragraph [ref=e1666]: 9h 28m
+                  - generic [ref=e1668]:
+                    - paragraph [ref=e1669]: 21 Seats
+                    - paragraph [ref=e1670]: (10 Single)
+              - generic [ref=e1672]:
+                - paragraph [ref=e1675]: ₹1,200
+                - paragraph [ref=e1679]: ₹2,100
+              - generic [ref=e1681]:
+                - generic [ref=e1682]:
+                  - generic [ref=e1683]: KSM Roadways
+                  - generic [ref=e1685]: 
+                - paragraph [ref=e1687]: Bharat Benz A/C Sleeper (2+1)
+              - generic "4.7 star rating, 1048 ratings" [ref=e1689]:
+                - generic [ref=e1691]:
+                  - generic [ref=e1692]: 
+                  - generic [ref=e1693]: "4.7"
+                - generic [ref=e1694]: "1048"
+            - generic [ref=e1695]:  
+          - generic [ref=e1696]:
+            - img "FCGradient"
+            - generic [ref=e1697]:
+              - img [ref=e1698]
+              - generic [ref=e1699]:
+                - heading "Travel plans might change" [level=4] [ref=e1700]
+                - generic [ref=e1701]:
+                  - generic [ref=e1702]: Add
+                  - generic [ref=e1703]: Free Cancellation
+                  - generic [ref=e1704]: to get full refund
+            - switch "Only show buses that provide Free Cancellation" [ref=e1705] [cursor=pointer]:
+              - generic [ref=e1708]: Only show buses that provide Free Cancellation
+              - switch [ref=e1711]:
+                - checkbox [ref=e1712]
+          - button "HASH BUS, Bharat Benz A/C Sleeper (2+1). Departs 22:20, arrives 07:30. Duration 9h 10m. Available seats 20 Seats. Price 999 INR. Rated 4.3 out of 5. Total reviewers 682. Sponsored, Live tracking, New Bus" [ref=e1713] [cursor=pointer]:
+            - generic [ref=e1714]:
+              - generic [ref=e1715]:
+                - generic [ref=e1716]:
+                  - paragraph [ref=e1717]: 22:20
+                  - paragraph [ref=e1719]: 07:30
+                - generic [ref=e1720]:
+                  - paragraph [ref=e1721]: 9h 10m
+                  - generic [ref=e1723]:
+                    - paragraph [ref=e1724]: 20 Seats
+                    - paragraph [ref=e1725]: (2 Single)
+              - generic [ref=e1727]:
+                - paragraph [ref=e1730]: ₹999
+                - paragraph [ref=e1734]: ₹1,499
+              - generic [ref=e1736]:
+                - generic [ref=e1737]:
+                  - generic [ref=e1738]: HASH BUS
+                  - generic [ref=e1740]: 
+                  - paragraph [ref=e1741]: Ad
+                - paragraph [ref=e1743]: Bharat Benz A/C Sleeper (2+1)
+              - generic "4.3 star rating, 682 ratings" [ref=e1745]:
+                - generic [ref=e1747]:
+                  - generic [ref=e1748]: 
+                  - generic [ref=e1749]: "4.3"
+                - generic [ref=e1750]: "682"
+            - generic [ref=e1751]:  
+            - listitem [ref=e1754]:
+              - generic [ref=e1755]: New Bus
+          - button "Pramukh Travels, Volvo 9600 SLX Multi-Axle AC Sleeper (2+1). Departs 22:30, arrives 08:15. Duration 9h 45m. Available seats 11 Seats. Price 1299 INR. Rated 4.7 out of 5. Total reviewers 879. Live tracking, ₹100 OFF, New Bus, Business Class, Exclusive discounts available for women passengers" [ref=e1756] [cursor=pointer]:
+            - generic [ref=e1757]:
+              - img "hero img" [ref=e1760]
+              - button "Women ₹100 OFF" [ref=e1761]:
+                - generic [ref=e1762]:
+                  - generic [ref=e1763]: Women
+                  - generic [ref=e1764]: ₹100 OFF
+            - generic [ref=e1765]:
+              - generic [ref=e1766]:
+                - generic [ref=e1767]:
+                  - paragraph [ref=e1768]: 22:30
+                  - paragraph [ref=e1770]: 08:15
+                - generic [ref=e1771]:
+                  - paragraph [ref=e1772]: 9h 45m
+                  - generic [ref=e1774]:
+                    - paragraph [ref=e1775]: 11 Seats
+                    - paragraph [ref=e1776]: (3 Single)
+              - generic [ref=e1778]:
+                - paragraph [ref=e1781]: ₹1,299
+                - paragraph [ref=e1785]: ₹2,124
+              - generic [ref=e1787]:
+                - generic [ref=e1788]:
+                  - generic [ref=e1789]: Pramukh Travels
+                  - generic [ref=e1791]: 
+                - paragraph [ref=e1793]: Volvo 9600 SLX Multi-Axle AC Sleeper (2+1)
+              - generic "4.7 star rating, 879 ratings" [ref=e1795]:
+                - generic [ref=e1797]:
+                  - generic [ref=e1798]: 
+                  - generic [ref=e1799]: "4.7"
+                - generic [ref=e1800]: "879"
+            - generic [ref=e1801]:  
+            - generic [ref=e1803]:
+              - listitem [ref=e1804]:
+                - generic [ref=e1805]: New Bus
+              - listitem [ref=e1806]:
+                - generic [ref=e1807]: Business Class
+            - generic [ref=e1809]: Exclusive discounts available for women passengers
+          - button "TVK TRAVELS, Bharat Benz A/C Sleeper (2+1). Departs 23:15, arrives 08:50. Duration 9h 35m. Available seats 25 Seats. Price 1199 INR. Rated 4.6 out of 5. Total reviewers 719. Live tracking, 10% OFF, Exclusive discounts available for women passengers" [ref=e1810] [cursor=pointer]:
+            - generic [ref=e1811]:
+              - img "hero img" [ref=e1814]
+              - button "Women 10% OFF" [ref=e1815]:
+                - generic [ref=e1816]:
+                  - generic [ref=e1817]: Women
+                  - generic [ref=e1818]: 10% OFF
+            - generic [ref=e1819]:
+              - generic [ref=e1820]:
+                - generic [ref=e1821]:
+                  - paragraph [ref=e1822]: 23:15
+                  - paragraph [ref=e1824]: 08:50
+                - generic [ref=e1825]:
+                  - paragraph [ref=e1826]: 9h 35m
+                  - generic [ref=e1828]:
+                    - paragraph [ref=e1829]: 25 Seats
+                    - paragraph [ref=e1830]: (8 Single)
+              - generic [ref=e1832]:
+                - paragraph [ref=e1835]: ₹1,199
+                - paragraph [ref=e1839]: ₹1,999
+              - generic [ref=e1841]:
+                - generic [ref=e1842]:
+                  - generic [ref=e1843]: TVK TRAVELS
+                  - generic [ref=e1845]: 
+                - paragraph [ref=e1847]: Bharat Benz A/C Sleeper (2+1)
+              - generic "4.6 star rating, 719 ratings" [ref=e1849]:
+                - generic [ref=e1851]:
+                  - generic [ref=e1852]: 
+                  - generic [ref=e1853]: "4.6"
+                - generic [ref=e1854]: "719"
+            - generic [ref=e1855]:  
+            - generic [ref=e1857]: Exclusive discounts available for women passengers
+    - button "Open chat support" [ref=e109] [cursor=pointer]:
+      - img
+      - generic [ref=e110]: Ask RAY
+    - navigation "breadcrumb" [ref=e112]:
+      - listitem [ref=e113]:
+        - link "Home" [ref=e114] [cursor=pointer]:
+          - /url: https://www.redbus.in/
+        - text: ＞
+      - listitem [ref=e115]:
+        - link "Bus Booking" [ref=e116] [cursor=pointer]:
+          - /url: /bus-tickets
+        - text: ＞
+      - listitem [ref=e117]:
+        - link "Hyderabad to Bangalore Bus" [ref=e118] [cursor=pointer]:
+          - /url: /bus-tickets/hyderabad-to-bangalore
+  - text:               
+  - generic [ref=e601]:
+    - navigation "Footer links" [ref=e602]:
+      - generic [ref=e603]:
+        - navigation "secondary" [ref=e604]:
+          - generic [ref=e606]:
+            - heading "About redBus" [level=2] [ref=e607]
+            - list [ref=e608]:
+              - listitem [ref=e609]:
+                - link "Contact us" [ref=e610] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/contactus
+              - listitem [ref=e611]:
+                - link "Sitemap" [ref=e612] [cursor=pointer]:
+                  - /url: https://www.redbus.in/sitemap.html
+              - listitem [ref=e613]:
+                - link "Offers" [ref=e614] [cursor=pointer]:
+                  - /url: https://www.redbus.in/offers
+              - listitem [ref=e615]:
+                - link "Careers" [ref=e616] [cursor=pointer]:
+                  - /url: https://www.redbus.in/careers
+        - navigation "secondary" [ref=e617]:
+          - generic [ref=e619]:
+            - heading "Info" [level=2] [ref=e620]
+            - list [ref=e621]:
+              - listitem [ref=e622]:
+                - link "T&C" [ref=e623] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/termscondition
+              - listitem [ref=e624]:
+                - link "Privacy policy" [ref=e625] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/privacypolicy
+              - listitem [ref=e626]:
+                - link "Blog" [ref=e627] [cursor=pointer]:
+                  - /url: https://blog.redbus.in
+              - listitem [ref=e628]:
+                - link "Bus operator registration" [ref=e629] [cursor=pointer]:
+                  - /url: https://onboardvendor.redbus.in/
+              - listitem [ref=e630]:
+                - link "Agent registration" [ref=e631] [cursor=pointer]:
+                  - /url: https://in3.seatseller.travel/
+              - listitem [ref=e632]:
+                - link "Insurance partner" [ref=e633] [cursor=pointer]:
+                  - /url: https://www.acko.com/
+              - listitem [ref=e634]:
+                - link "User agreement" [ref=e635] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/useragreement
+              - listitem [ref=e636]:
+                - link "Primo Bus" [ref=e637] [cursor=pointer]:
+                  - /url: https://www.redbus.in/primo/primo-service
+              - listitem [ref=e638]:
+                - link "Bus Timetable" [ref=e639] [cursor=pointer]:
+                  - /url: https://www.redbus.in/bus-timetable
+              - listitem [ref=e640]:
+                - link "Report Security Issues" [ref=e641] [cursor=pointer]:
+                  - /url: " https://www.redbus.in/bugbounty"
+        - navigation "secondary" [ref=e642]:
+          - generic [ref=e644]:
+            - heading "Global Sites" [level=2] [ref=e645]
+            - list [ref=e646]:
+              - listitem [ref=e647]:
+                - link "India" [ref=e648] [cursor=pointer]:
+                  - /url: https://www.redbus.in/
+              - listitem [ref=e649]:
+                - link "Singapore" [ref=e650] [cursor=pointer]:
+                  - /url: https://www.redbus.sg/
+              - listitem [ref=e651]:
+                - link "Malaysia" [ref=e652] [cursor=pointer]:
+                  - /url: https://www.redbus.my/
+              - listitem [ref=e653]:
+                - link "Indonesia" [ref=e654] [cursor=pointer]:
+                  - /url: https://www.redbus.id/
+              - listitem [ref=e655]:
+                - link "Peru" [ref=e656] [cursor=pointer]:
+                  - /url: https://www.redbus.pe/
+              - listitem [ref=e657]:
+                - link "Colombia" [ref=e658] [cursor=pointer]:
+                  - /url: https://www.redbus.co/
+              - listitem [ref=e659]:
+                - link "Cambodia" [ref=e660] [cursor=pointer]:
+                  - /url: https://www.redbus.com.kh/
+              - listitem [ref=e661]:
+                - link "Vietnam" [ref=e662] [cursor=pointer]:
+                  - /url: https://www.redbus.vn/
+        - navigation "secondary" [ref=e663]:
+          - generic [ref=e665]:
+            - heading "Our Partners" [level=2] [ref=e666]
+            - list [ref=e667]:
+              - listitem [ref=e668]:
+                - link "Goibibo Bus" [ref=e669] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/bus/
+              - listitem [ref=e670]:
+                - link "Goibibo Hotels" [ref=e671] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/hotels/
+              - listitem [ref=e672]:
+                - link "Makemytrip Hotels" [ref=e673] [cursor=pointer]:
+                  - /url: https://www.makemytrip.com/hotels/
+    - generic [ref=e674]:
+      - img "redBus Logo" [ref=e675]
+      - generic [ref=e676]: redBus is the world's largest online bus ticket booking service trusted by over 56+ million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.
+    - generic [ref=e677]:
+      - generic [ref=e678]: Ⓒ 2026 MAKEMYTRIP (INDIA) PRIVATE LIMITED. All rights reserved
+      - list [ref=e679]:
+        - listitem [ref=e680]:
+          - link "redbus_facebook" [ref=e681] [cursor=pointer]:
+            - /url: https://www.facebook.com/redbus.in/
+            - img "redbus_facebook" [ref=e682]
+        - listitem [ref=e683]:
+          - link "redbus_linkedin" [ref=e684] [cursor=pointer]:
+            - /url: https://in.linkedin.com/company/redbus_2/
+            - img "redbus_linkedin" [ref=e685]
+        - listitem [ref=e686]:
+          - link "redbus_twitter" [ref=e687] [cursor=pointer]:
+            - /url: https://twitter.com/redBus_in/
+            - img "redbus_twitter" [ref=e688]
+        - listitem [ref=e689]:
+          - link "redbus_instagram" [ref=e690] [cursor=pointer]:
+            - /url: https://www.instagram.com/accounts/login/?next=/redbusindia/
+            - img "redbus_instagram" [ref=e691]
