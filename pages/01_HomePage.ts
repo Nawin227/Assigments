@@ -58,18 +58,19 @@ export class HomePage extends BasePage {
     await this.page.screenshot({ path: 'debug-search-clicked.png', fullPage: true });
   }
 
-  async searchBuses(fromCity: string, toCity: string): Promise<void> {
-    if (process.env.CI) {
-      // In CI/headless mode, go directly to search URL to avoid bot detection
-      await this.searchBusesViaUrl(fromCity, toCity);
-      return;
-    }
-    await this.open();
-    await this.enterFromCity(fromCity);
-    await this.enterToCity(toCity);
-    await this.selectNextSaturdayJourneyDate();
-    await this.clickSearchBuses();
+async searchBuses(fromCity: string, toCity: string): Promise<void> {
+  if (process.env.CI) {
+    console.log('[CI DETECTED] Using direct search URL for bus search');
+    await this.searchBusesViaUrl(fromCity, toCity);
+    return;
   }
+  console.log('[LOCAL/DEV] Using UI flow for bus search');
+  await this.open();
+  await this.enterFromCity(fromCity);
+  await this.enterToCity(toCity);
+  await this.selectNextSaturdayJourneyDate();
+  await this.clickSearchBuses();
+}
 
   async searchBusesViaUrl(fromCity: string, toCity: string): Promise<void> {
     const cityIds: Record<string, { id: number; type: string }> = {
