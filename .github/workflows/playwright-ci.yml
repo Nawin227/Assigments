@@ -36,14 +36,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
 
-        - name: Run RB_TC_005 E2E on all browsers (cross-browser)
-          run: |
-            npx playwright test --grep "RB_TC_005" --project=chromium
-            npx playwright test --grep "RB_TC_005" --project=firefox
-            npx playwright test --grep "RB_TC_005" --project=webkit
+      - name: Run RB_TC_005 E2E on all browsers (cross-browser)
+        run: |
+          npx playwright test --grep "RB_TC_005" --project=chromium
+          npx playwright test --grep "RB_TC_005" --project=firefox
+          npx playwright test --grep "RB_TC_005" --project=webkit
 
       - name: Run Playwright smoke (RB_TC_005) on push/PR
         if: github.event_name != 'workflow_dispatch' && github.event_name != 'schedule'
