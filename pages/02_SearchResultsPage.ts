@@ -34,16 +34,19 @@ export class SearchResultsPage extends BasePage {
   async waitForResultsLoaded(): Promise<void> {
     // Wait for the search results page URL (not the SEO info page)
     await this.page.waitForURL(/search\?|bus-tickets/i, { timeout: 30000 }).catch(() => {});
+    await this.page.screenshot({ path: 'debug-search-results-url.png', fullPage: true });
 
     // Primary signal: "View Seats" button means dynamic bus cards loaded
     const viewSeatsButton = this.page.getByRole('button', { name: /view seats for|^view seats$|select seats/i }).first();
 
     // Wait up to 60s for View Seats button to appear
     await expect(viewSeatsButton).toBeVisible({ timeout: 60000 });
+    await this.page.screenshot({ path: 'debug-view-seats-visible.png', fullPage: true });
   }
 
   async applyACFilter(): Promise<void> {
-    const acFilter = this.page.getByRole('button', { name: /^AC\s*\(/i }).first();
+    // Match "AC", "A/C", or similar (case-insensitive, with or without parenthesis)
+    const acFilter = this.page.getByRole('button', { name: /A\/?C|AC/i }).first();
     if (!(await acFilter.isVisible({ timeout: 12000 }).catch(() => false))) {
       console.log('AC filter not available - continuing without AC filter');
       return;
@@ -57,8 +60,9 @@ export class SearchResultsPage extends BasePage {
   }
 
   async applyFiveStarOrHighRatedFilter(): Promise<void> {
+    // Match "5 star", "star rated", "top rated", or similar
     const ratingFilter = this.page
-      .getByRole('button', { name: /5\s*star|high rated buses/i })
+      .getByRole('button', { name: /5\s*star|star rated|top rated|high rated/i })
       .first();
 
     if (!(await ratingFilter.isVisible({ timeout: 12000 }).catch(() => false))) {

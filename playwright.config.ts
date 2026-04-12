@@ -25,8 +25,8 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
-  /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  /* Use a single worker for all browsers */
+  workers: 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['list'],
@@ -57,8 +57,8 @@ export default defineConfig({
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-        channel: 'chrome',
-        headless: process.env.CI ? true : false,
+          channel: 'chrome',
+          headless: false,
         userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
         bypassCSP: true,
         javaScriptEnabled: true,
@@ -75,15 +75,21 @@ export default defineConfig({
       },
     },
 
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      {
+        name: 'firefox',
+        use: {
+          ...devices['Desktop Firefox'],
+          headless: false,
+        },
     },
 
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
+      {
+        name: 'webkit',
+        use: {
+          ...devices['Desktop Safari'],
+          headless: false,
+        },
+      },
 
     /* Test against mobile viewports. */
     // {

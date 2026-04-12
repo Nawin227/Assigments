@@ -5,19 +5,24 @@ import { escapeRegExp, getNextSaturdayDate } from '../utils/helpers';
 export class HomePage extends BasePage {
   async open(): Promise<void> {
     await this.goto('https://www.redbus.in/');
+    await this.page.screenshot({ path: 'debug-home-opened.png', fullPage: true });
     await this.closeBannerIfPresent();
+    await this.page.screenshot({ path: 'debug-banner-closed.png', fullPage: true });
   }
 
   async enterFromCity(city: string): Promise<void> {
     await this.selectCity('From', city);
+    await this.page.screenshot({ path: 'debug-from-city.png', fullPage: true });
   }
 
   async enterToCity(city: string): Promise<void> {
     await this.selectCity('To', city);
+    await this.page.screenshot({ path: 'debug-to-city.png', fullPage: true });
   }
 
   async selectNextSaturdayJourneyDate(): Promise<void> {
     await this.page.getByRole('combobox', { name: /select date of journey/i }).first().click();
+    await this.page.screenshot({ path: 'debug-date-picker-opened.png', fullPage: true });
 
     const nextSaturday = getNextSaturdayDate();
     const fullDateLabel = new Intl.DateTimeFormat('en-US', {
@@ -33,6 +38,7 @@ export class HomePage extends BasePage {
 
     if (await exactDate.isVisible({ timeout: 5000 }).catch(() => false)) {
       await this.safeClick(exactDate);
+      await this.page.screenshot({ path: 'debug-date-selected.png', fullPage: true });
       return;
     }
 
@@ -41,6 +47,7 @@ export class HomePage extends BasePage {
       .filter({ hasNotText: /^$/ })
       .first();
     await this.safeClick(anyEnabledDate);
+    await this.page.screenshot({ path: 'debug-date-fallback.png', fullPage: true });
   }
 
   async clickSearchBuses(): Promise<void> {
@@ -48,6 +55,7 @@ export class HomePage extends BasePage {
       .locator('#search_btn, button:has-text("Search buses"), button:has-text("Search Buses")')
       .first();
     await this.safeClick(searchButton);
+    await this.page.screenshot({ path: 'debug-search-clicked.png', fullPage: true });
   }
 
   async searchBuses(fromCity: string, toCity: string): Promise<void> {
@@ -90,25 +98,35 @@ export class HomePage extends BasePage {
 
   private async selectCity(fieldName: 'From' | 'To', city: string): Promise<void> {
     const input = this.page.getByRole('combobox', { name: new RegExp(`^${fieldName}$`, 'i') }).first();
-    await this.safeFill(input, city);
+    await input.fill('');
+    await input.click({ force: true });
+    // Type slowly to trigger suggestions reliably in all browsers
+    for (const char of city) {
+      await input.type(char, { delay: 100 });
+    }
+    await this.page.waitForTimeout(500); // Wait for suggestions to appear
 
     const suggestions = this.page.locator('.autoFill li, [role="option"], li[class*="auto"]');
-    const citySuggestion = suggestions
-      .filter({ hasText: new RegExp(`\\b${escapeRegExp(city)}\\b`, 'i') })
-      .first();
+    const citySuggestion = suggestions.filter({ hasText: new RegExp(`\\b${escapeRegExp(city)}\\b`, 'i') }).first();
 
-    if (await citySuggestion.isVisible({ timeout: 6000 }).catch(() => false)) {
-      await this.safeClick(citySuggestion);
-      return;
+    // Try clicking the exact suggestion, retry if needed
+    for (let attempt = 0; attempt < 2; attempt++) {
+      if (await citySuggestion.isVisible({ timeout: 4000 }).catch(() => false)) {
+        await this.safeClick(citySuggestion);
+        break;
+      }
+      await this.page.waitForTimeout(500);
     }
 
-    if (await suggestions.first().isVisible({ timeout: 6000 }).catch(() => false)) {
-      await this.safeClick(suggestions.first());
-      return;
+    // Fallback: click the first suggestion if exact not found
+    if (!(await citySuggestion.isVisible({ timeout: 2000 }).catch(() => false))) {
+      if (await suggestions.first().isVisible({ timeout: 2000 }).catch(() => false)) {
+        await this.safeClick(suggestions.first());
+      }
     }
 
-    await input.press('ArrowDown');
-    await input.press('Enter');
-    await expect(input).toHaveValue(/.+/, { timeout: 5000 });
+    // Extra wait for WebKit to ensure value is set
+    await this.page.waitForTimeout(500);
+    await expect(input).toHaveValue(/.+/, { timeout: 7000 });
   }
 }
