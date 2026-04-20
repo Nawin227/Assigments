@@ -346,6 +346,10 @@ export class PassengerInfoPage extends BasePage {
     });
     if (errors.length) console.log('Validation errors visible:', errors);
 
+    // Log any error messages (rename to avoid duplicate declaration)
+    const visibleErrors = await this.page.locator('.error, .alert, .validation').allTextContents();
+    console.log('Visible errors:', visibleErrors);
+
     // Try multiple selectors for the Continue button
     const selectors = [
       this.page.getByRole('button', { name: /continue/i }).first(),
@@ -373,8 +377,7 @@ export class PassengerInfoPage extends BasePage {
     await expect(target).toBeEnabled({ timeout: 10000 });
 
     // Log any error messages
-    const errors = await this.page.locator('.error, .alert, .validation').allTextContents();
-    console.log('Visible errors:', errors);
+    // (already logged above as visibleErrors)
 
     // Take a screenshot before clicking
     await this.page.screenshot({ path: 'test-results/continue-before.png', fullPage: true });

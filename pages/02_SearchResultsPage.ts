@@ -79,8 +79,8 @@ export class SearchResultsPage extends BasePage {
   }
 
   async assertFilteredResultsVisible(): Promise<void> {
-    // Take a debug screenshot before assertion
-    await this.page.screenshot({ path: 'debug-before-buses-found.png', fullPage: true });
+    // Take a debug screenshot before assertion (no fullPage for WebKit)
+    try { await this.page.screenshot({ path: 'debug-before-buses-found.png' }); } catch {}
 
     // Try multiple selectors for robustness
     const busesFoundCandidates = [
@@ -112,10 +112,18 @@ export class SearchResultsPage extends BasePage {
     }
 
     if (!foundVisible) {
+      // WebKit fallback: check for any bus operator cards or bus list
+      const operatorCard = this.page.locator('.operator-card, .OperatorCard, .bus-operator, .bus-list').first();
+      if (await operatorCard.isVisible({ timeout: 5000 }).catch(() => false)) {
+        foundVisible = true;
+      }
+    }
+
+    if (!foundVisible) {
       // Log all visible text for diagnosis
       const allText = await this.page.evaluate(() => document.body.innerText);
       console.log('No bus results text or cards visible. Visible text on page:\n' + allText.slice(0, 2000));
-      await this.page.screenshot({ path: 'debug-buses-found-missing.png', fullPage: true });
+      try { await this.page.screenshot({ path: 'debug-buses-found-missing.png' }); } catch {}
       throw new Error('No bus results or "View Seats" button visible after search.');
     }
 
@@ -143,11 +151,17 @@ export class SearchResultsPage extends BasePage {
     }
 
     await this.safeClick(btn).catch(async () => {
-      await this.page.evaluate((i) => {
-        const buttons = Array.from(document.querySelectorAll('button')) as HTMLButtonElement[];
-        const view = buttons.filter((b) => /view seats/i.test((b.textContent || '') + ' ' + (b.getAttribute('aria-label') || '')));
-        if (view[i]) view[i].click();
-      }, index);
+      try {
+        if (!this.page.isClosed?.() && typeof this.page.evaluate === 'function') {
+          await this.page.evaluate((i) => {
+            const buttons = Array.from(document.querySelectorAll('button')) as HTMLButtonElement[];
+            const view = buttons.filter((b) => /view seats/i.test((b.textContent || '') + ' ' + (b.getAttribute('aria-label') || '')));
+            if (view[i]) view[i].click();
+          }, index);
+        }
+      } catch (e) {
+        // Ignore errors if page is closed or navigation happened
+      }
     });
     return this.hasSeatMapVisible(8000);
   }

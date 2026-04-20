@@ -5,24 +5,24 @@ import { escapeRegExp, getNextSaturdayDate } from '../utils/helpers';
 export class HomePage extends BasePage {
   async open(): Promise<void> {
     await this.goto('https://www.redbus.in/');
-    await this.page.screenshot({ path: 'debug-home-opened.png', fullPage: true });
+    try { await this.page.screenshot({ path: 'debug-home-opened.png' }); } catch {}
     await this.closeBannerIfPresent();
-    await this.page.screenshot({ path: 'debug-banner-closed.png', fullPage: true });
+    try { await this.page.screenshot({ path: 'debug-banner-closed.png' }); } catch {}
   }
 
   async enterFromCity(city: string): Promise<void> {
     await this.selectCity('From', city);
-    await this.page.screenshot({ path: 'debug-from-city.png', fullPage: true });
+    try { await this.page.screenshot({ path: 'debug-from-city.png' }); } catch {}
   }
 
   async enterToCity(city: string): Promise<void> {
     await this.selectCity('To', city);
-    await this.page.screenshot({ path: 'debug-to-city.png', fullPage: true });
+    try { await this.page.screenshot({ path: 'debug-to-city.png' }); } catch {}
   }
 
   async selectNextSaturdayJourneyDate(): Promise<void> {
     await this.page.getByRole('combobox', { name: /select date of journey/i }).first().click();
-    await this.page.screenshot({ path: 'debug-date-picker-opened.png', fullPage: true });
+    try { await this.page.screenshot({ path: 'debug-date-picker-opened.png' }); } catch {}
 
     const nextSaturday = getNextSaturdayDate();
     const fullDateLabel = new Intl.DateTimeFormat('en-US', {
@@ -38,7 +38,7 @@ export class HomePage extends BasePage {
 
     if (await exactDate.isVisible({ timeout: 5000 }).catch(() => false)) {
       await this.safeClick(exactDate);
-      await this.page.screenshot({ path: 'debug-date-selected.png', fullPage: true });
+      try { await this.page.screenshot({ path: 'debug-date-selected.png' }); } catch {}
       return;
     }
 
@@ -47,7 +47,7 @@ export class HomePage extends BasePage {
       .filter({ hasNotText: /^$/ })
       .first();
     await this.safeClick(anyEnabledDate);
-    await this.page.screenshot({ path: 'debug-date-fallback.png', fullPage: true });
+    try { await this.page.screenshot({ path: 'debug-date-fallback.png' }); } catch {}
   }
 
   async clickSearchBuses(): Promise<void> {
@@ -55,7 +55,7 @@ export class HomePage extends BasePage {
       .locator('#search_btn, button:has-text("Search buses"), button:has-text("Search Buses")')
       .first();
     await this.safeClick(searchButton);
-    await this.page.screenshot({ path: 'debug-search-clicked.png', fullPage: true });
+    try { await this.page.screenshot({ path: 'debug-search-clicked.png' }); } catch {}
   }
 
 async searchBuses(fromCity: string, toCity: string): Promise<void> {
@@ -105,29 +105,36 @@ async searchBuses(fromCity: string, toCity: string): Promise<void> {
     for (const char of city) {
       await input.type(char, { delay: 100 });
     }
-    await this.page.waitForTimeout(500); // Wait for suggestions to appear
+    await this.page.waitForTimeout(700); // Wait for suggestions to appear
 
     const suggestions = this.page.locator('.autoFill li, [role="option"], li[class*="auto"]');
     const citySuggestion = suggestions.filter({ hasText: new RegExp(`\\b${escapeRegExp(city)}\\b`, 'i') }).first();
 
     // Try clicking the exact suggestion, retry if needed
-    for (let attempt = 0; attempt < 2; attempt++) {
-      if (await citySuggestion.isVisible({ timeout: 4000 }).catch(() => false)) {
-        await this.safeClick(citySuggestion);
-        break;
-      }
+    let clicked = false;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        if (await citySuggestion.isVisible({ timeout: 4000 }).catch(() => false)) {
+          await citySuggestion.hover().catch(() => {});
+          await this.safeClick(citySuggestion);
+          clicked = true;
+          break;
+        }
+      } catch {}
       await this.page.waitForTimeout(500);
     }
 
     // Fallback: click the first suggestion if exact not found
-    if (!(await citySuggestion.isVisible({ timeout: 2000 }).catch(() => false))) {
+    if (!clicked) {
       if (await suggestions.first().isVisible({ timeout: 2000 }).catch(() => false)) {
+        await suggestions.first().hover().catch(() => {});
         await this.safeClick(suggestions.first());
+        clicked = true;
       }
     }
 
-    // Extra wait for WebKit to ensure value is set
-    await this.page.waitForTimeout(500);
-    await expect(input).toHaveValue(/.+/, { timeout: 7000 });
+    // Extra wait for WebKit/slow browsers to ensure value is set
+    await this.page.waitForTimeout(700);
+    await expect(input).toHaveValue(/.+/, { timeout: 10000 });
   }
 }

@@ -159,28 +159,50 @@ export class BoardingDroppingPage extends BasePage {
     // After selecting both boarding + dropping, RedBus auto-advances to step=CI.
     // Check if we're already on the passenger info step.
     const url = this.page.url();
+    const waitForForm = async () => await this.page.getByPlaceholder(/enter your name/i).first().isVisible({ timeout: 7000 }).catch(() => false);
     if (/step=CI/i.test(url)) {
-      return true;
+      if (await waitForForm()) return true;
     }
 
     // Wait a moment for auto-navigation
     await this.page.waitForTimeout(2000);
     if (/step=CI/i.test(this.page.url())) {
-      return true;
+      if (await waitForForm()) return true;
     }
 
     // Try clicking the "Passenger Info" tab (may or may not have "3." prefix)
     const step3Tab = this.page.getByText(/passenger\s*info/i).first();
     if (await step3Tab.isVisible({ timeout: 4000 }).catch(() => false)) {
       await this.safeClick(step3Tab).catch(async () => { await step3Tab.click({ force: true }); });
-      return true;
+      if (await waitForForm()) return true;
     }
 
     // Try "Continue booking" button (visible on passenger info page)
     const continueBtn = this.page.getByRole('button', { name: /continue booking/i }).first();
     if (await continueBtn.isVisible({ timeout: 3000 }).catch(() => false)) {
-      return true; // Already on passenger info page
+      if (await waitForForm()) return true;
     }
+
+    // Try more selectors for proceed/fill details/continue
+    const altSelectors = [
+      this.page.getByRole('button', { name: /proceed|continue|fill passenger details|next/i }).first(),
+      this.page.locator('button').filter({ hasText: /proceed|continue|fill passenger details|next/i }).first(),
+      this.page.locator('a').filter({ hasText: /proceed|continue|fill passenger details|next/i }).first(),
+    ];
+    for (const btn of altSelectors) {
+      if (await btn.isVisible({ timeout: 2000 }).catch(() => false)) {
+        await btn.click({ force: true }).catch(() => {});
+        await this.page.waitForTimeout(1500);
+        if (await waitForForm()) return true;
+      }
+    }
+
+    // Retry after a short wait (sometimes UI is slow in FF/WebKit)
+    await this.page.waitForTimeout(2000);
+    if (await waitForForm()) return true;
+
+    // Take a debug screenshot for analysis
+    await this.page.screenshot({ path: 'test-results/proceed-debug.png' });
 
     return false;
   }

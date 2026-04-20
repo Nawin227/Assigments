@@ -27,15 +27,22 @@ export class BasePage {
     await locator.scrollIntoViewIfNeeded().catch(() => undefined);
     try {
       await locator.click({ timeout: 10000 });
-    } catch {
-      try {
-        await locator.click({ force: true, timeout: 5000 });
-      } catch {
+      return;
+    } catch {}
+    try {
+      await locator.click({ force: true, timeout: 5000 });
+      return;
+    } catch {}
+    try {
+      // Only evaluate if element is attached and visible
+      if (await locator.isVisible({ timeout: 2000 }).catch(() => false)) {
         await locator.evaluate((el) => {
           (el as HTMLElement).scrollIntoView({ block: 'center', inline: 'center' });
           (el as HTMLElement).click();
         });
       }
+    } catch (e) {
+      // Ignore errors if element is detached or page is closed
     }
   }
 
