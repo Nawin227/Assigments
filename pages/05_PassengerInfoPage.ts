@@ -367,6 +367,18 @@ export class PassengerInfoPage extends BasePage {
     await target.scrollIntoViewIfNeeded().catch(() => {});
     await this.page.waitForTimeout(500);
 
+
+    // Ensure button is visible and enabled
+    await expect(target).toBeVisible({ timeout: 10000 });
+    await expect(target).toBeEnabled({ timeout: 10000 });
+
+    // Log any error messages
+    const errors = await this.page.locator('.error, .alert, .validation').allTextContents();
+    console.log('Visible errors:', errors);
+
+    // Take a screenshot before clicking
+    await this.page.screenshot({ path: 'test-results/continue-before.png', fullPage: true });
+
     // Attempt 1: normal click
     console.log('Clicking Continue (attempt 1: normal)...');
     await target.click();
