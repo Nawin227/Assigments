@@ -38,11 +38,12 @@ jobs:
 
 
 
+
       - name: Clear Playwright browser cache
         run: npx playwright install --force
 
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps
+      - name: Install Playwright browsers (debug)
+        run: DEBUG=pw:install npx playwright install --with-deps
 
       - name: List Playwright browsers
         run: ls -R ~/.cache/ms-playwright/ || true
