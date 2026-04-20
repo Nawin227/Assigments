@@ -54,7 +54,7 @@ jobs:
 
       - name: Run full Playwright suite on manual trigger/schedule
         if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
-        run: npx playwright test --project=chromium
+        run: npx playwright test --project=chromium --project=firefox --project=webkit
 
       - name: Generate Allure report
         if: always()
