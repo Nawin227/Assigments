@@ -1,0 +1,44 @@
+name: Playwright MCP CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  e2e-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Remove Playwright browser cache
+        run: rm -rf ~/.cache/ms-playwright/
+
+      - name: Install Playwright browsers (debug)
+        run: DEBUG=pw:install npx playwright install --with-deps
+
+      - name: List Playwright browsers
+        run: ls -R ~/.cache/ms-playwright/ || true
+
+      - name: Start Playwright MCP server
+        run: npx @playwright/mcp@latest &
+
+      - name: Run RB_TC_005 E2E on all browsers (cross-browser)
+        run: |
+          npx playwright test --grep "RB_TC_005" --project=chromium
+          npx playwright test --grep "RB_TC_005" --project=firefox
+          npx playwright test --grep "RB_TC_005" --project=webkit
