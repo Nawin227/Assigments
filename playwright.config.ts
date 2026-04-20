@@ -16,21 +16,22 @@ export default defineConfig({
   testDir: './tests',
   testMatch: ['**/*.spec.ts'],
   timeout: 120 * 1000,
-  expect: {
-    timeout: 15 * 1000,
-  },
-  /* Run tests in files in parallel */
-  fullyParallel: true,
-  /* Fail the build on CI if you accidentally left test.only in the source code. */
-  forbidOnly: !!process.env.CI,
-  /* Retry on CI only */
-  retries: process.env.CI ? 2 : 0,
-  /* Use a single worker for all browsers */
-  workers: 1,
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [
-    ['list'],
-    ['html', { open: 'never' }],
+  use: {
+    headless: process.env.CI ? true : false,
+    // baseURL: 'http://localhost:3000',
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+
+    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    trace: 'on-first-retry',
+
+    /* Real Chrome user agent to avoid bot detection */
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    viewport: { width: 1280, height: 800 },
+    locale: 'en-US',
+    timezoneId: 'America/New_York',
+    extraHTTPHeaders: {
+      /*...*/
     ['allure-playwright', { outputFolder: 'allure-results' }],
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
