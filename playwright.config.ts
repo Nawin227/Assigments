@@ -33,6 +33,8 @@ export default defineConfig({
     extraHTTPHeaders: {
       /*...*/
     },
+  },
+
   reporter: [
     ['list'],
     ['html', { open: 'never' }],
