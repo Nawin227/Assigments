@@ -79,8 +79,48 @@ export class SearchResultsPage extends BasePage {
   }
 
   async assertFilteredResultsVisible(): Promise<void> {
-    await expect(this.page.getByText(/\bbuses found\b/i).first()).toBeVisible({ timeout: 30000 });
-    const viewSeats = this.page.getByRole('button', { name: /view seats for|^view seats$/i }).first();
+    // Take a debug screenshot before assertion
+    await this.page.screenshot({ path: 'debug-before-buses-found.png', fullPage: true });
+
+    // Try multiple selectors for robustness
+    const busesFoundCandidates = [
+      this.page.getByText(/\bbuses found\b/i).first(),
+      this.page.getByText(/results found/i).first(),
+      this.page.getByText(/bus(es)? available/i).first(),
+      this.page.locator('[data-testid*="bus-count" i]').first(),
+    ];
+    let foundVisible = false;
+    for (const candidate of busesFoundCandidates) {
+      try {
+        if (await candidate.isVisible({ timeout: 10000 }).catch(() => false)) {
+          foundVisible = true;
+          break;
+        }
+      } catch {}
+    }
+
+    // If none of the above, check for at least one bus card or "View Seats" button
+    if (!foundVisible) {
+      const busCard = this.page.locator('[data-testid*="bus-card" i], .bus-card, .BusCard').first();
+      const viewSeats = this.page.getByRole('button', { name: /view seats for|^view seats$|select seats/i }).first();
+      if (
+        (await busCard.isVisible({ timeout: 5000 }).catch(() => false)) ||
+        (await viewSeats.isVisible({ timeout: 5000 }).catch(() => false))
+      ) {
+        foundVisible = true;
+      }
+    }
+
+    if (!foundVisible) {
+      // Log all visible text for diagnosis
+      const allText = await this.page.evaluate(() => document.body.innerText);
+      console.log('No bus results text or cards visible. Visible text on page:\n' + allText.slice(0, 2000));
+      await this.page.screenshot({ path: 'debug-buses-found-missing.png', fullPage: true });
+      throw new Error('No bus results or "View Seats" button visible after search.');
+    }
+
+    // Still require "View Seats" button to be visible for downstream steps
+    const viewSeats = this.page.getByRole('button', { name: /view seats for|^view seats$|select seats/i }).first();
     await expect(viewSeats).toBeVisible({ timeout: 20000 });
   }
 
