@@ -19,6 +19,8 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
+              - name: Start Playwright MCP server
+                run: npx @playwright/mcp@latest &
         - name: Remove Playwright browser cache
           run: rm -rf ~/.cache/ms-playwright/
   e2e-tests:
