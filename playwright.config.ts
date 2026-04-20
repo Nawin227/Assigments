@@ -30,10 +30,10 @@ export default defineConfig({
     viewport: { width: 1280, height: 800 },
     locale: 'en-US',
     timezoneId: 'America/New_York',
-    extraHTTPHeaders: {
-      /*...*/
-    },
-  },
+		extraHTTPHeaders: {
+		  /*...*/
+		},
+	},
 
   reporter: [
     ['list'],
