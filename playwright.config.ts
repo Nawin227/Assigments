@@ -47,8 +47,8 @@ export default defineConfig({
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-          channel: 'chrome',
-          headless: false,
+            channel: 'chrome',
+            headless: process.env.CI ? true : false,
         userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
         bypassCSP: true,
         javaScriptEnabled: true,
@@ -69,7 +69,7 @@ export default defineConfig({
         name: 'firefox',
         use: {
           ...devices['Desktop Firefox'],
-          headless: false,
+            headless: process.env.CI ? true : false,
         },
     },
 
@@ -77,7 +77,7 @@ export default defineConfig({
         name: 'webkit',
         use: {
           ...devices['Desktop Safari'],
-          headless: false,
+            headless: process.env.CI ? true : false,
         },
       },
 
